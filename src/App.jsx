@@ -70,6 +70,17 @@ const App = () => {
       }
     });
 
+    vapi.on('message', (message) => {
+      // if (message.type !== 'transcript' && message.type !== 'speech-update') {
+      //   console.log('Received message:', message);
+      // }
+      if (message.type === 'function-call') {
+        console.log('Received function call:', message);
+        const { name, parameters } = message.functionCall;
+        handleFunctionCall(name, parameters);
+      }
+    });
+
     // we only want this to fire on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -99,7 +110,7 @@ const App = () => {
     >
       {!connected ? (
         <Button
-          label="Book an Instant Demo!"
+          label="Jump on an Instant Demo!"
           onClick={startCallInline}
           isLoading={connecting}
         />
@@ -128,7 +139,7 @@ const assistantOptions = {
   },
   voice: {
     provider: "playht",
-    voiceId: "jennifer",
+    voiceId: "melissa",
   },
   model: {
     provider: "openai",
@@ -138,12 +149,12 @@ const assistantOptions = {
         role: "system",
         content: `You are an expert SaaS demo AI assistant.
 
-Your primary function is to showcase the product by changing the image on the user's screen based on their questions. You have access to a predefined list of images that correspond to various aspects of the product.
+Your primary function is to showcase the product and adapt your presentation based on user questions.
 
-When a user asks a question about the product, analyze it and determine which image would best illustrate the answer. Then, call the appropriate function to change the displayed image.
+When the caller asks a question about the product, analyze it and call the appropriate function to change the displayed image.
 
 Available functions:
-- changeImage(imageName: string): Changes the displayed image to the specified one.
+- changeImage(imageName: string): Changes the displayed image to the specified one. This function should be called every time the user asks a question about the product.
 
 Key points to remember:
 1. Always be informative and enthusiastic about the product.
@@ -159,6 +170,22 @@ Remember, your goal is to provide an interactive and visually appealing demonstr
 - This is a voice conversation, so keep your responses relatively short and natural-sounding.`,
       },
     ],
+    functions: [
+      {
+        name: "changeImage",
+        description: "Changes the displayed image to the specified one.",
+        parameters: {
+          type: "object",
+          properties: {
+            imageName: {
+              type: "string",
+              description: "The URL or name of the image to display."
+            }
+          },
+          required: ["imageName"]
+        }
+      }
+    ]
   },
 };
 
@@ -198,5 +225,29 @@ const PleaseSetYourPublicKeyMessage = () => {
     </div>
   );
 };
+
+function handleFunctionCall(name, parameters) {
+  switch (name) {
+    case 'sendEmail':
+      sendEmail(JSON.parse(parameters));
+      break;
+    case 'updateUI':
+      updateUI(JSON.parse(parameters));
+      break;
+    // Add more cases for other functions
+    default:
+      console.log(`Unknown function: ${name}`);
+  }
+}
+
+function sendEmail(params) {
+  // Implement email sending logic
+  console.log(`Sending email to ${params.to} with subject "${params.subject}"`);
+}
+
+function updateUI(params) {
+  // Implement UI update logic
+  console.log(`Updating UI with: ${JSON.stringify(params)}`);
+}
 
 export default App;
