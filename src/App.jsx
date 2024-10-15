@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react";
-
+import React, { useEffect, useState } from "react";
 import ActiveCallDetail from "./components/ActiveCallDetail";
 import Button from "./components/base/Button";
 import Vapi from "@vapi-ai/web";
 import { isPublicKeyMissingError } from "./utils";
 
-// Put your Vapi Public Key below.
 const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
 
 const App = () => {
@@ -14,8 +12,8 @@ const App = () => {
   const [assistantIsSpeaking, setAssistantIsSpeaking] = useState(false);
   const [volumeLevel, setVolumeLevel] = useState(0);
   const [backgroundImage, setBackgroundImage] = useState(""); // Initialize as empty
-
   const { showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } = usePublicKeyInvalid();
+  const [functionCallInfo, setFunctionCallInfo] = useState(null);
 
   useEffect(() => {
     // Fetch a random image from Unsplash
@@ -38,42 +36,24 @@ const App = () => {
     vapi.on("call-start", () => {
       setConnecting(false);
       setConnected(true);
-
       setShowPublicKeyInvalidMessage(false);
     });
-
     vapi.on("call-end", () => {
       setConnecting(false);
       setConnected(false);
-
       setShowPublicKeyInvalidMessage(false);
     });
-
     vapi.on("speech-start", () => {
       setAssistantIsSpeaking(true);
     });
-
     vapi.on("speech-end", () => {
       setAssistantIsSpeaking(false);
     });
-
     vapi.on("volume-level", (level) => {
       setVolumeLevel(level);
     });
 
-    vapi.on("error", (error) => {
-      console.error(error);
-
-      setConnecting(false);
-      if (isPublicKeyMissingError({ vapiError: error })) {
-        setShowPublicKeyInvalidMessage(true);
-      }
-    });
-
     vapi.on('message', (message) => {
-      // if (message.type !== 'transcript' && message.type !== 'speech-update') {
-      //   console.log('Received message:', message);
-      // }
       if (message.type === 'function-call') {
         console.log('Received function call:', message);
         const { name, parameters } = message.functionCall;
@@ -81,9 +61,24 @@ const App = () => {
       }
     });
 
-    // we only want this to fire on mount
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    vapi.on("error", (error) => {
+      console.error(error);
+      setConnecting(false);
+      if (isPublicKeyMissingError({ vapiError: error })) {
+        setShowPublicKeyInvalidMessage(true);
+      }
+    });
+
+    // Clean up function
+    return () => {
+      // Remove event listeners here if necessary
+    };
+  }, [setShowPublicKeyInvalidMessage]); // Add setShowPublicKeyInvalidMessage to the dependency array
+
+  const handleFunctionCall = (name, parameters) => {
+    console.log('Handling function call:', name, parameters);
+    setFunctionCallInfo({ name, parameters });
+  };
 
   // call start handler
   const startCallInline = () => {
@@ -119,6 +114,7 @@ const App = () => {
           assistantIsSpeaking={assistantIsSpeaking}
           volumeLevel={volumeLevel}
           onEndCallClick={endCall}
+          functionCallInfo={functionCallInfo}
         />
       )}
 
@@ -225,29 +221,5 @@ const PleaseSetYourPublicKeyMessage = () => {
     </div>
   );
 };
-
-function handleFunctionCall(name, parameters) {
-  switch (name) {
-    case 'sendEmail':
-      sendEmail(JSON.parse(parameters));
-      break;
-    case 'updateUI':
-      updateUI(JSON.parse(parameters));
-      break;
-    // Add more cases for other functions
-    default:
-      console.log(`Unknown function: ${name}`);
-  }
-}
-
-function sendEmail(params) {
-  // Implement email sending logic
-  console.log(`Sending email to ${params.to} with subject "${params.subject}"`);
-}
-
-function updateUI(params) {
-  // Implement UI update logic
-  console.log(`Updating UI with: ${JSON.stringify(params)}`);
-}
 
 export default App;
