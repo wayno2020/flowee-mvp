@@ -1,0 +1,3572 @@
+# tactiq.io free youtube transcript
+# Notion Tutorial - Full Course for Beginners [2024]
+# https://www.youtube.com/watch/kOf3QSBV29Y
+
+00:00:00.680 hello and welcome to the ultimate notion
+00:00:02.960 tutorial for 2024 in today's video I'm
+00:00:06.080 going to teach you everything that you
+00:00:07.640 need to know about notion so that even
+00:00:10.120 if you're a complete beginner right now
+00:00:12.200 by the end of this video you will be a
+00:00:14.360 notion Pro we're going to start with the
+00:00:16.760 more basic topics and notion like
+00:00:19.240 creating pages and adding text and then
+00:00:21.720 we'll work our way into the more
+00:00:23.240 advanced topics like databases relations
+00:00:26.480 rollups and formulas if you are a
+00:00:28.960 complete beginner I recommend watching
+00:00:30.720 this video all the way through at least
+00:00:33.000 one time but if you're more advanced or
+00:00:35.320 you've already watched it through you
+00:00:36.879 can come back and use the chapters below
+00:00:38.960 to skip around the video and find
+00:00:40.680 exactly what you're needing help with so
+00:00:42.640 what can you use notion 4 well it's
+00:00:45.120 great for taking notes and word
+00:00:46.960 processing but it also has the ability
+00:00:49.399 to create powerful mini apps like task
+00:00:52.079 managers book trackers crms recipe
+00:00:56.000 trackers and so much more and that's why
+00:00:58.800 I love notion so much it's replaced the
+00:01:01.359 Google suite for me it's replaced
+00:01:03.399 Microsoft Word it's replaced all of
+00:01:05.760 these Legacy apps that you use and added
+00:01:08.640 powerful new features now you may like
+00:01:11.360 learning in a more handson interactive
+00:01:14.000 way and if that's the case for you then
+00:01:15.600 I recommend checking out my notion all
+00:01:18.159 access pass this gives you access to my
+00:01:20.960 private notion Community all future and
+00:01:23.680 current premium notion templates that
+00:01:25.640 I've created and my Flagship course
+00:01:28.159 notion for productivity which goes goes
+00:01:30.119 the extra mile to teach you the secrets
+00:01:32.600 of the top 1% notion users so if you
+00:01:35.240 would like to join hundreds of others
+00:01:37.119 who are advancing their careers
+00:01:38.960 advancing their businesses learning
+00:01:40.600 future proof skills and achieving
+00:01:42.479 maximum productivity using notion then
+00:01:44.840 you can click the link below this video
+00:01:46.520 to check out the notion all access pass
+00:01:49.479 if you decide to join I look forward to
+00:01:51.240 welcoming you and serving you inside of
+00:01:53.159 our community now let's get into the
+00:01:55.719 value packed notion full tutorial we're
+00:01:58.439 going to start with settings and account
+00:02:00.479 creation then move on to notion Pages
+00:02:03.560 after that we'll talk about notion
+00:02:05.280 blocks finally notion databases and then
+00:02:09.038 at the very end I'm going to go into
+00:02:10.878 some Advanced notion Concepts such as
+00:02:13.920 formulas relations and rollups let's
+00:02:16.879 start by creating your notion account
+00:02:18.840 and setting it up for the first time to
+00:02:21.080 start you're just going to go over to
+00:02:22.360 Notions website notion.so and once you
+00:02:26.080 hit enter into your address bar and
+00:02:27.760 you're on their site you can just hit
+00:02:29.239 get no for free from here it's just
+00:02:31.879 going to ask you to sign up with a
+00:02:33.319 simple email address so I'm just going
+00:02:35.120 to enter my email here and hit continue
+00:02:37.920 at this point you'll have to head over
+00:02:39.319 to your email and grab that verification
+00:02:41.280 code that it just sent you I have that
+00:02:43.360 code right here so I'm just going to
+00:02:45.239 rightclick and paste it now I'm going to
+00:02:48.040 hit create new
+00:02:49.599 account at this point you can add a
+00:02:52.040 photo a name and a password for your
+00:02:54.040 notion account all right I've got this
+00:02:56.200 all filled out here and now you're going
+00:02:58.480 to see this little box here that just
+00:03:00.120 says I agree to notion marketing
+00:03:02.440 Communications if you don't want to see
+00:03:04.959 their marketing Communications then you
+00:03:06.640 can uncheck this and hit continue now
+00:03:09.640 it'll ask you what you're going to be
+00:03:11.319 using notion for to start I'm just going
+00:03:13.920 to say for life this isn't going to set
+00:03:16.720 my notion account on a path that doesn't
+00:03:18.920 allow me to use notion for work or for
+00:03:20.840 school but if you use for life here then
+00:03:23.560 you can start out and follow along
+00:03:25.319 exactly as I do hit continue and now
+00:03:28.799 we've created our notion account I'm
+00:03:30.799 just going to hit okay and right off the
+00:03:33.280 bat you'll see that we have this getting
+00:03:35.120 started checklist so this is going to
+00:03:37.080 give you a basic understanding of how to
+00:03:38.959 use notion and if you want to you can go
+00:03:41.720 through this quick tutorial and check
+00:03:43.560 these boxes as you complete the items in
+00:03:45.560 the list as for myself I'm going to
+00:03:48.319 delete these default pages that we start
+00:03:50.599 with here
+00:04:00.079 and then I'll hit add a page so that we
+00:04:02.319 have a blank Untitled page to begin with
+00:04:05.879 next let's take a look at Notions
+00:04:07.799 settings and pricing plans in case you
+00:04:09.760 do want to upgrade or alter your notion
+00:04:11.959 account I'm going to click on settings
+00:04:13.920 and members in the upper leftand corner
+00:04:16.199 to get me where I need to
+00:04:17.959 go right out of the gate if you want to
+00:04:20.320 make sure that you have maximum security
+00:04:22.199 for your notion account you can hit
+00:04:24.160 enable twostep verification right here
+00:04:26.560 and go through that process in this case
+00:04:28.919 I'm just going to close close that
+00:04:30.199 because I don't necessarily need to do
+00:04:32.080 that as of right now and then I'm going
+00:04:34.039 to go to my account in the upper left
+00:04:36.360 hand corner here I can change the name
+00:04:39.320 and photo that I added from the
+00:04:40.960 beginning I can change my email here I
+00:04:43.720 can set a new password if I closed that
+00:04:46.479 two-step verification window you can
+00:04:48.280 always come back here and alter your
+00:04:50.080 two-step verification settings if you're
+00:04:52.800 ever speaking with notion support and
+00:04:54.560 you want to grant them access to your
+00:04:56.240 notion account you can do so by toggling
+00:04:58.680 this switch right here
+00:05:00.160 they may request that if they're trying
+00:05:01.840 to work on your account you can log out
+00:05:04.160 of all of your other devices and you can
+00:05:05.960 always delete your account if it comes
+00:05:07.759 time where you don't want to use notion
+00:05:09.759 anymore next let's look at my settings
+00:05:13.000 so under my settings this gets a little
+00:05:14.800 bit more interesting we can change our
+00:05:16.759 appearance of notion here and I actually
+00:05:19.600 prefer working in dark mode so I'm going
+00:05:22.199 to use dark mode for the rest of this
+00:05:24.000 tutorial just by toggling the switch to
+00:05:26.759 dark it's just light mode by default
+00:05:29.160 with the CL classic notion branding but
+00:05:31.360 I'm going to switch to dark mode now and
+00:05:33.520 that's going to be much nicer on our
+00:05:35.160 eyes another way to toggle between dark
+00:05:38.000 and light mode is to use control shift L
+00:05:40.759 on Windows or command shift L on Mac so
+00:05:43.880 I'm just going to hit control shift L
+00:05:46.560 and control shift L to toggle back to
+00:05:48.600 dark
+00:05:49.520 mode this open on start setting allows
+00:05:52.240 you to set a page in your notion account
+00:05:54.360 that you want to open by default since
+00:05:56.600 we haven't gone over Pages yet this
+00:05:58.520 might not make sense but you can always
+00:06:00.120 refer back to this after we've talked
+00:06:02.080 about Pages if you want to set it to
+00:06:04.000 last visited page or top page in sidebar
+00:06:07.639 you'll understand what this means after
+00:06:09.440 watching this tutorial now if you want
+00:06:11.639 to install the desktop app for notion
+00:06:14.120 then you can actually install that by
+00:06:15.680 clicking this link right here and if you
+00:06:17.560 have this checked it will open links in
+00:06:19.360 your desktop app when you're using
+00:06:21.639 notion next we have the date and time
+00:06:23.880 settings you can set your time zone
+00:06:25.800 automatically just by toggling this on
+00:06:28.039 but if you want to control the time Zone
+00:06:29.840 that you're using in your notion account
+00:06:31.800 you can turn this off and select your
+00:06:33.479 time zone from all of these options here
+00:06:36.639 I'm just going to turn it back on to
+00:06:38.199 automatic now for privacy settings you
+00:06:40.400 can change your cookie settings in
+00:06:41.840 notion they will have certain settings
+00:06:44.599 on here that you don't necessarily need
+00:06:46.720 like this targeted marketing and
+00:06:48.400 targeted advertising one you can turn
+00:06:50.800 that off if you don't want them tracking
+00:06:52.639 you so that they can do their marketing
+00:06:54.759 you can also turn off analytics you can
+00:06:56.599 turn off functional but some of these
+00:06:58.960 things you're just going to want to
+00:07:00.160 leave on I would probably leave
+00:07:01.599 functional on and analytics probably
+00:07:03.879 doesn't hurt to have it on um strictly
+00:07:07.039 necessary these ones are cookies that
+00:07:08.759 you just can't turn off or else the app
+00:07:10.599 just won't work once you change your
+00:07:12.000 cookie preferences it will reload notion
+00:07:14.680 so I'm going to hit okay I'm going to go
+00:07:17.160 back to settings my settings and I'm
+00:07:20.599 going to scroll down so profile
+00:07:23.160 discoverability this is the final
+00:07:24.680 setting so users with your email can see
+00:07:26.639 your name and profile picture when
+00:07:28.280 inviting you to a new works space if you
+00:07:30.160 don't want them to be able to see you by
+00:07:32.160 typing in your email and you don't want
+00:07:34.120 your picture and your notion profile to
+00:07:36.199 pop up then you can turn this off but if
+00:07:38.759 you're okay with anyone in the notion
+00:07:40.560 ecosystem being able to type in your
+00:07:42.560 email and see your account pop up then
+00:07:44.479 you can leave it on I'm just going to
+00:07:46.599 turn this off for this particular
+00:07:48.759 account next let's take a look at the
+00:07:50.800 notification settings you can get there
+00:07:52.560 by going to my notifications here you
+00:07:55.120 can decide if you want mobile push
+00:07:56.639 notifications you will need to install
+00:07:58.680 the notion app on your phone to get
+00:08:00.720 these and this will notify you if you're
+00:08:02.919 mentioned in an ocean workspace or a
+00:08:04.840 comment if you work in slack then you
+00:08:07.199 can turn on slack notifications as well
+00:08:09.479 and that will notify you when you're
+00:08:11.199 mentioned in a page database property or
+00:08:13.479 a comment I'm going to leave that off
+00:08:16.000 because I'm not using slack then we have
+00:08:17.879 the email notification settings here
+00:08:20.000 this email digests one is going to give
+00:08:22.759 you a digest every 8 hours so I'm just
+00:08:25.639 going to turn this off cuz I don't want
+00:08:26.960 to be getting a ton of emails about my
+00:08:28.680 notion account but if you are using it
+00:08:30.720 for teams this might be helpful this top
+00:08:32.919 one is good to leave on because if you
+00:08:34.839 are getting invited to a page or you're
+00:08:37.120 getting mentioned in something important
+00:08:38.919 then you're going to receive an email
+00:08:40.440 about that if you want to edit the
+00:08:42.120 settings for new product launches or
+00:08:44.120 marketing emails that notion sends then
+00:08:45.959 you can hit manage settings right here
+00:08:47.640 on the announcements and update emails
+00:08:50.640 next you can go to the my connections
+00:08:52.399 Tab and this is where you're going to be
+00:08:54.000 able to manage your connections there's
+00:08:56.279 going to be a ton of connections that
+00:08:57.760 you can add in notion when you hit see
+00:08:59.800 all but the main ones are slack Google
+00:09:02.680 Drive and
+00:09:03.959 figma you can scroll through and see
+00:09:06.240 what else they have to offer as well
+00:09:08.640 next let's go to language and region
+00:09:10.680 settings and here you can set your
+00:09:12.320 language and you can change if you want
+00:09:14.240 the week to start on Monday by default
+00:09:16.360 it starts on Sunday but some people
+00:09:17.959 wonder how do I change it to Monday I'm
+00:09:20.399 actually going to change it to Monday
+00:09:21.959 because that's just how I roll so those
+00:09:24.680 are sort of your personal notion account
+00:09:26.600 settings but what if you wanted to
+00:09:28.040 change your workspace settings so I'm
+00:09:29.640 going to click on my workspace settings
+00:09:32.279 and here I can change the name of my
+00:09:34.000 organization so this is how others are
+00:09:35.959 going to see my notion account when they
+00:09:37.920 try to join this community or when they
+00:09:39.720 try to install something in this
+00:09:41.160 workspace so if you have a company
+00:09:42.839 you're going to name it after your
+00:09:43.920 company name I'll just name mine
+00:09:45.440 productive dude and you can change the
+00:09:47.760 icon for it here you can select an emoji
+00:09:50.680 a notion icon or a custom upload here
+00:09:54.000 you can change the domain that you have
+00:09:56.000 associated with your notion account by
+00:09:57.920 default they're just going to give you a
+00:09:59.440 random domain so I recommend actually
+00:10:01.320 changing this to your company name if
+00:10:03.160 it's
+00:10:04.279 available here you can add allowed
+00:10:06.720 emails so if my email domain is hello
+00:10:10.560 productive dude or Carter productive
+00:10:12.959 dude I can just add productive dude as
+00:10:15.680 an allowed domain here and then whenever
+00:10:17.839 somebody signs up with that email
+00:10:19.720 they're just going to be automatically
+00:10:21.320 added to my workspace if I have a Plus
+00:10:24.200 account I can add a public homepage here
+00:10:26.880 and if I ever want to leave notion and I
+00:10:29.000 want to export all my content and take
+00:10:30.880 it with me or even if I just want to
+00:10:32.720 back up all the content in my account I
+00:10:34.959 can export my content right here if you
+00:10:37.600 have a business level account you can
+00:10:39.200 export all of your members as a CSV as
+00:10:41.680 well so if you get up to hundreds of
+00:10:43.440 members in your notion account you can
+00:10:45.279 export them here here you can turn
+00:10:47.360 workspace analytics like page views on
+00:10:49.760 or off I'm just going to leave it on
+00:10:51.680 because it doesn't do me any harm once
+00:10:53.800 again there's a delete button this is
+00:10:55.279 different from deleting your account
+00:10:56.760 it's just deleting your workspace so if
+00:10:58.680 you want to delete your workspace you
+00:11:00.079 can do so right here once you're done
+00:11:02.440 here you can just hit
+00:11:04.079 update and then go back into settings
+00:11:06.279 and members and we'll take a look at
+00:11:07.760 this people tab right here on the people
+00:11:10.079 tab it's going to give you an invite
+00:11:11.600 link that you can send people if you
+00:11:13.519 want them to join your workspace this
+00:11:15.600 will show you all of the members in your
+00:11:17.200 notion account you can also toggle over
+00:11:19.320 to guests and groups groups and members
+00:11:22.959 are members of your team and members of
+00:11:25.560 specific groups within your team I
+00:11:27.760 actually invite my members as guests
+00:11:30.360 it's a lot more economical that way you
+00:11:32.839 can Silo things off if you create teams
+00:11:35.560 but then you're going to need a team
+00:11:37.000 notion account and you're going to be
+00:11:38.360 paying per seat what I recommend is just
+00:11:40.920 using the guests feature whenever
+00:11:42.880 possible notion has to make money
+00:11:44.880 somehow so they make a lot of their
+00:11:46.320 money off of teams now let's take a look
+00:11:48.959 at notion pricing if you hit upgrade
+00:11:51.160 within your workspace settings you can
+00:11:52.800 upgrade to plus business or Enterprise
+00:11:56.600 what I recommend for most people is just
+00:11:58.519 using Plus
+00:11:59.839 if you do want to upgrade plus will give
+00:12:01.560 you access to up to 100 guests 30-day
+00:12:04.519 page history and it's going to give you
+00:12:06.399 unlimited blocks and unlimited file
+00:12:08.680 uploads if you're getting more into the
+00:12:10.600 team usages then you can upgrade to
+00:12:12.560 business or Enterprise now notion also
+00:12:15.360 introduced notion Ai and notion AI is a
+00:12:18.560 special add-on that you can add to your
+00:12:20.320 plan by clicking right here notion AI is
+00:12:22.760 charged separate from plus business and
+00:12:24.920 Enterprise if you want to see more of
+00:12:27.079 what these plans have to offer you can
+00:12:28.600 just hit comp all features here and you
+00:12:30.480 can scroll through this table to see
+00:12:32.399 what these different plans offer notion
+00:12:34.680 works great with Educators and students
+00:12:36.839 so if you want to you can use the get
+00:12:38.959 the education plan button down here and
+00:12:41.320 that will actually give you a Plus
+00:12:42.720 account for free except you just have
+00:12:44.680 the one member limit so keep that in
+00:12:46.560 mind if you're a student or an educator
+00:12:49.199 under FAQ you can hit the plans billing
+00:12:51.440 and payment link if you want to see more
+00:12:53.399 or you can hit message support if you
+00:12:54.959 want to talk to somebody on the sales
+00:12:56.399 team this sites tab is going to keep
+00:12:58.720 track of all of your published sites
+00:13:01.040 from your notion account so these are
+00:13:02.519 basically just pages that you publish
+00:13:04.519 and you have a link to that you can send
+00:13:06.519 to the public here you can edit more
+00:13:08.720 security settings most of this is for
+00:13:11.079 Enterprise level notion accounts
+00:13:13.800 identity and provisioning again is
+00:13:15.839 mainly for business and Enterprise
+00:13:17.760 accounts the connections tab is going to
+00:13:19.880 allow you to add member level
+00:13:22.079 connections or workspace level
+00:13:24.120 connections if you have different apps
+00:13:25.839 that you want to connect to notion and
+00:13:27.959 finally the import t tab can get you
+00:13:29.920 started if you're trying to import let's
+00:13:31.839 say like a Word document or you're
+00:13:33.560 trying to import Evernote notes once
+00:13:36.120 you're done editing your settings you
+00:13:37.560 can just click out of this window next
+00:13:40.360 I'm just going to explain the overall
+00:13:42.560 user interface for notion so that you
+00:13:44.440 know where everything is first and
+00:13:46.639 foremost we have the sidebar on the left
+00:13:48.959 hand side of the screen here you can
+00:13:50.959 toggle this open and closed just by
+00:13:53.399 clicking this button in the upper left
+00:13:55.320 hand corner with the double arrows so
+00:13:57.600 I'm going to close it then you can hover
+00:13:59.800 and open it back up and that will be
+00:14:02.480 there at all times including all of your
+00:14:04.759 pages and you can even drill down into
+00:14:07.279 your pages and see Pages within those
+00:14:09.800 pages you can change the icon of your
+00:14:12.399 page here and you can even add a title
+00:14:14.639 of your page so I'll just name this
+00:14:17.320 homepage and now as you can see that
+00:14:19.839 page is here on my sidebar if you want
+00:14:22.160 to add a new page there's lots of ways
+00:14:24.000 to do that you can hit this plus button
+00:14:26.079 if you want to add a page within the
+00:14:27.639 homepage you can hit new page right here
+00:14:30.839 you can hit add a page right here as
+00:14:33.079 well so there's lots of different ways
+00:14:34.920 that you can add a page in notion you
+00:14:37.000 can see all of your notion notifications
+00:14:39.079 by hitting Control Alt U and that will
+00:14:41.360 pop open your inbox where it has all of
+00:14:43.440 your notion notifications or you can
+00:14:45.880 just click the inbox button in the upper
+00:14:47.959 leftand corner if you want to search
+00:14:50.240 within your notion account you can
+00:14:52.120 search right here or you can hit contrl
+00:14:54.959 K and that will open up the search as
+00:14:57.560 well and then you can just search for
+00:14:58.839 any anything let's say I wanted to find
+00:15:00.320 my homepage I just type in homepage and
+00:15:03.199 even though I spelled it wrong here it
+00:15:05.320 still found it right here so that's
+00:15:06.839 pretty amazing notion search is one of
+00:15:09.079 its best features notion is very serious
+00:15:12.000 about their searchability so you can
+00:15:13.800 even click on this show filters right
+00:15:15.759 here and you can filter by different
+00:15:17.480 things here notion even has their own
+00:15:19.839 calendar app so if you want to integrate
+00:15:21.759 your notion account with a calendar
+00:15:23.639 application and you want to plug it in
+00:15:25.399 with Google Calendar or Outlook then you
+00:15:27.880 can do so by hitting the this calendar
+00:15:29.759 button right here and that will take you
+00:15:31.399 to notion calendar I have some more
+00:15:33.759 videos on that if you're interested in
+00:15:35.360 checking them out this created team
+00:15:37.199 space button will allow you to create a
+00:15:39.160 separate space within your workspace for
+00:15:41.560 a specific division of your team this is
+00:15:44.079 where you're going to start opening up a
+00:15:45.839 can of worms where you have to start
+00:15:47.639 paying for Notions so I typically don't
+00:15:49.759 recommend this if you're just getting
+00:15:51.319 started and just learning it from the
+00:15:52.759 ground up but later on if you want to
+00:15:54.959 add a team space and you want to siphon
+00:15:56.800 off different divisions of your company
+00:15:59.000 then this is a good way to do that the
+00:16:00.800 templates button right here will take
+00:16:02.319 you to a huge database of notion
+00:16:05.360 templates that you can search from and
+00:16:07.120 use right out of the gate but a lot of
+00:16:09.040 them are quite generic so I recommend
+00:16:11.079 checking out our premium notion
+00:16:12.440 templates over on my website productive
+00:16:14.959 dude.com purchase our all access pass if
+00:16:17.360 you just want to get all of my premium
+00:16:19.279 templates the cool thing about my
+00:16:21.079 templates is I give installation guides
+00:16:23.319 with them and I show you exactly how to
+00:16:25.199 use them to enhance your productivity
+00:16:27.279 the import feature is just going to open
+00:16:29.120 up the import settings that we showed
+00:16:30.759 you earlier so that you can quickly
+00:16:32.360 import different
+00:16:34.000 pages and let's say I wanted to get
+00:16:36.160 those pages back from earlier I can hit
+00:16:38.040 this trash button right here and it's
+00:16:39.519 going to show all of those pages that we
+00:16:41.680 used to have and I can even restore them
+00:16:43.720 by hitting this button right here and as
+00:16:46.319 you can see it brings that reading list
+00:16:47.920 page back that we got right out of the
+00:16:49.600 gate I'm just going to delete it again
+00:16:51.839 because we don't necessarily need that
+00:16:53.360 in this example if I want to toggle the
+00:16:55.440 workspace that I'm in I can click on
+00:16:57.040 this button in the upper left hand
+00:16:58.440 corner and I can change which workspace
+00:17:00.480 I'm a part of I'll need to get invited
+00:17:02.600 to different workspaces or added to
+00:17:04.359 different workspaces via my email to see
+00:17:06.720 the workspaces that show up here and
+00:17:08.919 this is also where people will be able
+00:17:10.839 to come if they want to see your
+00:17:12.439 workspace if you've already invited them
+00:17:14.559 as a guest or as a team member next
+00:17:16.959 we're going to be diving into notion
+00:17:19.119 pages and notion pages are a
+00:17:21.520 foundational concept and a foundational
+00:17:23.919 component of your notion workspace so
+00:17:26.359 I'm going to show you how you can create
+00:17:27.959 new pages edit page settings and share
+00:17:31.120 pages with others if you want to create
+00:17:33.799 a new page you can just hit add a page
+00:17:36.400 right here on the sidebar and that's
+00:17:38.760 going to add a new page I can just give
+00:17:40.880 it a name and I can add an icon
+00:17:45.640 here if I wanted to add a page within
+00:17:49.080 this give it a name page there's a
+00:17:50.840 couple ways that I can do that first and
+00:17:53.240 foremost the easiest way is just
+00:17:54.960 hovering over this page on the side and
+00:17:57.200 hitting add a page inside from there
+00:17:59.640 it's going to open it up in a popup and
+00:18:02.200 it just says add to give it a name up
+00:18:04.480 top here so I'm just going to say give
+00:18:07.799 it another name and I can add another
+00:18:11.320 icon here then I can click away so now
+00:18:14.200 we have this link to give it another
+00:18:16.400 name inside of give it a name and on the
+00:18:19.360 sidebar here as you can see this is
+00:18:21.840 putting it into this little toggle list
+00:18:23.799 where I can hide the pages within it or
+00:18:25.919 I can open it up and see all of them so
+00:18:28.360 this is a good way to organize your page
+00:18:30.880 you can use one page like this given a
+00:18:32.880 name page as a folder and I'll just
+00:18:35.440 rename it so that we have some good
+00:18:38.159 conventions here so that you can
+00:18:39.840 understand what I'm doing so let's say
+00:18:41.840 that's a folder and then within it we
+00:18:43.520 can have as many of these Pages as we
+00:18:45.440 want and I can even drag new pages in
+00:18:48.159 there or I can hit the plus button on
+00:18:51.000 add a page
+00:18:52.280 inside and as you can see you can add as
+00:18:54.559 many pages within here as you want and
+00:18:56.799 then if I click on the folder they're
+00:18:58.240 all just going to be in here another way
+00:19:00.280 to add a page within a page is to click
+00:19:02.919 into said page and type in slash page
+00:19:06.360 and then hit enter and now it's created
+00:19:09.640 another page within this folder so I'm
+00:19:12.200 just going to call this one quick
+00:19:15.360 page and click back to my folder using
+00:19:18.039 the breadcrumbs here and now as you can
+00:19:20.480 see we have all of these different pages
+00:19:22.640 within our page you can add a cover
+00:19:25.799 photo to your page by hitting add cover
+00:19:28.080 at the top right right here right under
+00:19:29.600 the icon so if I hit add cover it's just
+00:19:32.159 going to open up the cover photo and
+00:19:34.559 then I can hit change cover and by
+00:19:36.960 default notion has a gallery of images
+00:19:39.280 that you can use from the James web
+00:19:40.919 telescope they've got some colors and
+00:19:42.600 some gradients here they've got some
+00:19:44.880 NASA images all kinds of neat stuff here
+00:19:47.600 so you can add some of these beautiful
+00:19:50.080 images by default and once they're added
+00:19:53.120 you can hit change cover right here if
+00:19:54.799 you want to alter it again and you can
+00:19:57.240 even upload your own images
+00:19:59.240 link to images or you can go to unsplash
+00:20:02.039 and search for any image that you'd like
+00:20:04.080 so if I type in Mountain I'm going to
+00:20:06.480 get a bunch of images of mountains that
+00:20:08.640 I can use as my background
+00:20:15.200 here if you want to you can also add a
+00:20:18.159 comment to a page so if I hit add
+00:20:20.200 comment at the top of the page here I
+00:20:22.039 can leave a comment for anyone who has
+00:20:23.880 this page shared with them so they're
+00:20:25.919 going to see this comment from me if I
+00:20:27.760 type it in right here I'm just going to
+00:20:29.159 say hey guys this is the
+00:20:32.840 folder you can check out our
+00:20:36.640 awesome Pages inside you can mention
+00:20:40.559 other Pages people or dates by using
+00:20:43.200 this app button right here and you can
+00:20:45.039 even attach files with this attachment
+00:20:47.640 so I'm just going to send this off and
+00:20:50.200 now that comment is going to live on the
+00:20:52.039 page people can react to it with an
+00:20:54.480 emoji or you can hit resolve if it's
+00:20:57.159 something that you want to see dis
+00:20:58.600 disappear and then you can see your
+00:21:00.120 resolved comments by clicking into them
+00:21:02.919 another cool thing about pages is you
+00:21:04.600 can just start typing in them so let's
+00:21:06.600 say I just got rid of all these Pages by
+00:21:08.760 clicking and dragging over them and then
+00:21:11.120 hitting backspace to delete them now our
+00:21:13.840 folder is empty I can just click
+00:21:16.039 anywhere and I can just start typing in
+00:21:17.840 notion I'm just going to type in this
+00:21:20.679 folder is empty and it's important to
+00:21:23.360 note that even though I've named this
+00:21:24.960 folder it's still considered a page but
+00:21:27.279 you can treat a page as a folder that is
+00:21:29.919 if you want to store other Pages within
+00:21:31.840 it if you want to change the text
+00:21:33.320 settings just highlight the piece of
+00:21:34.960 text that you want to change and then
+00:21:36.799 you can actually add bold italics
+00:21:39.520 underline strike through you can mark
+00:21:42.480 something as code you can create an
+00:21:45.400 equation so like let's say I have 2 + 2
+00:21:49.320 I can highlight that and if I hit create
+00:21:51.919 equation it puts it in this fancy
+00:21:54.120 equation text you can also highlight
+00:21:56.559 your text and change the text color or
+00:21:59.120 the background color of your text so
+00:22:01.360 let's just say I wanted this to have a
+00:22:03.279 yellow
+00:22:04.600 background and let's say that I wanted
+00:22:06.799 to at myself here so I could just type
+00:22:08.799 in at and then Carter srirat now it's
+00:22:12.840 going to at me and notify me you can
+00:22:14.760 also highlight your text and you can hit
+00:22:16.679 ask Ai and then from there you can go
+00:22:19.039 with one of these General prompts or you
+00:22:21.120 can type in your own prompt in relation
+00:22:23.400 to this text right here and I'm just
+00:22:25.279 going to type in what does this mean and
+00:22:28.840 hit
+00:22:29.799 enter and as you can see it's going to
+00:22:32.039 give me an AI answer I can choose to
+00:22:34.480 replace the selection if I want to with
+00:22:36.720 this AI answer or I can insert it below
+00:22:39.440 continue writing or make it longer I'm
+00:22:41.520 just going to insert it below and now I
+00:22:43.720 have an AI response just populated
+00:22:45.840 directly in an oce telling me what this
+00:22:48.120 means I'm going to highlight and delete
+00:22:50.480 the content on this page now and let's
+00:22:52.840 go ahead and share this page with
+00:22:54.720 someone so if you want to share this
+00:22:56.120 page you can hover above the right hand
+00:22:58.039 corner and hit share I'm just going to
+00:23:00.640 invite my demo workspace here by typing
+00:23:02.840 that email in and then clicking on it
+00:23:05.440 now this next part is important to pay
+00:23:06.960 attention to if you want to change the
+00:23:08.919 access level that this account has you
+00:23:11.039 can hit full access right here and you
+00:23:13.360 can change the access level if you just
+00:23:15.760 want them to be able to edit but not
+00:23:17.400 share with others you're going to need a
+00:23:19.360 Plus account for that but if you're okay
+00:23:21.159 with somebody having full access just
+00:23:23.360 comment abilities or just viewing
+00:23:25.159 abilities on that page then you can
+00:23:26.760 change to one of these options if I hit
+00:23:29.360 can view and then I hit invite it's
+00:23:32.000 going to ask me if I want to add this
+00:23:33.880 person to the workspace at this point
+00:23:36.240 this is where you hit skip for now if
+00:23:38.480 you want to add them as a guest if you
+00:23:40.440 want to add them to the workspace you
+00:23:42.480 can check this and hit add to workspace
+00:23:45.120 from there it's going to want to bill
+00:23:47.039 you for a team space so just make sure
+00:23:49.799 that you hit skip for now if you just
+00:23:51.240 want to add them as a guest and now you
+00:23:53.200 can see all of the people with access to
+00:23:56.000 this said page and they're also going to
+00:23:58.240 have have access to any pages that you
+00:24:00.080 add within this page now the way that
+00:24:02.600 this sort of works is if I add a page in
+00:24:04.640 here just type SL Page hit enter page
+00:24:08.039 within folder that person is going to be
+00:24:11.559 able to click into this page within
+00:24:13.919 folder and they'll be able to see it now
+00:24:16.720 but if you have this page shared
+00:24:19.559 directly then anybody that has this
+00:24:22.080 particular page within folder shared
+00:24:23.799 with them will not be able to access the
+00:24:26.200 outer pages so it works in a high
+00:24:28.399 hierarchy whatever page on the furthest
+00:24:30.640 outside they have access to they're
+00:24:32.600 going to have access to all of the pages
+00:24:34.640 within but if you only share one of the
+00:24:37.360 pages within that folder or that page
+00:24:40.279 with somebody like this page right here
+00:24:42.240 let's say I share this
+00:24:43.760 one with my other demo account and I
+00:24:46.880 invite them now you'll see that that
+00:24:50.120 demo account has access to this page
+00:24:52.960 this one has access to this page but if
+00:24:54.720 I go out to the outer level page here
+00:24:57.240 and hit my share settings you'll see
+00:24:59.080 that that new demo account that I added
+00:25:01.200 doesn't have access to this page it only
+00:25:03.880 has access to the page within so that's
+00:25:06.840 how the sharing hierarchy Works in
+00:25:09.039 notion now let's say I wanted to publish
+00:25:11.159 this page so that I could just send
+00:25:12.880 people a link and they'd be able to see
+00:25:14.640 it from the web if I go to the publish
+00:25:16.480 tab here and then I hit publish it's now
+00:25:18.919 going to allow me to just copy this link
+00:25:20.880 and share it with anyone on the web and
+00:25:23.000 it will be a public page if you want to
+00:25:25.120 allow anyone to be able to edit this
+00:25:27.200 page which is typically not advisable
+00:25:29.520 then you can turn on allow editing you
+00:25:31.840 can also allow commenting if you want
+00:25:33.919 people to be able to comment on any
+00:25:35.520 piece of this page and if you want
+00:25:37.279 somebody to duplicate your page as a
+00:25:39.080 template you can have this turned on
+00:25:40.919 right here that will add a duplicate
+00:25:42.640 button in the upper corner if not you
+00:25:44.760 can turn that off if you want your page
+00:25:47.279 to show up in Google search results then
+00:25:49.279 you can turn on search engine indexing
+00:25:51.559 and it will actually create a Google
+00:25:53.679 listing for this page and put it out
+00:25:55.520 there for the public to see then you
+00:25:57.399 would just copy this link and you can
+00:25:59.080 send it off to anybody that you want or
+00:26:01.080 you can add it to a button on your
+00:26:02.480 website and people can come and look at
+00:26:04.240 this notion page just to show you a
+00:26:06.279 preview of what this will look like you
+00:26:07.799 can hit view site and as you can see it
+00:26:10.279 just says built with notion in the
+00:26:11.840 corner if I had duplicate on they'd be
+00:26:13.760 able to duplicate up here but it really
+00:26:16.120 doesn't allow you to do much with this
+00:26:18.399 page other than look at it with the
+00:26:20.360 current settings that I have
+00:26:23.039 added let's go back to our folder page
+00:26:25.720 and now I'm going to be looking at the
+00:26:27.720 view comments button in the upper right
+00:26:29.679 hand corner view all comments allows you
+00:26:31.520 to see all the open comments on a page
+00:26:34.279 so if I add a new comment I'll just say
+00:26:36.039 new comment and hit send as you can see
+00:26:40.120 it gets added right here and then once
+00:26:42.360 it's resolved it will disappear from
+00:26:44.320 these
+00:26:45.159 comments you can also view page updates
+00:26:47.960 by hitting this view all updates button
+00:26:50.120 and this is going to show you everything
+00:26:51.679 that's happened within the page you can
+00:26:53.760 also go to the analytics if you want to
+00:26:55.480 see how many views this page has gotten
+00:26:57.440 and you can change the date range right
+00:26:59.000 here if you favored a page it's going to
+00:27:01.120 change its position in the sidebar and
+00:27:03.159 it's going to add this favorites tab
+00:27:04.919 here so that all of your favorite pages
+00:27:06.720 are showing up first I'm going to
+00:27:08.480 unfavorite this page and if you click in
+00:27:10.559 the upper right hand corner on these
+00:27:12.039 three dots you're going to get some page
+00:27:13.880 customization options so you can
+00:27:15.919 actually change the font that you're
+00:27:17.919 using so they have this siif which is
+00:27:20.440 good for publishing and word processing
+00:27:22.799 and they have mono which is good for
+00:27:24.360 Drafting and notes I prefer to just
+00:27:26.640 stick with the default most of the time
+00:27:28.559 because that's how I use notion if you
+00:27:30.200 want a little bit more space then you
+00:27:31.840 can hit small text and that will
+00:27:33.399 actually make your workspace a little
+00:27:34.960 bit more compact a little bit harder to
+00:27:37.039 see but you are going to be able to get
+00:27:39.039 some more on the page you can also
+00:27:40.919 change to full width if you don't want
+00:27:42.720 this boxed layout but if you want it to
+00:27:45.120 just stay within this boxed layout then
+00:27:47.320 you can turn full width off you can also
+00:27:49.960 lock the page so that nobody makes any
+00:27:52.360 accidental changes so if the page is
+00:27:54.159 locked I can't highlight this and delete
+00:27:56.440 it I can only click on it I'm going to
+00:27:58.720 turn lock page off and then if I go to
+00:28:01.120 customize page here it's going to allow
+00:28:02.880 me to change a few things so top level
+00:28:04.919 page discussion I can turn that off if I
+00:28:07.600 want to and that will turn the comments
+00:28:09.399 off in that section backlinks if there's
+00:28:12.760 a link to this page it will show up here
+00:28:15.159 it's not showing up right now but I can
+00:28:16.880 turn that off I can make it expanded I
+00:28:20.159 can change a few settings in the back
+00:28:21.760 links and then I can also make page
+00:28:24.000 comments minimal if I want to see them a
+00:28:26.120 little bit less you can import an export
+00:28:28.679 your page by hitting import right here
+00:28:31.200 and that will bring you once again to
+00:28:32.679 the import data if you want to import
+00:28:34.440 any of this data into this particular
+00:28:36.360 page or you can click on export and
+00:28:38.919 there's numerous ways that you can
+00:28:40.760 export your data right here and it will
+00:28:43.480 give you a downloadable file with all
+00:28:45.399 that data within that
+00:28:47.600 page here you can edit your page level
+00:28:50.240 connections so these are different
+00:28:51.760 Integrations different API calls that
+00:28:54.000 are going to be made to notion so what
+00:28:55.720 you can do is you can change which ones
+00:28:57.519 have access right here and this is just
+00:28:59.919 changing it on the page level if you
+00:29:02.440 want to undo something on your page you
+00:29:04.559 can hit undo right here you can also
+00:29:07.120 just hit contrl Z on Windows or command
+00:29:09.760 Z on a Mac if you want to go back and
+00:29:11.840 undo something next we're going to look
+00:29:14.279 at notion blocks and you can think of
+00:29:16.640 blocks as the building blocks or the
+00:29:18.880 components within your notion Pages
+00:29:21.399 let's go ahead and start creating some
+00:29:23.120 blocks so I'm here on my notion homepage
+00:29:26.320 and just as I showed you before if you
+00:29:27.799 want to create a basic text block you
+00:29:30.240 can just start typing
+00:29:32.480 something and from here we have a block
+00:29:35.120 I know this is a block because I can
+00:29:36.679 hover over it and I can drag it to move
+00:29:38.760 it around if I wanted to create separate
+00:29:41.200 block I could click below this one and I
+00:29:43.399 could start typing something else and
+00:29:46.760 now I have two blocks so this block and
+00:29:49.760 this block you can tell they're separate
+00:29:52.159 because I can highlight both of them and
+00:29:54.360 there's this little thin line between
+00:29:56.279 them and you can drag them from the side
+00:29:58.600 right here so if I drag this one I can
+00:30:01.200 even drag it to the side of this block
+00:30:04.159 when I get that little blue line as you
+00:30:06.120 can see now this block is on the right
+00:30:08.480 and this block is on the left we have
+00:30:09.960 two separate columns I'm going to drag
+00:30:13.240 to highlight and hit backspace to delete
+00:30:15.440 those and now let's talk about some
+00:30:18.000 other useful blocks within notion if I
+00:30:20.399 hit slash this is going to be the key to
+00:30:23.159 getting access to all of the different
+00:30:24.919 block types within notion so just write
+00:30:26.880 this down you're going to using this a
+00:30:28.640 lot the slash button and now you can
+00:30:30.720 just start typing the name of the block
+00:30:32.440 that you want to pull in so I'm just
+00:30:33.960 going to type list because this is the
+00:30:36.159 first type of block that we're going to
+00:30:37.559 look at not the database list view
+00:30:40.200 that's different but if I scroll down to
+00:30:41.960 basic blocks this is where we're going
+00:30:43.440 to be starting out so we have a to-do
+00:30:45.960 list a bullet list a numbered list and a
+00:30:49.399 toggled list that's right you can create
+00:30:51.679 list in notion so if I hit to-do list
+00:30:54.320 it's going to start populating in these
+00:30:56.600 little check boxes so if I just start
+00:30:59.080 entering little to-dos I can do that
+00:31:01.279 here I can just write morning routine
+00:31:03.480 let's say I want to do my morning
+00:31:04.600 routine and then if I hit enter gives me
+00:31:06.880 a new one I can write feed the dog walk
+00:31:11.679 the
+00:31:12.679 dog make a notion
+00:31:15.919 tutorial can really just keep hitting
+00:31:18.200 enter and typing as many of these as I
+00:31:19.960 want if I hit enter and then I hit tab
+00:31:23.000 it's going to add a sub item to this
+00:31:25.039 list so making the notion tutorial might
+00:31:27.919 contain other parts like creating a
+00:31:31.200 script
+00:31:33.080 filming and then
+00:31:36.799 editing and as I go I can check these
+00:31:39.399 different items off within my list if I
+00:31:41.960 highlight my entire list and then I
+00:31:43.919 click on the upper block at the very top
+00:31:46.240 of it what I can do is I can hit turn
+00:31:48.600 into and then I can select a different
+00:31:50.720 type of list that I want to turn it into
+00:31:52.600 so if I'd rather this be a bullet list a
+00:31:54.960 numbered list or a toggle list I can do
+00:31:57.200 that so let's just turn it into a bullet
+00:31:59.159 list now as you can see it turned all of
+00:32:01.559 these highlevel items into a bullet list
+00:32:04.200 if I highlight the ones below I can also
+00:32:06.440 turn those into a bullet list and that
+00:32:09.440 will make them sub items within this
+00:32:11.760 list let's say creating a script had
+00:32:14.000 multiple hierarchical levels to it if I
+00:32:16.399 wanted to I could just hit enter
+00:32:17.919 underneath creat a list and then tab and
+00:32:20.480 I could add as many levels as I want
+00:32:22.639 here just by hitting enter tab enter tab
+00:32:25.399 enter tab I can even turn it into to a
+00:32:28.559 toggle list and this is a unique setup
+00:32:30.880 for notion that allows you to basically
+00:32:33.480 have these little toggle items that you
+00:32:35.200 can put content inside of so let's say
+00:32:37.200 my morning routine had the sub items but
+00:32:39.240 I didn't want to see them all the time I
+00:32:41.440 could actually put them in a toggle list
+00:32:43.279 so now that I have this open let's just
+00:32:45.279 go ahead and add my morning routine
+00:32:46.960 items as a checklist so drink water
+00:32:51.159 shower meditate and let's close that and
+00:32:54.799 now they're all hidden but if I want to
+00:32:56.519 see them I can open this back up and I
+00:32:58.679 can check them off same goes for these
+00:33:01.320 other items within the toggle list you
+00:33:03.200 can put different content Within These
+00:33:04.840 and it's a good way to keep notion
+00:33:06.480 Compact and clean next let's look at the
+00:33:09.399 table block type this is different from
+00:33:11.519 a notion database if you've heard of
+00:33:13.320 notion databases we're going to be
+00:33:15.120 getting into those later in this guide
+00:33:17.480 and they're kind of like tables but
+00:33:19.559 tables are just a bit simpler so if you
+00:33:22.679 just want to add a basic table in your
+00:33:24.559 notion account then you can hit slash
+00:33:27.000 and you can type in table and then
+00:33:28.840 you'll get this basic block table not to
+00:33:31.399 be confused with table view or table of
+00:33:33.679 contents table will just create a simple
+00:33:36.639 table for you you can add columns you
+00:33:39.159 can add rows and you can just basically
+00:33:41.679 type in anything that you want here so
+00:33:44.279 let's just go name address phone and
+00:33:48.279 then you could put different information
+00:33:50.080 in
+00:33:51.120 here I'm just navigating this by hitting
+00:33:53.639 tab to go sideways or using my arrow
+00:33:56.279 keys on my keyboard or hitting enter to
+00:33:59.039 go a row down if you click on your table
+00:34:01.120 and go to options you can also change
+00:34:03.600 the header row or header column toggle
+00:34:06.279 on if you want the first row and the
+00:34:08.119 First Column to become a header so I'm
+00:34:10.280 going to turn header row on and as you
+00:34:12.480 can see it just bolts this and changes
+00:34:14.399 the color behind it if I want this table
+00:34:16.359 to fit to the page width I can click on
+00:34:18.239 it and hit this little expand button
+00:34:20.320 right here and that's going to fit it to
+00:34:22.040 the page width if I change this to a
+00:34:24.280 full width page like I showed you
+00:34:25.879 earlier you would have to click this
+00:34:27.280 again to get it fit to the full page
+00:34:29.320 width you can drag these columns around
+00:34:31.839 and you can even double click on these
+00:34:33.719 columns if you want it to snap to the
+00:34:35.679 longest content within it let's say I
+00:34:37.760 wanted to change the color of a row or a
+00:34:40.079 column I could just hover over the side
+00:34:41.918 of it and I could click this color
+00:34:44.040 button right here and then I could
+00:34:45.839 select the color of it this will change
+00:34:47.599 the text this would change the
+00:34:49.040 background let's just change the
+00:34:50.760 background if I click on a row I can
+00:34:52.679 also hit insert above or below or I can
+00:34:55.719 duplicate that row so I'm just going hit
+00:34:58.000 insert above as you can see and then I
+00:35:00.440 can duplicate this empty row if I want
+00:35:02.320 it to Let's highlight this and delete
+00:35:05.000 this table next we'll look at adding
+00:35:07.400 dividers to break up your page so if I
+00:35:10.320 just have a bunch of content here and I
+00:35:12.680 could just type a bunch of content but
+00:35:14.560 actually what I'm going to do is I'm
+00:35:16.079 just going to hit slash Ai and I'm going
+00:35:19.040 to ask AI to write I'm just going to
+00:35:21.079 write some laurum
+00:35:24.400 ipsum and hit enter and it will just
+00:35:27.880 write out some gibberish for me just so
+00:35:29.680 I have some basic text content I'll make
+00:35:31.599 it
+00:35:33.680 longer and I'm going to hit done now
+00:35:36.280 this will serve as a good way to show
+00:35:37.800 how the divider works if I wanted to
+00:35:39.839 divide this content from some other
+00:35:41.680 content on my page I could just hit
+00:35:43.680 enter below it and then I can type in
+00:35:45.680 slash div and that will give me the
+00:35:48.440 basic block divider I can hit enter
+00:35:51.920 another way that I can do this is by
+00:35:53.440 typing in a couple hyphens and after the
+00:35:55.800 third hyphen it's going to create a
+00:35:57.319 divide div so that's a quicker way to
+00:35:59.599 create dividers if you want to and then
+00:36:02.200 I can start typing something else down
+00:36:06.760 here and I can drag this divider
+00:36:09.040 underneath it let's just duplicate this
+00:36:11.760 lauram ipsum a couple times and we'll
+00:36:14.000 put these dividers between these
+00:36:16.160 different pieces of
+00:36:22.079 text next we're going to look at the
+00:36:24.359 call out block and the call out block
+00:36:26.400 can be great for also dividing up your
+00:36:28.680 pages or just adding a special header to
+00:36:31.000 your page so I'm going to type in slash
+00:36:33.319 and then type in call out and hit enter
+00:36:36.160 and it's going to create this box with
+00:36:38.079 an emoji and a title right here so I'm
+00:36:41.000 just going to call this lauram ipsum and
+00:36:45.240 I'm going to highlight that title make
+00:36:47.280 it bold by hitting contrl b or just
+00:36:49.720 hitting the Bold
+00:36:51.160 button and I'm going to select this
+00:36:53.800 little call out icon and we'll just go
+00:36:56.800 with the word bubble and I can either
+00:36:58.960 just drag this above my laurum ipsum or
+00:37:02.240 I can even drag some laurum ipsum inside
+00:37:04.800 of this so you can drag content into
+00:37:07.640 these call outs and it makes for a great
+00:37:09.280 way to divide up your pages I'm just
+00:37:11.599 going to duplicate this call out now or
+00:37:14.040 I could have created another one with SL
+00:37:16.119 callout but I'm just going to duplicate
+00:37:18.400 it and now I'm just going to drag this
+00:37:21.119 text in here by copying it with contrl
+00:37:24.200 C highlighting the old text and then
+00:37:27.520 pasting with contrl v or command V
+00:37:30.400 command C if you're on Mac and now I'll
+00:37:32.599 just change the title to start typing
+00:37:36.560 bold it and I can add in an icon here
+00:37:40.240 then let's delete this information here
+00:37:42.520 and as you can see now we have these
+00:37:44.359 call out separating things which I
+00:37:46.280 actually prefer this is my favorite way
+00:37:48.040 to create notion pages is to separate
+00:37:50.440 them with call outs and then you can
+00:37:52.440 drag this call out to the side of this
+00:37:54.680 other call out here and you can drag
+00:37:57.640 them wherever you want this is just a
+00:37:59.839 good way to make your pages more modular
+00:38:02.200 you can even click on the call out block
+00:38:05.200 and you can go to color and then you can
+00:38:07.680 change the color of everything within
+00:38:09.240 your call out if I change it to say a
+00:38:11.680 purple background it's going to make the
+00:38:13.480 background of the overall call out
+00:38:15.200 purple as opposed to if I went in here
+00:38:17.280 and I highlighted some specific text and
+00:38:19.440 changed the background of that to yellow
+00:38:21.680 in that case it would make that yellow
+00:38:23.599 on a purple background within the call
+00:38:25.359 out let's look at some other blocks so
+00:38:27.240 if I hit slash and I scroll through
+00:38:29.599 these basic blocks here you'll see that
+00:38:31.440 we can also create headings which these
+00:38:33.800 are similar to text these are basically
+00:38:35.920 just bigger forms of text you see the
+00:38:38.240 simple table all the lists that we've
+00:38:40.319 gone through the divider the call out
+00:38:43.160 now you can also add a quote so if you
+00:38:45.359 hit the quote button right here it's
+00:38:47.119 actually going to just give you some
+00:38:48.560 fancier text for a quote so if I just
+00:38:50.560 wanted to write something I could enter
+00:38:52.560 a quote here so notion is the best
+00:38:56.160 productivity and as you can see it
+00:38:58.240 basically just adds this line to the
+00:39:00.480 side of it if it's a quote if I hit
+00:39:02.119 enter now I'm outside of the quote but
+00:39:05.520 if I wanted to stay in the quote I would
+00:39:07.599 just go back into that block and I would
+00:39:09.640 hold shift when I hit enter and that
+00:39:11.680 would actually extend this quote down
+00:39:13.560 further so I can keep quoting along and
+00:39:16.079 then let's say I just wanted to
+00:39:17.160 highlight this and make it italic and
+00:39:19.480 here I could just write the name of the
+00:39:20.920 person underneath the quote let's go
+00:39:23.400 ahead and delete everything here and I'm
+00:39:25.880 going to hit slash again now there's one
+00:39:28.280 more basic block that I wanted to go
+00:39:30.079 over and that is the link to page so if
+00:39:32.960 I insert link to page it's going to
+00:39:35.040 allow me to link to any of my pages
+00:39:37.160 within this page now that doesn't mean
+00:39:39.880 this page is now contained here as it
+00:39:42.640 would if I just hit SL page and added
+00:39:44.800 one to this page it just allows me to
+00:39:47.160 link to another page in my notion
+00:39:49.280 workspace so if I wanted to link to the
+00:39:51.720 folder I could do so and the way that I
+00:39:54.200 know it's a link to that page is by this
+00:39:56.640 little arrow here that shows up next to
+00:39:58.720 the icon now if I click on that folder
+00:40:00.880 link it's going to bring me to my folder
+00:40:02.800 page over here let's look at a few of
+00:40:04.640 the more advanced blocks within notion
+00:40:07.319 one of the blocks that I really like is
+00:40:08.960 the table of contents block so what this
+00:40:11.480 is going to do is it's going to create a
+00:40:13.599 table of contents that dynamically
+00:40:15.560 updates on your page so if I hit slash
+00:40:18.359 and type in table of I'll get table of
+00:40:21.400 contents here I can click on it so if I
+00:40:24.400 type in slh1 and hit enter it's going to
+00:40:28.040 create a link that says Untitled but
+00:40:30.560 once I give it a name like dog breeds
+00:40:33.359 it's going to show in this table of
+00:40:34.760 contents right here as dog breeds I'm
+00:40:36.720 just going to ask AI to write a list of
+00:40:41.240 dog
+00:40:42.400 breeds and this will serve as a way for
+00:40:45.319 me to show you how this table of
+00:40:47.280 contents works so now I have this list
+00:40:49.880 of dog breeds I'm going to highlight it
+00:40:52.160 and I'm going to turn into H2 and H2S
+00:40:56.040 are going to show up a level down from
+00:40:58.040 that H1 same with H3 it's going to be
+00:41:00.920 another level down the hierarchy and I
+00:41:02.800 can add content Within These so let's
+00:41:04.880 say I wanted to add some content about
+00:41:07.000 the French Bulldog here I could just
+00:41:08.880 write in ask AI to write write something
+00:41:13.440 about French
+00:41:18.119 Bulldogs obviously I'm just using AI to
+00:41:21.040 write as examples here but you can write
+00:41:23.200 your own content just as you would if
+00:41:25.160 you were using like a Google doc or
+00:41:26.760 something like that now if I hit done it
+00:41:29.640 has some information about the French
+00:41:31.200 Bulldog and if I scroll up to our table
+00:41:33.359 of contents and I hit French Bulldog
+00:41:36.200 it's going to drag me down to that part
+00:41:37.839 of the page it's not doing so because I
+00:41:39.880 can already see it but if I enter down a
+00:41:42.160 couple times and then I hit French
+00:41:43.560 Bulldog it will actually pull me down
+00:41:45.520 the page and it now has created an
+00:41:47.440 anchor link to this heading now similar
+00:41:49.760 to the table of contents I can also add
+00:41:52.119 breadcrumbs as a dynamic block so if I
+00:41:55.160 have a page within this homepage here
+00:41:57.920 then I can actually add breadcrumbs on
+00:41:59.920 that page showing me how I got to that
+00:42:02.119 page so let's just click into the
+00:42:04.200 homepage and add a new page with SL page
+00:42:07.760 and I'm just going to call this page cat
+00:42:10.480 breeds and here if I enter into the page
+00:42:13.920 and type in slash breadcrumbs and hit
+00:42:16.760 enter it's going to show me the page
+00:42:19.520 hierarchy for cat breeds and now I can
+00:42:22.160 just click right back to my homepage and
+00:42:24.400 I can see cat breeds within this page
+00:42:26.800 I'll just drag that down to the bottom
+00:42:29.119 and now whenever I click on it I can see
+00:42:31.359 where I came from now I mentioned this
+00:42:34.359 briefly earlier but I wanted to go more
+00:42:36.480 in depth on the at command so if I type
+00:42:39.240 in at it's going to automatically pull
+00:42:41.480 up this mention box so here I can
+00:42:44.400 mention a person a page or a date so if
+00:42:47.720 I just wanted to type something like I
+00:42:50.400 created this page on at it even
+00:42:54.440 understands natural language so I could
+00:42:56.200 type in something like today here and
+00:42:58.440 then I could hit today and it's just
+00:43:00.400 going to automatically link that to
+00:43:03.040 April 10th because that's the day that
+00:43:04.720 I'm recording this tutorial if I click
+00:43:06.640 on this I can even change the date that
+00:43:08.599 it's linked right here and I can add
+00:43:10.839 reminders for that day I could also add
+00:43:13.400 my folder page and that would be another
+00:43:15.920 way to link to the page now inside of
+00:43:18.920 notion there's all sorts of media blocks
+00:43:21.359 that you can add as well so if I type in
+00:43:23.640 slash and then I scroll down you'll
+00:43:26.680 notice that that we have all of these
+00:43:28.480 media blocks so I can share various
+00:43:30.400 forms of media within my notion account
+00:43:32.440 and I can really spice up my pages so
+00:43:34.720 you can upload images web bookmarks
+00:43:37.440 which show you like a little preview of
+00:43:39.000 a website if you just pop a link in
+00:43:41.040 there videos from YouTube Vimeo Loom
+00:43:44.720 audio from SoundCloud or Spotify which
+00:43:47.520 all of these are either an upload or a
+00:43:49.920 link but then we also have a code
+00:43:51.720 snippet so a code snippet allows you to
+00:43:54.559 actually type in any form of code and
+00:43:57.160 will give you the syntax here you can
+00:43:59.520 even create notion formulas just by
+00:44:02.559 clicking on notion formula and now I can
+00:44:05.079 type out a notion formula if somebody
+00:44:07.440 wanted to copy this they can hover over
+00:44:09.240 it and hit copy or you can even add a
+00:44:12.119 caption explaining what this is all
+00:44:16.960 about the last form of media is file so
+00:44:20.359 if you click on file here it's going to
+00:44:22.160 allow you to upload a file and if you
+00:44:24.800 don't have a Plus account it's going to
+00:44:26.319 limit you to 5 megabytes you can choose
+00:44:28.720 a file on your computer or you can embed
+00:44:30.760 a link if you're using notion as a free
+00:44:33.000 user I recommend just linking to your
+00:44:35.200 files on something like Google drive or
+00:44:37.200 Dropbox if you already have an account
+00:44:39.319 somewhere that way you don't have to use
+00:44:41.400 notion as your way of storing files you
+00:44:43.680 can use a different platform for storing
+00:44:45.520 the files then you can just link to them
+00:44:47.839 however you need to from notion this is
+00:44:50.000 definitely the more economical and
+00:44:51.800 practical way of file management notion
+00:44:54.640 is graded a lot of things and you may
+00:44:56.319 want to access your files in notion but
+00:44:58.319 in my opinion it's not the best place to
+00:45:00.400 store The Source version of your file
+00:45:03.119 because one it's an extra expense and
+00:45:05.280 two it's not as intuitive as something
+00:45:07.599 that's made for file storage like Google
+00:45:09.680 drive or
+00:45:10.839 Dropbox the next block that I wanted to
+00:45:13.000 share with you is called the synced
+00:45:14.640 block so if I hit slash and type in sync
+00:45:17.760 block you'll see this Advanced block
+00:45:20.520 called synced block and when I click on
+00:45:22.800 it you'll notice that it just adds this
+00:45:25.000 red box around what ever block I'm
+00:45:27.720 editing or whatever blocks I'm editing I
+00:45:29.960 should say and within that I can type
+00:45:33.400 anything or I can add any type of block
+00:45:35.720 so let's just say I wanted to put a call
+00:45:37.480 out in here one of the great things
+00:45:39.839 about synced blocks is you can use them
+00:45:41.640 for menus so if I hit slash and then I
+00:45:44.640 type in call out I could create a call
+00:45:47.800 out and then my synced block is still
+00:45:49.920 here if I hover it I can just drag this
+00:45:52.960 block within that block and now you'll
+00:45:56.160 see that the syn block has contained
+00:45:58.559 this entire call out within that I can
+00:46:01.559 name my call out menu and then I can
+00:46:04.440 change the icon and then if I hold shift
+00:46:07.359 and hit enter I can start adding
+00:46:09.160 information in here so let's say I
+00:46:10.960 wanted to add a page in my menu like my
+00:46:14.040 folder so if I just add folder and click
+00:46:17.119 on it now I have this synced block as a
+00:46:19.760 menu but why would you want to create a
+00:46:22.480 menu as a sync block well to show you
+00:46:24.880 that I'm going to at the current page
+00:46:27.319 that I'm inside of as well so I'm going
+00:46:28.760 to add the homepage and Link that page
+00:46:31.040 as well now I have the homepage and the
+00:46:32.800 folder linked here let's say I wanted to
+00:46:34.880 navigate between these two seamlessly to
+00:46:37.200 do that I could actually put this synced
+00:46:39.040 block on both pages so if I click on the
+00:46:41.920 overall block and I hit copy and sync
+00:46:44.599 and then head over to my folder I can
+00:46:46.800 add it on my folder page and now I have
+00:46:49.319 that same sync block on both Pages if I
+00:46:51.760 go back to homepage then go back to
+00:46:54.079 folder I can toggle between the two in
+00:46:56.280 the sync block Remains the Same if I add
+00:46:59.280 information in here like let's say I add
+00:47:01.240 some text this is my menu it will also
+00:47:05.119 update on the folder page or any other
+00:47:07.760 instance of this block that I paste like
+00:47:10.520 so this is my
+00:47:12.559 menu and this is me adding text to it so
+00:47:17.760 as you can see the synced block can be
+00:47:19.440 very useful as something like a menu
+00:47:21.800 because now anywhere or any time that I
+00:47:24.280 add a page I can click to that page and
+00:47:27.200 toggle back to the other page if I
+00:47:29.119 highlight the synced block and I delete
+00:47:31.000 it now I can delete and unsync copies if
+00:47:33.920 I go back to the folder you'll see that
+00:47:35.480 these are still here but they're no
+00:47:37.119 longer a synced block so if I delete
+00:47:39.520 these they're basically just treating
+00:47:41.160 themselves as a normal block next let's
+00:47:43.680 look at the notion button block buttons
+00:47:46.559 allow you to take an action with notion
+00:47:48.920 just by clicking a button that you can
+00:47:50.920 program right inside of your page so if
+00:47:53.920 I enter into my homepage and I hit slash
+00:47:56.440 and type type in
+00:47:58.559 button and then I click on this button
+00:48:01.119 block right here basically a button has
+00:48:03.480 a trigger when any of these occur and an
+00:48:06.160 action do this so by default the trigger
+00:48:09.720 is just button is clicked so you don't
+00:48:11.839 have to worry about messing with that
+00:48:13.599 trigger but the action can be changed
+00:48:16.119 and the action can have some different
+00:48:18.119 results when this button is clicked so
+00:48:20.200 if I hit add action I'm going to be
+00:48:22.559 focusing on the insert blocks action add
+00:48:25.240 pages 2 and edit pages in are both more
+00:48:28.280 advanced and those involve databases so
+00:48:30.720 we'll talk about that a little bit later
+00:48:32.400 in this tutorial but in this case I'm
+00:48:34.760 just going to hit insert blocks and what
+00:48:37.359 this can do is just insert blocks right
+00:48:39.760 below the button or above the button so
+00:48:43.079 let's say I just wanted the button to
+00:48:45.040 automatically generate a morning routine
+00:48:47.400 every time that I click on the button so
+00:48:50.000 I can name the button add morning
+00:48:52.400 routine I could make the icon here a
+00:48:55.720 sun let's make it a
+00:48:58.960 sunrise and now I can add blocks within
+00:49:02.359 this button so if I add let's say a
+00:49:05.119 to-do list like drink water meditate
+00:49:08.720 shower walk the dog read my book and I
+00:49:12.240 hit done now when I click this button
+00:49:14.280 it's going to insert this checklist into
+00:49:16.680 my page so I can just check these off
+00:49:19.559 and then if I hit add morning routine
+00:49:21.319 again it's going to add those tasks
+00:49:23.200 again right under the button and you can
+00:49:24.680 do this as many times as you want to
+00:49:26.799 generate items there's lots of creative
+00:49:29.079 uses for the button but this is
+00:49:30.880 basically how it works you can edit the
+00:49:33.119 button by hitting the settings and you
+00:49:34.960 can say what you want it to do you can
+00:49:37.359 also have a button take multiple steps
+00:49:39.559 so if I wanted to add another step in
+00:49:41.319 here like a confirmation I could do so
+00:49:44.599 and I'll just drag the confirmation
+00:49:46.559 above the text right here and I'm just
+00:49:49.440 going to enter a confirmation message
+00:49:51.720 are you sure you want to continue is
+00:49:53.240 fine and we'll leave continue and cancel
+00:49:56.119 now if I hit done and hit add morning
+00:49:58.599 routine before it adds it now it's added
+00:50:01.400 this confirmation step and it wants me
+00:50:03.839 to hit continue to make sure that I want
+00:50:05.720 that action to take place so if I hit
+00:50:07.799 continue now it's going to take the
+00:50:09.720 Second Step which is adding my morning
+00:50:11.880 routine for the day so edit this button
+00:50:15.119 and you can add as many of these steps
+00:50:17.000 as you want you can change them around
+00:50:18.920 you can change the order of them and
+00:50:21.440 overall the button is a very useful tool
+00:50:23.559 if you find yourself copying something
+00:50:25.640 over and over again
+00:50:27.680 another neat block that you can access
+00:50:29.440 in notion is mermaid code and mermaid
+00:50:32.200 code allows you to create little
+00:50:33.760 diagrams in notion so you can visualize
+00:50:36.000 things better so let's say I wanted to
+00:50:37.880 create an org chart or a flowchart of
+00:50:39.960 some type I could just type in slash
+00:50:42.680 mermaid and I have this mermaid code
+00:50:45.160 block if I click on it and then I add a
+00:50:48.440 graph it's just giving me this example
+00:50:50.359 graph here I'll just type in my example
+00:50:52.880 code and you can split it to view it or
+00:50:55.359 if you click this button right here here
+00:50:56.799 and you just go to code you can just see
+00:50:58.400 the code or I can even go to preview and
+00:51:01.559 that's just going to show the org chart
+00:51:03.720 alone so now I have this org chart here
+00:51:06.559 and it's great because I can just
+00:51:08.000 visualize this if I wanted to see how
+00:51:10.000 something is Flowing if you want to
+00:51:11.839 learn more about the mermaid syntax and
+00:51:13.760 how you can create more advanced
+00:51:15.680 diagrams then you can go to
+00:51:25.559 mermaid.jpg features notion databases
+00:51:28.880 you can use notion databases to track
+00:51:31.160 tasks notes books people content and so
+00:51:36.119 much more it allows you to take a notion
+00:51:38.480 page and then treat that page as a
+00:51:40.799 database item you can add different
+00:51:42.559 properties to that page so that you can
+00:51:44.319 filter and sort by those properties and
+00:51:46.960 you can even relate those databases
+00:51:49.040 together and use Advanced formulas that
+00:51:50.920 we're going to be going over later in
+00:51:52.960 this tutorial for now let's get into the
+00:51:55.160 basics of notion database bases so there
+00:51:58.319 are two ways that you can create an
+00:52:00.000 ocean database the first way is just to
+00:52:02.359 hit slash and then you can type in
+00:52:05.200 inline and that's going to give you the
+00:52:07.440 inline database option I'm just going to
+00:52:09.760 hit the inline database option and
+00:52:11.720 that's going to create a table block
+00:52:14.160 within my homepage here I can keep
+00:52:16.880 typing underneath this and it's
+00:52:19.599 basically just treated as a block I'm
+00:52:22.200 going to delete this and I'm going to
+00:52:25.000 show you the second way that you can
+00:52:26.680 create a database and this is distinctly
+00:52:29.160 different because it's actually going to
+00:52:30.720 alter the type of page that you have you
+00:52:33.680 can actually turn an entire page into a
+00:52:36.079 dedicated database so we don't want to
+00:52:38.520 do that to our homepage but let's say we
+00:52:40.359 wanted a page that's just a database of
+00:52:42.680 books if I hit Plus on the ad page and I
+00:52:45.920 type in books then I can click on this
+00:52:49.520 little table button on the bottom here
+00:52:51.799 if you don't see this you can click
+00:52:53.240 these three dots and you should see
+00:52:54.880 table in here these are just different
+00:52:56.880 types of databases that you can create
+00:52:58.799 but we'll get into that in a little bit
+00:53:00.920 for now we're just going to use table so
+00:53:03.240 if I click table it's actually going to
+00:53:05.240 turn my whole page into a database so
+00:53:08.160 now I can't edit the page all I can do
+00:53:10.480 is use the database within it so I'm
+00:53:13.000 going to rename this to books since it
+00:53:15.799 took the name off of that and I can add
+00:53:18.160 an icon in a cover photo just like my
+00:53:21.240 other pages but the only difference here
+00:53:23.480 is is now this whole page is a dedicated
+00:53:25.680 database so I can't add further blocks
+00:53:28.359 here but say I wanted to add this books
+00:53:30.680 database on my homepage to do that I
+00:53:33.599 could go to my homepage and I could type
+00:53:35.480 in slash link and I'm going to get this
+00:53:39.119 linked view of database I can click on
+00:53:41.599 this button right here and then I can
+00:53:43.400 search for a data source and since I
+00:53:46.240 only have one database in my whole
+00:53:48.119 workspace it should show up here it's
+00:53:50.200 taking a moment to load so I'm just
+00:53:51.640 going to type in
+00:53:53.200 books and I'll see that page load in
+00:53:55.880 books
+00:53:56.960 so I can click on that and now it's
+00:53:59.240 going to pull in my books database I'm
+00:54:02.280 just going to click on the only existing
+00:54:04.200 View and I'm going to click away now my
+00:54:07.680 books database is here and my books
+00:54:10.280 database is also here now this view of
+00:54:13.240 the database is like the parent database
+00:54:16.079 it's the kernel of this database so if I
+00:54:18.680 were to delete this page now and I go
+00:54:21.880 back to my homepage it'll say the
+00:54:23.920 original database has been deleted and
+00:54:25.920 cannot edited if I hit view database I
+00:54:28.440 can restore that page but here's the
+00:54:30.839 difference if I go to my homepage now
+00:54:32.880 that this book's database has been
+00:54:34.680 restored I can edit this database from
+00:54:37.400 here but if I want to delete it that's
+00:54:39.319 totally fine I can just go back to my
+00:54:41.599 books database on the full page and now
+00:54:44.520 I can see this database and it's still
+00:54:46.720 here deleting the view of it didn't
+00:54:48.799 delete the whole database but deleting
+00:54:51.200 this whole page would this is why I
+00:54:54.000 strongly recommend creating your
+00:54:55.559 databases as full pages and then keeping
+00:54:58.480 that full page stored somewhere in your
+00:55:00.680 notion account then if you want to add
+00:55:03.400 that database in some instance to one of
+00:55:05.640 your other Pages you can just link it
+00:55:08.240 using the SL L database I also prefer
+00:55:11.720 this method over using the slash inline
+00:55:14.319 database that I showed you first slash
+00:55:16.760 inline database can be fine if you're
+00:55:18.920 just using a database for a specific
+00:55:21.000 instance and you can still link to it
+00:55:23.440 but the most organized best way that I
+00:55:25.599 found to create and store your databases
+00:55:28.119 is to create them as full Pages like I
+00:55:30.440 did with this books database and then if
+00:55:32.440 you want to organize your workspace a
+00:55:34.079 little bit more you can add a page as a
+00:55:36.559 folder like we did in the very beginning
+00:55:38.359 of this tutorial and you can call it
+00:55:40.079 databases I can add an icon like the
+00:55:43.520 database icon and then I can just put
+00:55:45.839 all of my databases in that page by
+00:55:48.359 dragging them in now my homepage could
+00:55:50.599 be a view for multiple linked views of
+00:55:53.520 databases like this and I could show my
+00:55:56.720 books database here I could show other
+00:55:58.880 databases here and all of my databases
+00:56:01.839 would be stored internally in this
+00:56:03.760 databases page over here that way I
+00:56:06.000 don't accidentally delete them and
+00:56:07.480 they're not cluttering up my whole
+00:56:08.920 sidebar and the beauty of this is I can
+00:56:10.920 always reference them on my homepage or
+00:56:13.119 whatever other page I create within my
+00:56:14.960 notion workspace now databases are made
+00:56:17.920 up of pages so this right here this row
+00:56:21.280 represents a page in my database it
+00:56:23.480 doesn't have a title it's blank but if I
+00:56:25.599 were to give it a title like a book name
+00:56:27.760 let's just say Great Gatsby and I hit
+00:56:30.680 enter now I have a page called The Great
+00:56:32.480 Gatsby within my book's database and I
+00:56:35.039 can highlight it and hit open let's go
+00:56:37.160 ahead and close this and just to show
+00:56:38.680 you how this works I can drag it out of
+00:56:41.160 that books database and now it's just a
+00:56:43.280 loone page without properties the
+00:56:45.720 difference is when I drag it into my
+00:56:47.559 book's database it then gains the
+00:56:49.760 functionality of having properties like
+00:56:52.200 tags so whatever properties I add to
+00:56:54.640 this database that this page is in it's
+00:56:57.119 now going to have those properties
+00:56:59.240 associated with it so by default
+00:57:02.119 databases get this tags property which
+00:57:04.680 is basically just a multi Select
+00:57:06.839 Property it allows me to add multiple
+00:57:08.760 options in a list and I can add them as
+00:57:11.079 tags to this item so The Great Gatsby we
+00:57:14.440 could add different tags like favorite
+00:57:17.160 or haven't read or wishlist I don't have
+00:57:20.839 the book yet and having all of these
+00:57:23.000 tags here wouldn't necessarily make
+00:57:24.960 sense so I could just delete specific
+00:57:27.000 ones and keep others the name property
+00:57:30.039 is a default property and it's mandatory
+00:57:32.440 you can't click on it and delete it you
+00:57:34.640 have to leave this in here because
+00:57:36.559 without pages that have a name you
+00:57:38.880 wouldn't be able to have a database
+00:57:40.760 overall so this is the only mandatory
+00:57:43.240 column that you can't delete in a
+00:57:44.839 database what you can do though is you
+00:57:47.039 can delete this tags property that you
+00:57:48.920 get by default just by right- clicking
+00:57:50.640 it and hitting delete property it's
+00:57:53.200 going to ask you if you're sure and then
+00:57:54.599 just hit delete and now going to teach
+00:57:56.799 you all of the properties that you can
+00:57:58.640 add to an ocean database I can add a
+00:58:01.319 property here on my linked view of this
+00:58:03.720 database or I can go back into my
+00:58:06.240 databases go into my books database and
+00:58:09.200 as you can see it's updated dynamically
+00:58:11.240 with the Great Gatsby because I added it
+00:58:13.359 over on my homepage in the linked view
+00:58:15.599 if I hit the plus button right here I
+00:58:17.359 can add any property that I want so here
+00:58:19.480 are the different types of properties we
+00:58:21.880 have a text property very standard you
+00:58:24.720 can just add a summary or a description
+00:58:27.119 let's say I wanted to add a summary of
+00:58:28.920 This Book I could just hit text so let's
+00:58:31.480 just call this summary and hit enter and
+00:58:35.000 now I have this summary property so now
+00:58:37.480 I can create a summary that's related to
+00:58:39.480 this book and if I add a new book in
+00:58:41.599 here let's just say like The Catcher in
+00:58:44.359 the Ry I can now add a summary that's
+00:58:46.480 unique to each of these pages in my
+00:58:48.640 database or each of these rows the way
+00:58:50.880 these databases work is they have these
+00:58:52.640 properties and they are specific to this
+00:58:54.839 exact row that they're in
+00:58:57.319 so it's basically just different ways of
+00:58:59.359 describing the information about my
+00:59:01.839 books so for the name I could change
+00:59:04.559 this to book name if I wanted to and we
+00:59:07.720 could just add a summary for each of
+00:59:09.160 these books I'm just going to paste in a
+00:59:11.359 summary of the great gadsby warning
+00:59:13.760 spoiler alert here we come all right so
+00:59:17.200 now I have the great
+00:59:19.440 gadsby summary and now I can also add in
+00:59:23.400 a summary of The Catcher And the ride
+00:59:25.200 just by typing it
+00:59:26.799 if I want to or I can just copy and
+00:59:29.039 paste it which is what I'm going to do
+00:59:30.799 here here we go I'm going to paste that
+00:59:34.119 and now we have these summaries and I
+00:59:36.160 can drag this however I want and see the
+00:59:38.520 information how I'd like to if I click
+00:59:40.839 on summary I can also change this wrap
+00:59:43.520 column setting and if I turn wrap column
+00:59:45.640 off it's going to make it so that I
+00:59:47.520 can't see the text unless I click into
+00:59:49.720 it the next property we're going to look
+00:59:51.400 at is the number property so if I hit
+00:59:53.839 the plus button right here I can type in
+00:59:56.079 pin number or I can just find it in the
+00:59:59.039 list just click number and this is good
+01:00:01.839 for any sort of number that you're going
+01:00:03.520 to add so we can actually represent the
+01:00:05.640 number of pages in the book by typing in
+01:00:08.680 total Pages here as the number and
+01:00:11.319 hitting enter Then I can add the number
+01:00:13.119 of pages I'm not going to get the exact
+01:00:15.079 number for these I'm just going to enter
+01:00:16.839 some generic numbers and as you can see
+01:00:19.640 that's basically how that functions you
+01:00:21.640 can also duplicate columns so if I
+01:00:24.000 wanted to duplicate this total pages
+01:00:26.839 I can right click it and hit duplicate
+01:00:29.559 and then I can enter current page if I
+01:00:32.640 want to track what my current page is so
+01:00:34.960 let's say I have read the entirety of
+01:00:37.280 The Great Gatsby say I am on Page 250
+01:00:41.200 and I'm on page 95 in The Catcher And
+01:00:44.839 The Ry I could do that I'm going to
+01:00:47.079 duplicate this number property again
+01:00:49.160 because I want to show you another way
+01:00:50.720 that you can use number properties if I
+01:00:52.920 click on this number property and I hit
+01:00:54.760 edit property there's a few settings
+01:00:56.760 that I can change in here the number
+01:00:58.960 format is the one that I want to focus
+01:01:00.480 on right now and I can actually change
+01:01:02.920 the formatting of the number to a
+01:01:05.039 currency or a number with commas I'm
+01:01:07.680 just going to change it to the US dollar
+01:01:10.599 and I'm just going to put in price and
+01:01:13.280 now I can enter a price of this book
+01:01:16.000 let's just say it's
+01:01:17.440 $25 this one's
+01:01:20.359 15 right and it's going to add that US
+01:01:23.119 dollar symbol in there and give me the
+01:01:24.799 cents so it's it's going to just format
+01:01:26.760 it differently now if I wanted to change
+01:01:29.760 the icon next to these properties I can
+01:01:32.119 also do that by clicking into the
+01:01:33.920 property and you can just hover over the
+01:01:35.839 icon right here and you can change it so
+01:01:37.960 I'm going to select the dollar icon here
+01:01:41.280 for the price and for current page I'll
+01:01:43.599 select the bookmark and for total pages
+01:01:46.680 I will select the book now this has a
+01:01:48.960 much more custom feel now let's look at
+01:01:51.559 the select properties there's two types
+01:01:53.599 of Select properties just the standard
+01:01:55.559 SEL SE and the malti select which we
+01:01:57.839 briefly went over a moment ago if I hit
+01:02:00.279 the plus button and I click on select
+01:02:03.119 right here this is going to allow me to
+01:02:05.160 create a list so I can have a list of
+01:02:07.880 different items that I want to tag these
+01:02:10.920 with so let's just say genre is the list
+01:02:13.920 that I want to use so I'll name this
+01:02:16.160 genre and I'll just select this icon for
+01:02:18.680 genre and I can click in here and I can
+01:02:21.240 write in whatever the genre is so I can
+01:02:23.640 write drama I can write coming of age
+01:02:27.559 and as you can see if I click into here
+01:02:29.799 it stores these in a list as I add these
+01:02:32.400 different items but with the single
+01:02:34.680 Select Property you can only select one
+01:02:36.920 at a time now let's go ahead and
+01:02:39.640 duplicate this and we'll just name it
+01:02:42.839 genre
+01:02:44.520 multi and if I click into here and hit
+01:02:47.240 edit property now you'll notice that I
+01:02:49.880 have the type I can change the type to a
+01:02:52.839 multi select and now with the multi I
+01:02:55.960 select I can select multiple items when
+01:02:58.559 I select multiple it just adds them as a
+01:03:01.119 list right here rather than switching to
+01:03:03.720 a single item so that's the only
+01:03:05.960 difference between the select and multi-
+01:03:08.039 select property you can also add a multi
+01:03:10.640 Select Property just by finding it in
+01:03:12.520 the list right here you don't have to
+01:03:14.279 turn the Select Property into it but
+01:03:16.400 that is a useful way that you can toggle
+01:03:18.480 between them if it makes sense for your
+01:03:20.279 use case if you want to hide a property
+01:03:23.039 you can rightclick on the property and
+01:03:24.760 you can hit hide in VI if you ever want
+01:03:27.039 to bring these properties back you can
+01:03:29.000 click on the three dots go to properties
+01:03:32.119 and you'll see your hidden properties
+01:03:33.920 down here and all of your properties
+01:03:36.559 that you can see right here so if I
+01:03:38.920 wanted to reenable it I can or I can
+01:03:41.520 hide it once again you can also see your
+01:03:43.960 deleted properties right here if you
+01:03:45.559 want to restore them I'm just going to
+01:03:47.319 delete these ones for good and then I'm
+01:03:49.359 going to go back and now let's add a new
+01:03:51.880 property this time we're looking at the
+01:03:53.799 status property so the status property
+01:03:56.279 allows me to track something between too
+01:03:59.039 in progress or complete stages so if I
+01:04:02.000 go to status it's going to give me not
+01:04:04.760 started in progress and done by default
+01:04:08.079 let's go ahead and rename these so that
+01:04:09.920 they make sense in the context of books
+01:04:12.200 for not started we're just going to put
+01:04:14.599 not purchased and I'm also going to add
+01:04:17.200 one here for wishlist and I'm going to
+01:04:19.559 add one for purchased but not started so
+01:04:23.279 obviously this is a little bit Overkill
+01:04:25.119 we don't need to track our books at this
+01:04:27.119 level of detail but you could set it up
+01:04:29.599 like this so that if you want to put
+01:04:30.839 something on your wish list something
+01:04:32.319 you want to read in the future you could
+01:04:34.079 do that and you can change the colors of
+01:04:36.160 these as
+01:04:39.079 well I can set the default item Right
+01:04:42.079 Here Right Now the default is not
+01:04:44.480 purchased so when I add a new book it's
+01:04:46.680 just going to default to not purchased
+01:04:48.799 as the status so if I click into this
+01:04:50.839 and hit edit property I can change what
+01:04:53.039 I want as the default so let's say by
+01:04:55.160 default I want it to go to the wish list
+01:04:57.599 I can hit continue and then I can add an
+01:04:59.640 in progress step so for reading it would
+01:05:02.200 make sense to just write in Reading if
+01:05:04.839 it's something that I'm reading and for
+01:05:06.520 complete let's just go ahead and type in
+01:05:08.839 done reading or you can just type in
+01:05:11.319 complete if you want now since my
+01:05:13.160 current page matches the total page in
+01:05:15.680 The Great Gatsby I'm just going to
+01:05:17.319 change the status to complete and for
+01:05:19.880 The Catcher And The Rise since I'm in
+01:05:21.200 the middle of the book right now and my
+01:05:23.039 current page is 95 by the way you can
+01:05:25.839 drag these to change the order I'm just
+01:05:27.960 going to change this status to reading
+01:05:30.119 since I am on Page 95 I'm going to
+01:05:32.480 delete this blank row right here and
+01:05:35.760 another quick tip is if you want to snap
+01:05:37.559 the column size like we were doing with
+01:05:39.319 the simple table earlier it works the
+01:05:41.160 same you just hover over the border of
+01:05:43.200 the column and then you double click and
+01:05:46.359 it will snap the size down to a more
+01:05:49.279 fitting size or whatever it is that
+01:05:51.920 you're working with the next property
+01:05:54.680 that we're going to be looking at is the
+01:05:56.359 date property so if you hit the plus
+01:05:58.240 button right here you can either type in
+01:06:00.319 date or hit date right here it's
+01:06:02.359 basically just a date that your database
+01:06:04.440 can interpret as a date as opposed to
+01:06:06.960 typing it in as a text item like we did
+01:06:09.680 with the summary your database is going
+01:06:11.480 to be able to detect the date and time
+01:06:13.960 for the date property it might make
+01:06:15.559 sense to add a publishing date some of
+01:06:18.119 the things that you can change about
+01:06:19.319 your date are listed right here you can
+01:06:21.680 change the date format how you want it
+01:06:23.520 to show up you can change the time
+01:06:25.599 format from 12 to 24 hours or you can
+01:06:28.319 hide the time and if you click into your
+01:06:30.880 date property in one of the specific
+01:06:32.599 rows there are some more settings that
+01:06:34.520 you can change as well you can add a
+01:06:36.559 reminder for that specific date if it's
+01:06:38.599 a date in the future you can have it
+01:06:40.279 remind you on the day of at 9:00 a.m. or
+01:06:44.160 a day before 2 days before or a week
+01:06:46.359 before you can select the date in your
+01:06:48.119 calendar right here or you can delete
+01:06:50.520 this and you can type it in I don't know
+01:06:52.319 when this book was created but I believe
+01:06:54.559 it was back in maybe the 20s or
+01:06:56.680 something like that so if I type in
+01:06:58.839 April 2nd of
+01:07:02.039 1927 of 1927 and hit enter it should
+01:07:06.400 figure that out and fill that out for me
+01:07:08.279 so you can kind of type in natural
+01:07:09.839 language there and get what you're
+01:07:11.200 looking
+01:07:14.640 for if you select end date then you can
+01:07:17.559 create a date range with this property
+01:07:19.799 since publishing date doesn't require a
+01:07:21.680 range of time then you wouldn't add that
+01:07:23.760 but if you had like a time frame that
+01:07:25.799 you wanted to highlight then you could
+01:07:27.559 use end date you can also use include
+01:07:30.200 time if you want to add a time to your
+01:07:32.480 date when I click date format in time
+01:07:35.359 zone I can change the date format as
+01:07:37.440 well right here if you hit clear it will
+01:07:39.760 clear the date but I'm just going to
+01:07:41.319 click away now and I'll actually show
+01:07:43.559 you guys a cool way that you can
+01:07:45.039 actually fill columns very fast if you
+01:07:47.079 have the same thing that you're typing
+01:07:48.839 over and over again you can just go to
+01:07:51.240 the corner and you can drag vertically
+01:07:53.799 now obviously these weren't published on
+01:07:55.880 the same date and this is just some
+01:07:57.319 example information in here but I just
+01:07:59.000 wanted to show that as a quick way to
+01:08:01.520 copy information into the rows below our
+01:08:04.079 books database is coming along nicely
+01:08:06.279 and I've started adding quite a few
+01:08:08.119 properties in here but for the next few
+01:08:10.160 properties that we're going to take a
+01:08:11.319 look at I'm going to create a new
+01:08:13.240 database called tasks so let's go into
+01:08:15.760 our databases page and add another page
+01:08:19.040 within it called tasks I'm just going to
+01:08:21.520 hit slash type in Page hit enter and
+01:08:24.679 then we're going to click on the table
+01:08:26.439 button down here and we're going to name
+01:08:28.640 it tasks I can select an icon that makes
+01:08:32.479 sense just go with this checkbox and for
+01:08:35.439 the name column we're going to rename it
+01:08:37.238 to task I'm going to delete
+01:08:41.000 tags and let's go ahead and delete these
+01:08:43.359 default tasks I'm going to click into
+01:08:45.679 here to add a new task let's just say
+01:08:48.560 build website and let's add another one
+01:08:52.120 of mockup website and let's add add
+01:08:55.799 create logo and now we have these three
+01:08:58.839 tasks let's pick up where we left off in
+01:09:01.158 the properties by hitting this plus
+01:09:02.839 right here and going to the person
+01:09:05.120 option right here now in this case it's
+01:09:07.319 referring to the actual members in your
+01:09:09.238 account so if I click into here I'll see
+01:09:12.080 all of the members that have access to
+01:09:13.679 this account so Carter srirat this one's
+01:09:16.000 me Demo workspace that's the demo
+01:09:18.719 workspace account that I added and I
+01:09:20.600 also added my other demo account Carter
+01:09:22.759 so I can assign these people to each of
+01:09:25.799 these tasks now one of the cool things
+01:09:27.319 that you can also do with this is you
+01:09:28.719 can assign multiple people so let's say
+01:09:30.520 demo workspace and Carter srirat are
+01:09:33.040 assigned to mockup website then Carter
+01:09:35.759 is assigned to create logo for something
+01:09:37.759 like this where you're assigning to a
+01:09:39.158 task I like to rename this to assign e
+01:09:42.238 now let's click into this and hit edit
+01:09:44.399 property if you want to you can change
+01:09:46.839 the limit right so if you just want one
+01:09:49.080 person per task then you can change it
+01:09:51.120 to one person and now it will only allow
+01:09:53.560 you to add one person on each of these
+01:09:55.960 tasks there's also an option to set the
+01:09:58.679 default so if you set the default to
+01:10:01.000 created by then whoever creates it is
+01:10:03.960 going to get the default assign right
+01:10:06.199 here so if I'm creating my new task here
+01:10:09.280 it's just going to automatically add me
+01:10:12.000 as the asse if my demo workspace account
+01:10:14.679 were to click the new button it would
+01:10:16.080 add them as the
+01:10:17.840 assign if you want to delete multiple
+01:10:20.080 rows out of your database you can check
+01:10:21.960 this box right here on the left hand
+01:10:23.840 side so let's go ahead and check check
+01:10:25.520 the boxes here and hit this delete
+01:10:27.520 button another quick option before I
+01:10:29.040 delete this is you can Mass change
+01:10:31.520 something so if I wanted to change the
+01:10:32.960 assign on all three of these that I have
+01:10:34.880 selected I can click on the assign e
+01:10:37.199 there and I can change them all to
+01:10:38.880 Carter or demo workspace it's much
+01:10:41.360 quicker way to do this than just
+01:10:43.239 manually changing it on each I'm going
+01:10:45.000 to go ahead and delete these tasks now
+01:10:46.760 let's move on to the next property type
+01:10:48.560 I'm just going to hit plus and click on
+01:10:51.040 the checkbox property now the checkbox
+01:10:53.760 makes sense for a task table so if I add
+01:10:56.480 a checkbox I can just name it done and
+01:10:59.120 the cool thing about the checkbox
+01:11:00.560 property is I can drag it all the way
+01:11:02.480 down so that it's just the checkbox you
+01:11:04.920 can't do that with other properties they
+01:11:06.719 max out at a certain point but with the
+01:11:08.800 checkbox you can drag it all the way
+01:11:10.600 down so that all you see is this check
+01:11:12.520 box and now I can complete things that
+01:11:14.880 are already done like creating the logo
+01:11:17.280 and mocking up the website then build
+01:11:19.960 website is the only thing that I have
+01:11:21.640 left here the next property that we're
+01:11:23.280 going to take a look at is files and
+01:11:25.320 media so let's say I wanted to add a
+01:11:28.040 mockup of the website or I wanted to add
+01:11:30.320 a logo within the files and media I
+01:11:33.480 could do that by hitting plus typing in
+01:11:36.080 files and I could click files and media
+01:11:39.440 from here if I click into here I can
+01:11:41.080 upload a file so let's say I wanted to
+01:11:43.440 upload the mockup of the website I could
+01:11:45.679 just choose a file on my computer or I
+01:11:48.120 could embed a link or I could do the
+01:11:50.080 same with a logo the next property is
+01:11:52.800 URL so let's say I wanted to link to
+01:11:54.920 something in relation to these tasks I
+01:11:57.360 could hit the plus button and I could
+01:11:59.400 select this URL option here and this
+01:12:02.000 would allow me to show the full URL or I
+01:12:04.719 could just show a preview of the URL for
+01:12:07.360 instance if I go
+01:12:09.480 youtube.com and I do
+01:12:12.760 httpsyoutube
+01:12:14.520 docomo something something then in this
+01:12:17.960 case if I click into the edit URL and I
+01:12:20.480 hit show full URL it's going to show the
+01:12:22.800 full thing but if I turn show full URL
+01:12:25.520 off it's actually just going to show me
+01:12:27.440 a little preview of that URL the other
+01:12:29.760 neat thing about URLs is you can copy
+01:12:31.840 them by just hovering over them and
+01:12:33.520 hitting copy to clipboard now that we
+01:12:35.320 have our tasks database with our
+01:12:36.960 assignes our completion column and our
+01:12:39.600 files and media along with the URL I'm
+01:12:42.159 going to create a new database and this
+01:12:44.600 time we're going to create a CRM
+01:12:46.360 database so I want to keep track of all
+01:12:48.440 of the people that I meet and I want to
+01:12:50.760 make sure that I know everything about
+01:12:52.320 them so that I can close more sales
+01:12:54.199 close more prospects right so to do that
+01:12:56.679 I would create a CRM or a people
+01:12:59.159 database so to do that I'm just going to
+01:13:01.159 hit slash and type in page enter and
+01:13:04.880 we're going to select the table option
+01:13:07.760 now I'm going to call it people I can
+01:13:09.639 put the name of the person that I'm
+01:13:11.320 meeting in here and let's delete these
+01:13:13.199 other blank columns and also the tags
+01:13:16.320 property now the next properties that I
+01:13:18.000 want to show you are perfect for keeping
+01:13:20.080 track of people in a CRM or an address
+01:13:22.400 book what you're going to do is hit plus
+01:13:24.880 and you can add email or phone here now
+01:13:28.159 so I'm going to go ahead and add both of
+01:13:29.719 these since both of these are useful in
+01:13:31.600 a
+01:13:35.040 CRM now I can add an email and a phone
+01:13:38.520 if you need a unique identifier for each
+01:13:41.400 person in your database you could click
+01:13:43.400 the plus button here and you could
+01:13:44.960 select ID this is also good if you're
+01:13:47.760 managing inventory for your store or
+01:13:49.960 something like that you can even Add a
+01:13:52.000 prefix so since our database is named
+01:13:54.679 people it just did peo as the prefix by
+01:13:57.800 default and I'm just going to add ID
+01:14:00.560 prefix and now we have peo1 representing
+01:14:04.040 John Smith and then if I add somebody
+01:14:06.120 else to the database it's going to be
+01:14:07.639 peo4 since I already deleted those
+01:14:10.080 initial database items and this way it
+01:14:13.400 makes sure that we have a unique ID for
+01:14:15.480 each person you can also remove that
+01:14:17.440 prefix if you just want it to be a
+01:14:19.280 number now let's go back to our
+01:14:21.360 databases page and look at some of the
+01:14:23.440 dynamic database properties
+01:14:25.560 I'm going to open up my tasks database
+01:14:27.800 and I'm going to hit the plus button
+01:14:29.159 right here if you scroll down just a bit
+01:14:31.440 you'll see created Time created by last
+01:14:34.560 edited time and last edited by these get
+01:14:37.600 pre-filled and they're pretty
+01:14:39.000 self-explanatory so created time just
+01:14:41.520 adds a date when that property was
+01:14:43.600 created so it just implements that and
+01:14:46.120 updates the date no matter what time it
+01:14:48.639 is created by pretty self-explanatory
+01:14:51.719 tags the person that created it last
+01:14:54.000 edited time will actually change when
+01:14:55.960 you update something so as you can see
+01:14:57.679 this one was last edited at 653 but if I
+01:15:00.800 were to change the assign now it says
+01:15:03.719 that it was updated at 7 you can also
+01:15:06.320 open up one of your tasks and edit it
+01:15:08.520 inside of the page and as you can see as
+01:15:10.600 soon as I start editing it it changed
+01:15:12.400 that last edited time to 700 p.m. as
+01:15:15.280 well but the created time will always
+01:15:17.360 remain the same now the final Dynamic
+01:15:19.800 Property is last edited by so since I
+01:15:21.960 don't have anybody else in here to
+01:15:23.719 demonstrate this with it won't update
+01:15:25.679 because I'm the only editor but let's
+01:15:27.880 say the demo work account came in and
+01:15:30.320 edited this mockup of website it would
+01:15:32.960 show that they were the last one to edit
+01:15:34.600 it right here let's improve this task
+01:15:37.239 database now that I've shown you guys
+01:15:38.880 these different Dynamic options we don't
+01:15:41.159 necessarily need all of these so I'm
+01:15:42.719 just going to go ahead and delete
+01:15:45.960 them and I'm going to delete these empty
+01:15:48.639 task entries right here instead of this
+01:15:51.080 lightweight checkbox I'm going to delete
+01:15:53.280 this checkbox and we'll add in a status
+01:15:55.920 property now I can get a little bit more
+01:15:58.040 context about what is done on a task and
+01:16:00.560 what's in progress so let's say that the
+01:16:02.840 building of the websites in progress
+01:16:04.960 mockup of the website is done and
+01:16:07.760 creating the logo is done I can also add
+01:16:10.560 a new task and by default it's going to
+01:16:12.360 be not started let's go ahead and delete
+01:16:14.880 the files and media as well as the URL
+01:16:17.760 property so that all we have is our
+01:16:19.600 assign our status and our task name now
+01:16:22.239 you might be wondering why does this
+01:16:23.800 page have an icon and and these ones
+01:16:25.600 don't that's because when I open it up
+01:16:27.920 as you can see there's content within
+01:16:29.679 the page or I've clicked into it to
+01:16:31.840 start editing it if I delete the content
+01:16:34.040 out of that page you'll see that there's
+01:16:35.880 no icon appearing there but if I want to
+01:16:39.080 I can also add icons to these pages and
+01:16:42.120 they will show up right here so if I
+01:16:43.960 wanted to get like a
+01:16:45.560 website I could do so for that one and
+01:16:48.239 now it's going to have a little icon
+01:16:49.760 there now let's say when something is
+01:16:52.360 almost ready to be done but it's not
+01:16:54.239 quite there yet yet I want to make sure
+01:16:56.000 that I can come in and review it so what
+01:16:58.400 we can do is we can set a status and I
+01:17:01.239 can hit edit property here and let's
+01:17:03.719 just add an in progress status and I can
+01:17:06.960 type in needs review and then hit enter
+01:17:11.719 now let's imagine that we're working
+01:17:13.320 away in our database and my team is hard
+01:17:16.120 at work but at the end of the day they
+01:17:18.280 want me to review something they want me
+01:17:20.000 to come back and make sure that it's
+01:17:21.639 good before we mark it as complete so it
+01:17:24.639 would be ideal if we could have it all
+01:17:26.719 be one step where it adds me as the asse
+01:17:29.800 and it marks the status as needs review
+01:17:32.360 to do that you can use the button
+01:17:34.560 property add it you're just going to hit
+01:17:36.199 the plus button and then you're going to
+01:17:37.719 scroll down to where it says button
+01:17:39.960 click on button and from here we can add
+01:17:43.040 a mark As review
+01:17:47.719 needed and I'll make the label
+01:17:51.080 review and that way when people click on
+01:17:53.520 this review button it's going to set the
+01:17:55.600 assign to me and it's going to set the
+01:17:58.239 status to needs review so I can go ahead
+01:18:00.960 and hit action assign e and I can select
+01:18:04.800 Carter srirat so this is similar to the
+01:18:06.880 button we had earlier when any of these
+01:18:09.360 occur button is clicked it's the only
+01:18:11.440 one we can choose then do this and I'm
+01:18:14.199 selecting I want to change the
+01:18:16.159 assign I want to replace it with Carter
+01:18:18.400 srirat and I also want to add another
+01:18:20.120 step I want to update what I want to
+01:18:22.159 update this status right so add another
+01:18:25.480 step we're going to add a status and I'm
+01:18:28.840 going to change it to needs
+01:18:30.679 review and notice how I have these set
+01:18:33.080 to this page that means when I click on
+01:18:35.520 the button in this row it's going to
+01:18:37.960 affect this
+01:18:39.400 row now that this is all set up I'm just
+01:18:41.920 going to click away and I'm going to hit
+01:18:43.960 review and Watch What Happens watch
+01:18:45.480 really close to the assign in status so
+01:18:48.239 let's say demo workspace is working away
+01:18:50.120 they've completed this marketing
+01:18:51.679 campaign they don't want to move it to
+01:18:53.280 done yet they want me to review it they
+01:18:54.840 hit review and boom now the assign is
+01:18:57.920 changed to me and it says Needs review
+01:19:01.400 now if you want to bypass the need for a
+01:19:03.080 button and you just want it to
+01:19:04.400 automatically update the assign e to me
+01:19:07.239 when it gets marked as needs review you
+01:19:09.920 say say you wanted that to automatically
+01:19:11.719 just switch there then you can do that
+01:19:13.679 with automations by clicking on this
+01:19:15.719 little lightning bolt here but this is a
+01:19:17.960 paid feature so if I hit new automation
+01:19:20.560 it will let me start doing this right
+01:19:23.520 add a trigger so when the status is
+01:19:27.120 changed
+01:19:28.120 to needs
+01:19:30.920 review then I want to add an action it
+01:19:34.199 says upgrade now if you were upgraded to
+01:19:36.840 plus then you could add an action so
+01:19:39.480 automations are kind of similar to
+01:19:41.440 buttons in that way except you can
+01:19:42.880 choose any sort of trigger within your
+01:19:44.960 database that happens and then that way
+01:19:47.239 it updates something automatically
+01:19:49.400 somewhere else in your database fairly
+01:19:51.719 self-explanatory but it is a paid
+01:19:53.440 feature that's why I showed you this
+01:19:55.639 little uh review button instead okay so
+01:19:59.440 imagine you and your team are working
+01:20:01.120 away and you find that you're having
+01:20:03.440 these repeat tasks that you need to
+01:20:05.400 complete over and over again and they're
+01:20:07.679 always the same right when you open up
+01:20:10.199 mockup website you add in these subtasks
+01:20:13.040 in here like create figma file generate
+01:20:17.080 color pallet integrate branding and so
+01:20:20.800 on and let's say you keep on adding the
+01:20:22.520 same icon here right you keep on adding
+01:20:24.800 paintbrush icon well with notion you
+01:20:27.000 don't have to repeat yourself if you're
+01:20:28.719 creating the same page over and over
+01:20:30.920 again for every website that you mock up
+01:20:33.520 what you can do is you can create a
+01:20:35.320 template to create a template you just
+01:20:37.320 hit this little drop down over by the
+01:20:39.080 new button and you hit new
+01:20:41.960 template now it says you're editing a
+01:20:44.320 template in tasks since it says you're
+01:20:46.600 editing a template in tasks and there's
+01:20:48.280 this gray bar across the top that's how
+01:20:50.360 I know that I'm editing the template I'm
+01:20:52.080 not editing an actual page that already
+01:20:54.280 exists
+01:20:55.280 I'm editing a page that's going to exist
+01:20:57.520 in the future when I create a page using
+01:21:00.239 this template so let's say I name this
+01:21:02.760 mock up website and at this point I
+01:21:06.560 could add in all of the information that
+01:21:08.520 I need so I could put my assign as
+01:21:11.320 whoever the designer is let's say the
+01:21:13.080 designer is demo workspace and I could
+01:21:16.199 set the status to not started or in
+01:21:19.679 progress and by default I could put some
+01:21:23.040 items in here so I could just put
+01:21:24.960 generate figma file integrate branding
+01:21:28.600 and so on I could add as many of these
+01:21:30.440 as I want but the cool thing is is if I
+01:21:32.920 click out of this now and then I go back
+01:21:35.520 up to new where that little drop down
+01:21:37.320 was you'll now see mockup website and
+01:21:40.480 when I click on mockup website it's
+01:21:43.120 going to integrate all of those
+01:21:45.120 checkboxes that I put in there and all
+01:21:47.440 of the properties that I set by default
+01:21:50.040 in this way I don't have to go in and
+01:21:52.320 edit it every time I create a new mock
+01:21:54.719 up I can just click this drop down and
+01:21:56.719 hit mockup website now imagine you're
+01:21:59.199 just mocking up websites a ton and you
+01:22:01.520 just want that to be your default task
+01:22:03.600 well you can also hit the drop down and
+01:22:06.080 you can change it to default because by
+01:22:07.960 default right now if I just add a new
+01:22:09.840 page it's just empty but if I wanted it
+01:22:12.880 to be mockup website by default click on
+01:22:15.600 these three dots and hit set to default
+01:22:19.120 and then you can do it for either just
+01:22:20.560 this view just this instance or all of
+01:22:23.159 the tables so I'm just going to do for
+01:22:25.360 All Views so that wherever I have a task
+01:22:27.920 table now it's just going to make the
+01:22:30.400 task mockup website by default now let's
+01:22:33.560 imagine that we are maintaining websites
+01:22:35.800 as well and we have this reoccurring
+01:22:37.840 task every single week where we need to
+01:22:40.199 remember to go in and do our maintenance
+01:22:42.560 updates and our backups for our websites
+01:22:45.120 well in that case you could create a
+01:22:47.400 template and you could have it repeat
+01:22:49.320 weekly using the templates feature as
+01:22:51.760 well just click the little drop down
+01:22:53.760 here hit new template and I could type
+01:22:56.880 in maintain
+01:22:59.000 websites and then I could put at
+01:23:02.560 today and if I select date when
+01:23:05.480 duplicated it's going to automatically
+01:23:07.800 fill in the date when this is duplicated
+01:23:10.400 so let's go ahead and create a checklist
+01:23:12.280 of the websites or the clients that I
+01:23:13.760 need to maintain their website
+01:23:23.120 for and let's just click away and now
+01:23:26.239 I'm going to click on that arrow and and
+01:23:28.639 for maintain website I'm going to click
+01:23:30.520 on those three dots and I'm going to hit
+01:23:32.600 repeat from here I can select daily
+01:23:34.960 weekly monthly or yearly let's say I'm
+01:23:37.760 maintaining these on a weekly basis I
+01:23:40.120 can hit weekly and then it's going to
+01:23:42.159 allow me to set up a repetition where
+01:23:44.320 this automatically gets populated into
+01:23:46.760 my database on a weekly basis I can say
+01:23:49.560 every 1 Two Three or however many weeks
+01:23:52.360 I want and that will select the interval
+01:23:55.280 between the weeks so I'm going to do it
+01:23:57.080 every week on
+01:23:59.480 Thursday okay so just selecting Thursday
+01:24:03.040 starts at let's just say starts today so
+01:24:07.560 tomorrow on Thursday since it's
+01:24:09.239 Wednesday today that would be the first
+01:24:11.320 one that we see and we're going to go
+01:24:13.679 ahead and
+01:24:15.040 create at 700 a.m. so first thing in the
+01:24:18.639 morning my people see it and I can
+01:24:21.040 change the time zone as well so if I
+01:24:22.840 have contractors somewhere else maybe I
+01:24:24.679 can make it a little bit earlier or a
+01:24:26.400 little bit later and then if I just hit
+01:24:28.920 save now it's going to say repeat every
+01:24:31.560 week and it's going to show you that
+01:24:33.920 it's going to repeat by having this
+01:24:36.040 little indicator right here showing that
+01:24:38.000 it's repeating so now I can without fail
+01:24:41.400 come into this database and it's going
+01:24:43.199 to populate that task into here every
+01:24:45.800 time with a dynamic day so it says at
+01:24:48.520 today here but if I click on this as you
+01:24:51.639 can see if I hover over today it's going
+01:24:54.159 to say April 10th 2024 when this
+01:24:57.080 automatically populates tomorrow it's
+01:24:59.080 going to say April 11th 2024 so that's
+01:25:02.800 basically how you can do that you can
+01:25:04.800 create it on your own just by clicking
+01:25:07.040 it but without fail if it has that
+01:25:09.639 little repeat icon then you can know
+01:25:12.239 that it's going to be repeating and you
+01:25:13.800 can always edit the settings right here
+01:25:15.920 next we're going to cover database
+01:25:17.560 filtering so what if I only want to see
+01:25:20.119 specific items within this database in
+01:25:23.119 order to do that I have to click on the
+01:25:25.239 filter button right here and I can
+01:25:27.440 filter by any of the properties in my
+01:25:29.840 database I can even create Advanced
+01:25:31.840 filters where it integrates multiple
+01:25:33.719 properties into the filter let's start
+01:25:35.920 by just filtering for aign E let's say
+01:25:38.719 that I just want to see tasks for me if
+01:25:41.400 I click on me it's going to dynamically
+01:25:43.920 give me or whoever's logged in the tasks
+01:25:47.239 for thems it's not just for me as in you
+01:25:50.639 who's creating this database it's
+01:25:52.159 whoever's viewing it if they don't have
+01:25:54.000 any tasks in the database this database
+01:25:56.119 will appear empty so me is dynamic and
+01:25:59.320 it's a way that you can use the assign e
+01:26:01.280 Property I'm going to remove me and I'm
+01:26:03.520 just going to change it to demo
+01:26:05.119 workspace so now it's just going to show
+01:26:06.880 me the tasks that are assigned to demo
+01:26:09.400 workspace now let's say I only want to
+01:26:11.719 see tasks that are still active if
+01:26:13.800 something gets marked as done I don't
+01:26:15.400 want to see that in here right I don't
+01:26:17.239 want to see anything that says done so I
+01:26:19.480 can click and add another filter where
+01:26:21.920 status is too or in progress and now
+01:26:25.880 it's only going to show me tasks where
+01:26:28.320 the assign is demo workspace and the
+01:26:31.280 status is to-do or in progress and if
+01:26:33.960 something gets changed like this demo
+01:26:35.679 workspace gets changed to Carter srirat
+01:26:38.239 or this status gets changed to done it
+01:26:40.960 won't show up in this view of the tasks
+01:26:43.360 but these tasks aren't deleted remember
+01:26:45.760 you have to click on the side and click
+01:26:47.400 delete to actually remove a task these
+01:26:49.840 tasks are just filtered out so if I want
+01:26:51.679 to see them again I can delete these
+01:26:53.360 filters so so if I just click on the
+01:26:55.199 filter click in the corner here and
+01:26:57.320 click delete now I can see all of the
+01:26:59.760 tasks that conform to this filter where
+01:27:01.960 it's either to-do or in progress let's
+01:27:04.080 go ahead and delete this filter and I'll
+01:27:05.719 show you guys how the advanced Filter
+01:27:07.920 Works so now that our filters are
+01:27:09.560 deleted we can see everything here we
+01:27:11.320 can see all of these done tasks we can
+01:27:13.560 see the ones that need review but let's
+01:27:15.520 say that there were multiple
+01:27:16.639 dependencies in the way that I wanted to
+01:27:18.480 see something coming through so if I hit
+01:27:20.440 add filter and then hit add Advanced
+01:27:22.679 filter I can add some condition
+01:27:24.159 additional logic here for what I want to
+01:27:26.239 see so let's say that I just want to see
+01:27:27.920 the mockup website tasks and I just want
+01:27:30.040 to see the ones that are done okay so I
+01:27:32.000 just want to see completed mockup
+01:27:33.880 websites so what I can do here is I can
+01:27:36.280 change the wear to task I can make it
+01:27:39.080 contains and I can type in mockup
+01:27:41.800 website now it's showing me all of the
+01:27:44.440 tasks that say mockup website if I hit
+01:27:47.040 add filter Rule and then hit add filter
+01:27:49.320 rule again I can make it either and or I
+01:27:52.520 can do or so or means one of these
+01:27:55.960 conditions has to be true while and
+01:27:58.400 means that both of them have to be true
+01:28:00.880 so let's go to or and let's say we also
+01:28:03.480 want to see where it says build website
+01:28:06.320 now it's going to filter this and it's
+01:28:07.639 going to show me where the task name
+01:28:09.239 here contains either mockup website or
+01:28:11.280 build website and if I hit add filter
+01:28:13.920 rule I can add as many of these ores as
+01:28:16.600 I want let's go ahead and turn this into
+01:28:18.719 a group by clicking the highest level
+01:28:21.080 here hitting turn into group and I'm
+01:28:23.159 actually just going to add dat a filter
+01:28:24.639 rule in here and we're going to make it
+01:28:26.480 or task contains build website and now
+01:28:29.480 the other cool thing you can do is on
+01:28:31.040 the outside now if I have a group like
+01:28:33.320 this I can have an or or an and here but
+01:28:36.199 then on the outside I can add an and so
+01:28:39.119 task contains mockup website or task
+01:28:42.040 contains build website and then let's
+01:28:43.679 say I also want the status to be is done
+01:28:47.719 so now I would see all of the tasks
+01:28:49.600 where it's either mockup website or
+01:28:51.199 build website and it's marked as done
+01:28:53.400 since we don't have a build website
+01:28:54.760 that's done yet let's go ahead and click
+01:28:57.320 and add one and I'll just show you that
+01:28:59.480 if it says build website it will also
+01:29:01.800 show up in here but if it said let's say
+01:29:04.600 it said uh create logo it would
+01:29:07.880 automatically disappear when I add that
+01:29:09.760 to the table now that I've shown you how
+01:29:11.400 to filter data so that you're just
+01:29:13.040 seeing the information that you want
+01:29:14.840 within your database I'm also going to
+01:29:16.800 show you how to order it in the order
+01:29:18.639 that makes sense for you you can hit
+01:29:20.400 sort right here and you can sort by any
+01:29:22.880 of these properties so let's say I
+01:29:24.520 wanted to sort by task and I can make it
+01:29:27.320 ascending if I want it to start at the
+01:29:29.159 beginning of the alphabet a and work its
+01:29:31.360 way up B C D and if I wanted it to work
+01:29:34.400 backwards through the alphabet I could
+01:29:36.560 do descending so as you see when it's
+01:29:38.840 ascending build website is at the top
+01:29:41.040 because it starts with B while M for
+01:29:43.440 mockup website is further down the list
+01:29:46.679 you can also add multiple sorting
+01:29:48.679 options here and whatever order that
+01:29:50.440 they're in that's going to dictate what
+01:29:52.560 is prioritized in the sort sorting so
+01:29:54.760 you can hit add sort we can also sort by
+01:29:57.320 assign let's say ascending or descending
+01:30:00.360 alphabetically so let's say I change the
+01:30:02.560 assign e here and it's going to put the
+01:30:04.840 ones that say Carter at the top but if I
+01:30:07.360 go to assign e and change it to
+01:30:08.840 descending it would go the other way
+01:30:11.159 around but look at this since build
+01:30:13.920 website comes before mockup website it's
+01:30:16.719 going to prioritize that instead of
+01:30:19.040 prioritizing the assign e because that's
+01:30:21.560 the order of the Sorting here if I task
+01:30:24.560 below assign now it's prioritizing the
+01:30:27.000 assign and then the task name so
+01:30:29.360 whatever order you set up for this is
+01:30:31.119 going to make a huge difference sorting
+01:30:33.360 and filtering are amazing but what if
+01:30:35.560 you want to have different views saved
+01:30:38.080 so that you can toggle between let's say
+01:30:40.560 complete tasks and incomplete tasks so
+01:30:43.360 if you want to create a view for Just
+01:30:45.239 your complete tasks you could hit the
+01:30:47.040 plus button up here and that's going to
+01:30:49.840 create a new view you're going to see
+01:30:51.320 all of your tasks again no filters or
+01:30:53.560 sort have been applied and let's just go
+01:30:55.800 ahead and name this view based on what
+01:30:57.920 we want it to include so let's name it
+01:31:00.360 complete tasks I'm just going to stick
+01:31:02.880 with the table layout for now but I'm
+01:31:04.560 going to show you all of these other
+01:31:06.360 layouts in this video you can alter the
+01:31:08.639 settings here like show vertical lines
+01:31:10.719 if you want to turn that off it will
+01:31:12.159 just turn off the lines that are between
+01:31:14.080 each of these columns I'm just going to
+01:31:16.199 keep that on for now if you want the
+01:31:18.159 columns to be wrapped you can wrap the
+01:31:20.040 columns and that will force everything
+01:31:22.239 down align when you make the column
+01:31:24.400 smaller and I accidentally clicked out
+01:31:26.159 of that now so I'm going to click back
+01:31:27.600 into the settings here go to layout and
+01:31:30.440 I can get back to those settings the
+01:31:32.520 next one is open pages in so this is how
+01:31:35.239 your pages are going to open side Peak
+01:31:37.639 will open them on the side and it shows
+01:31:39.560 you in this little icon so side Peak
+01:31:41.520 opens on this side over here Center Peak
+01:31:44.199 opens in the center and full page will
+01:31:46.360 just open the page in full view this is
+01:31:48.920 referring to the different pages when
+01:31:51.000 you open them so let's just stick with
+01:31:52.920 side peek and this is a relatively new
+01:31:55.119 feature you can now turn off the page
+01:31:57.159 icon view so that you don't see all of
+01:31:59.119 these different icons right here so I
+01:32:01.199 can just click that and it will turn off
+01:32:03.080 the page icon for this table if you like
+01:32:05.880 the page icon to be showing within your
+01:32:07.760 database then you can turn that back on
+01:32:09.800 now I'm just going to click out and
+01:32:11.440 since I named this view completed tasks
+01:32:14.040 I'm just going to click on these three
+01:32:15.600 dots right here and then I'm going to
+01:32:17.320 click on the icon that represents this
+01:32:20.000 View and I'm just going to type in check
+01:32:23.679 and and I'll just do this check mark
+01:32:25.760 verification and now this little check
+01:32:28.239 mark verification icon is right next to
+01:32:30.480 my completed tasks view so let's go
+01:32:33.320 ahead and filter this where the
+01:32:36.880 status is
+01:32:38.800 complete and now we're just going to see
+01:32:41.000 all of our completed tasks let's go back
+01:32:43.719 to our main table page here and let's
+01:32:46.560 remove these filters and the Sorting
+01:32:48.600 from
+01:32:50.159 earlier and I'm just going to name this
+01:32:52.560 view card ERS tasks and we'll go ahead
+01:32:57.000 and add an icon here I'll just add the
+01:32:59.920 star and now I'm just going to filter by
+01:33:03.000 assign e and I'm just going to filter by
+01:33:05.000 Carter srirat rather than just Carter
+01:33:07.080 here and as you can see we have all of
+01:33:09.280 Carter sr's tasks and now I'm going to
+01:33:11.320 add another filter so that I don't see
+01:33:12.920 these tasks that are done so I'll hit
+01:33:14.760 add filter status is not done so you can
+01:33:18.480 do is not and that will be basically the
+01:33:20.960 inverse of the is so with is you have to
+01:33:24.520 check everything that you want to
+01:33:26.159 include whereas with is not you just
+01:33:28.440 have to check what you don't want to see
+01:33:30.400 so you can do it either way now since
+01:33:32.840 I'm not marking tasks to be reviewed I'm
+01:33:35.560 only seeing tasks that people are having
+01:33:37.639 me review I'm actually going to hide
+01:33:40.040 this property so when I hide a property
+01:33:42.600 like this it just hides it in the view
+01:33:45.719 then if I go to complete tasks I can see
+01:33:48.119 that it's still here I'm going to hide
+01:33:49.880 it in this view as well but I just
+01:33:51.360 wanted to quickly show you that you can
+01:33:53.440 actually hide those uh different
+01:33:56.119 properties and it doesn't necessarily
+01:33:57.639 translate over into the other views like
+01:34:00.280 we can hide the assign in this View and
+01:34:03.159 as you can see the assign is still here
+01:34:05.600 on this view Carter's
+01:34:07.600 tasks so ultimately what this does for
+01:34:10.360 you is it allows you to create different
+01:34:12.199 views with different filtering different
+01:34:14.239 sorting and different properties it's
+01:34:16.760 best to create views that are going to
+01:34:18.560 help you out with different tasks like
+01:34:20.679 viewing things that are past a due date
+01:34:23.000 looking at complete completed tasks
+01:34:24.760 looking at tasks that are specifically
+01:34:27.320 related to one person or if you look at
+01:34:29.639 any of your other databases like your
+01:34:31.440 books database you could just filter so
+01:34:33.600 that you could just see books that are
+01:34:35.040 in your wish list or you could sort so
+01:34:37.280 that the books are alphabetically sorted
+01:34:39.679 another way that you can chop up your
+01:34:41.400 data is by using grouping let me show
+01:34:43.920 you how grouping works so grouping can
+01:34:46.119 be found not up by filter and sort even
+01:34:48.920 though it's similar to filtering and
+01:34:50.360 sorting but it can be found by clicking
+01:34:52.360 these three dots right here
+01:34:54.400 and then you'll see group right here I
+01:34:56.800 can click on group and then I can Group
+01:34:59.280 by let's say
+01:35:01.320 aign and since I'm the only asse in
+01:35:04.520 Carter's tasks I'm going to be the only
+01:35:06.920 person that it shows here but if I were
+01:35:08.920 to get rid of this filter for assign e
+01:35:12.880 and then we change the assign on a
+01:35:15.040 couple of these as you can see it's
+01:35:16.960 going to group them by the assign e so
+01:35:20.960 if I change the assign to demo workspace
+01:35:23.000 now it's put demo workspace in a toggle
+01:35:25.360 list and I still have Carter srirat in a
+01:35:27.320 toggle list as well so you can edit
+01:35:29.679 those grouping settings by clicking
+01:35:31.440 those three dots and going to group up
+01:35:33.480 until now we've been using the table
+01:35:35.639 database and the reason for that is the
+01:35:37.600 table database is one the default
+01:35:40.199 database that we start out with most of
+01:35:41.840 the time and two it's much easier to
+01:35:44.840 work on your databases when you can see
+01:35:46.840 all of your properties in a table format
+01:35:50.040 it's also easier to visualize the
+01:35:51.960 Sorting change the properties and it's
+01:35:54.400 just a really straightforward way to
+01:35:56.239 edit databases so for the most part I
+01:35:58.480 recommend editing your databases in a
+01:36:01.080 table view but if you want to view your
+01:36:03.280 data in a different way then you can
+01:36:04.920 change your layout so just like we
+01:36:06.719 created a view for grouped tasks that's
+01:36:09.000 in a table format and it's grouped and
+01:36:11.480 we've created a view for complete tasks
+01:36:13.960 which is just in a normal table layout
+01:36:16.760 we can also create another view where we
+01:36:19.679 choose a different layout type so let's
+01:36:22.159 say we wanted to view this at a board
+01:36:24.760 and in the case of a board if I click on
+01:36:27.159 this we can see things just like this so
+01:36:30.320 by default it's group them by status so
+01:36:33.719 grouping something in a board is
+01:36:36.040 different than grouping it in a table
+01:36:38.600 because when you're grouping something
+01:36:39.880 in a board you're grouping them in this
+01:36:42.199 way so I'm grouping by status here it's
+01:36:44.920 going to show me these at the top of the
+01:36:47.000 board those are just going to be the top
+01:36:48.520 levels of this board but if I group by
+01:36:52.159 say the assign e it's going to group by
+01:36:56.040 assign e just like so you can also color
+01:36:58.520 code these columns so if I go back to
+01:37:01.040 status here if I go color columns it'll
+01:37:03.560 change the color of these columns here
+01:37:05.440 now by default the sort for these is
+01:37:07.440 ascending but you can click on this and
+01:37:09.239 go to manual if you want and then I
+01:37:11.719 could drag not started and I could drag
+01:37:14.480 needs review and this would look a
+01:37:16.679 little bit better now just like in the
+01:37:18.480 table you can bring certain properties
+01:37:20.199 in if you want to see certain properties
+01:37:22.560 but by default in the board view you're
+01:37:24.679 not going to see any of the properties
+01:37:27.199 now let's say we wanted to see the
+01:37:28.760 properties on top of these little cards
+01:37:31.760 here like say we wanted to see the
+01:37:33.159 assign e in that case I could click
+01:37:35.280 these three dots I could go into
+01:37:37.520 properties and I could make assign e
+01:37:39.920 visible and now it's going to add the
+01:37:42.080 assign to these different cards and I
+01:37:44.599 can even click on it and I can change
+01:37:46.320 the assign from here if I want to open
+01:37:48.920 these pages I can click on them and it
+01:37:50.760 will open them in a side peek like so
+01:37:53.599 let's just call this the work pipeline
+01:37:56.239 filtering sorting and grouping work
+01:37:58.520 pretty much the same in this board view
+01:38:00.280 but now you'll see subgroup so if you
+01:38:02.480 want to add a subgroup what that will do
+01:38:05.040 is it'll allow you to group by a second
+01:38:07.920 horizontal property so let's click
+01:38:10.199 assign e and see what happens now this
+01:38:12.400 may look a bit confusing and I don't use
+01:38:14.800 this very often but it is something that
+01:38:16.440 you can do you can Group by Carter
+01:38:19.520 sarach demo workspace and Carter here on
+01:38:22.840 the side since that is our sub grouping
+01:38:25.960 and then our main grouping is across the
+01:38:28.119 top so when I open this it's just going
+01:38:30.560 to show me things that are not started
+01:38:32.199 in progress needs review and done for
+01:38:34.480 Carter srirat the other cool thing about
+01:38:37.119 the board view is you can actually just
+01:38:38.520 drag things along here next we're going
+01:38:40.880 to take a look at the calendar view but
+01:38:43.000 first we need to add a date because
+01:38:44.920 without a date property in your database
+01:38:47.199 you can't add a calendar view it's
+01:38:49.040 impossible it won't work so let's go
+01:38:51.280 ahead and hit the plus button here and
+01:38:53.480 and we're just going to bring out a
+01:38:55.400 table view to start with and I'm just
+01:38:57.560 going to call this editable view I like
+01:39:02.119 to have a view that's just your table
+01:39:04.000 View and you can name it editable view
+01:39:05.880 or you can name it all tasks if you want
+01:39:07.840 to and just hit done now in this view I
+01:39:12.040 like to have this in the very beginning
+01:39:14.040 and I like to make all of my properties
+01:39:15.960 visible here and just have no filtering
+01:39:18.440 no sorting no grouping just a raw table
+01:39:21.040 database just like we were working with
+01:39:22.840 at the very beginning of this training
+01:39:25.840 and this is where I would typically come
+01:39:27.400 to add properties to my database you can
+01:39:30.080 add them in these other views or you can
+01:39:31.960 even open up a task and add a property
+01:39:34.280 here that will add to the whole database
+01:39:36.960 but I just think it's a lot more
+01:39:38.480 intuitive if you're adding it to the
+01:39:40.440 overall View and you can see all of your
+01:39:42.239 tasks and how they're being affected so
+01:39:44.400 I'm going to hit the plus button here
+01:39:46.360 I'm going to type in date and I'm going
+01:39:48.480 to click on the date here now I'm going
+01:39:51.119 to call this date action date so it's
+01:39:53.880 the date that I actually want to take
+01:39:55.480 action on my task okay let's click away
+01:39:59.320 and let's go ahead and just select the
+01:40:02.440 action date for build website say the
+01:40:04.880 11th 13th 14th so now I have some action
+01:40:08.560 dates kind of planned out for these
+01:40:10.080 tasks that are not started so these are
+01:40:11.760 the days I want to work on them now
+01:40:13.760 let's hit the plus button and we're
+01:40:16.000 going to select the calendar view from
+01:40:18.000 here it might ask you to connect to
+01:40:19.760 notion calendar but this is not
+01:40:21.480 necessary I'm just going to close that
+01:40:23.440 little popup window and right here where
+01:40:25.880 it says view name I'm just going to
+01:40:27.320 change this to planning view now I can
+01:40:30.360 select what I want to show the calendar
+01:40:32.000 by so if I have multiple dates in my
+01:40:33.960 database I can select which date to
+01:40:35.920 choose from but since we only have this
+01:40:37.639 one date property of action date I'm
+01:40:39.880 just going to make sure that that one's
+01:40:41.280 selected you can show the calendar as a
+01:40:43.719 month view or a week view I'm just going
+01:40:46.199 to stick with month you can choose to
+01:40:48.040 show weekends or not show the weekends
+01:40:51.159 I'm just going to keep weekends on in
+01:40:52.880 case I have anything planned for the
+01:40:54.320 weekend and you can also choose to open
+01:40:56.719 pages however you want to open them and
+01:40:58.560 you can choose if you want page icons
+01:41:00.480 just like with the other
+01:41:02.080 databases I'm just going to turn this
+01:41:04.080 off and choose side peek let's go ahead
+01:41:07.159 and hit done and now I'm going to click
+01:41:09.040 out of this now you'll notice that it
+01:41:10.760 jumped over to July so I'm going to go
+01:41:13.199 back to April and now that we're back on
+01:41:16.400 April we can see those tasks that we
+01:41:18.280 scheduled out back on our all tasks
+01:41:20.760 right here so we have the 11th 13th and
+01:41:22.800 14th
+01:41:23.760 if I go to the planning view we have the
+01:41:25.119 11th 13th and 14th what you can do from
+01:41:28.320 here is just open up your settings here
+01:41:31.520 go to properties and I can bring in
+01:41:33.800 different things like the status or the
+01:41:36.080 assign now if you want to edit something
+01:41:38.000 in the calendar you'll have to click on
+01:41:39.599 it and then alter it from here or if you
+01:41:42.960 enable a
+01:41:44.719 button like so you can click on your
+01:41:46.960 button from the outside of the calendar
+01:41:48.920 so buttons make a lot of sense to having
+01:41:50.800 your calendar since you can't manually
+01:41:52.560 click on these and change them right
+01:41:54.159 from the card one thing that you can
+01:41:56.639 easily change in the calendar is the
+01:41:58.679 date property and you can do that by
+01:42:00.639 just dragging your items around so when
+01:42:02.840 I'm dragging them like this it's just
+01:42:04.480 changing the date property for me so now
+01:42:06.840 the dates will be the 17th 18th and 19th
+01:42:09.639 if I go back to all tasks as you can see
+01:42:11.840 17th 18th and 19th and if I wanted to
+01:42:14.320 move these to the next week they would
+01:42:16.960 update here as well instantly the next
+01:42:19.320 view type is a list view list view is
+01:42:22.280 kind of similar to a table except it's a
+01:42:24.199 little bit more lightweight I don't
+01:42:26.360 particularly use the list view nowadays
+01:42:28.560 all that much but I'll show you guys how
+01:42:30.080 it works so you can hit the plus here go
+01:42:32.880 to list and I'm just going to type in
+01:42:35.920 lightweight task view has some settings
+01:42:39.199 right here that you can change I'll turn
+01:42:40.639 page icons off we'll keep it on side
+01:42:43.040 peek and hit done and I can choose which
+01:42:45.199 properties I want to show except this
+01:42:47.520 time the properties are going to show up
+01:42:49.440 right above me right here so when I hit
+01:42:52.400 action date or status or Mark is
+01:42:54.960 reviewed as you can see they're not
+01:42:56.599 going to show up over this way they're
+01:42:58.040 actually just going to show up over here
+01:43:00.119 the difference between this and the
+01:43:01.639 table is if you want to see what
+01:43:03.480 something is you have to hover over it
+01:43:05.440 to see that oh that's the assign that's
+01:43:08.280 the action date that's the status you
+01:43:10.679 can still actually click and change
+01:43:12.400 these and buttons work the same as well
+01:43:15.679 you can also set up filtering sorting
+01:43:18.040 and grouping just like the other views
+01:43:20.679 next let's take a look at the timeline
+01:43:22.400 view which is similar to the planning
+01:43:24.239 view in that it's basically a time
+01:43:26.920 oriented view where you can drag things
+01:43:29.719 around and it will change the time the
+01:43:31.760 difference between the calendar and the
+01:43:33.440 timeline is that the timeline is a
+01:43:35.440 little bit more free form whereas this
+01:43:37.320 snaps into dates on the timeline you can
+01:43:40.040 zoom down to the minute and you can also
+01:43:42.440 zoom out to the year so let's go ahead
+01:43:45.000 and dive into the timeline I'm just
+01:43:47.159 going to hit the plus button and I'm
+01:43:48.920 going to click on the timeline layout
+01:43:50.960 again you show the timeline by a date so
+01:43:54.000 when I select the date here it's going
+01:43:55.760 to select the date and then I can hit
+01:43:57.360 done and now I can see these in my
+01:44:00.760 timeline view since we're set to month
+01:44:03.040 right here on this little toggle it's
+01:44:05.199 going to show me from a zoomed out month
+01:44:07.360 view and I can actually drag things
+01:44:08.840 around like this I can also extend them
+01:44:12.400 by dragging them and I can extend them
+01:44:14.280 over multiple days like so let's say I
+01:44:16.360 wanted to click into one of these and I
+01:44:18.520 wanted to change the action date as you
+01:44:20.840 can see we now have an end date select
+01:44:23.080 Ed because I've dragged it out like that
+01:44:26.239 but if I turn off end date as you can
+01:44:28.560 see it just pulls it back to wherever
+01:44:30.199 the start is and sets it for a single
+01:44:32.159 day and to take this even further if I
+01:44:34.119 want to include a time let's bring in an
+01:44:36.239 end date and let's just do the start
+01:44:38.440 time which is the top and the end time
+01:44:40.679 so we have 1 p.m. to 2 p.m. on the 14th
+01:44:45.639 now if I click off of this and I go to
+01:44:48.320 this little button right here where it
+01:44:50.040 says month and I change it to day I I
+01:44:53.119 can scroll over and I can actually click
+01:44:55.480 over as well so let's jump to that task
+01:44:57.960 that we just created now as you can see
+01:45:00.000 this is from one to 2 p.m. and I can
+01:45:02.280 drag it around I can extend it last but
+01:45:05.119 not least let's look at my favorite view
+01:45:07.360 which is the gallery view the gallery
+01:45:09.599 view allows you to create basically just
+01:45:11.880 that a gallery so when I add this view
+01:45:14.679 Gallery I can see things within the page
+01:45:17.320 like so or I can change it from page
+01:45:19.679 content to page cover now you don't see
+01:45:22.440 anything right away but if I just name
+01:45:24.880 this task gallery and then I click done
+01:45:28.040 now I can click into these individually
+01:45:30.239 and I can hit add cover from here let's
+01:45:32.560 say this is build a website right I'm
+01:45:34.360 going to hit change cover go to unsplash
+01:45:36.800 and I'm going to type in website now I
+01:45:38.719 have a bunch of stock photos that I can
+01:45:40.440 use for building a website so I'll click
+01:45:42.719 on this one and I'll click away and now
+01:45:45.480 as you can see we can see that beautiful
+01:45:47.480 image right here in the gallery I can
+01:45:49.440 reposition it and I can even change the
+01:45:51.440 size of these cards if I'm not liking
+01:45:53.280 the look of them I can just click these
+01:45:54.840 three dots go into the layout and right
+01:45:57.360 now they're set to medium by default but
+01:45:59.480 if I click on that and I hit small that
+01:46:01.599 will make them more compact it might
+01:46:03.719 also make sense for you to hit fit image
+01:46:06.239 so if the image isn't the perfect size
+01:46:08.560 for the notion cover photo if you fit
+01:46:10.679 the image it's just going to show you
+01:46:12.159 the entire image up here I'm going to
+01:46:13.920 turn show icons off and I'll bring side
+01:46:17.280 peek in and once again we have our
+01:46:20.280 grouping settings we have our sorting we
+01:46:22.360 have our filter ring and I can go to
+01:46:24.280 properties as well and bring in
+01:46:26.000 different properties let's bring in the
+01:46:27.840 assign and the status and let's bring in
+01:46:31.440 the action date why not now if I click
+01:46:33.360 away and I hover over these I can
+01:46:35.119 actually change these from here as well
+01:46:37.520 and I can also click into these
+01:46:39.239 individually and edit them like let's
+01:46:41.320 say I wanted to add a cover photo for
+01:46:42.960 this one and I want to add a cover here
+01:46:46.719 and to cover here I could do so all
+01:46:49.679 right so we've discussed notion Pages
+01:46:52.280 notion blocks and various notion
+01:46:55.000 database features but in this portion of
+01:46:57.239 the tutorial we're going to get a bit
+01:46:59.239 more advanced I'm going to show you how
+01:47:01.199 to connect two database items together
+01:47:03.360 using relations and then how to
+01:47:05.560 reference the properties within those
+01:47:07.320 database relations using rollups after
+01:47:10.320 that we'll talk about sub items and
+01:47:12.679 dependencies and we'll finish off the
+01:47:14.639 tutorial sharing some powerful notion
+01:47:16.639 formulas that you can Implement in your
+01:47:18.440 databases if you're enjoying this video
+01:47:20.360 so far please leave a like and comment
+01:47:22.239 below sharing your thoughts it'll help
+01:47:23.760 us out a ton to kick things off with
+01:47:26.119 relations and connecting databases I
+01:47:28.320 wanted to kick this off on the
+01:47:29.560 Whiteboard because some of you are
+01:47:31.159 probably more visual Learners and this
+01:47:33.000 will help out a ton I've taught this to
+01:47:35.320 many people and this whiteboard
+01:47:36.880 illustration always helps and makes it
+01:47:38.880 easier to understand rather than just
+01:47:40.840 clicking buttons and notion so we're
+01:47:42.960 going to go ahead and mock this up
+01:47:45.040 really quick the first thing that you
+01:47:46.480 have to have for a relation is two
+01:47:48.840 databases that you want to connect
+01:47:50.320 together so these are my two databases
+01:47:52.480 and this this can work with multiple
+01:47:54.280 different use cases here are some
+01:47:55.840 examples of use cases for connecting two
+01:47:58.800 databases the first one is tasks and
+01:48:01.719 projects so we might want to connect our
+01:48:04.400 tasks our granular items that we have on
+01:48:06.840 a daily basis to work on with our
+01:48:09.040 projects our overall big picture goals
+01:48:12.119 and objectives or as another example we
+01:48:14.679 may want to connect an author with a
+01:48:16.560 book or furthermore an ingredient with a
+01:48:19.480 recipe these are just a few example
+01:48:21.520 databases that you might want to connect
+01:48:23.639 so what have we learned about databases
+01:48:25.599 so far well we've learned that databases
+01:48:28.440 have their own unique properties tasks
+01:48:31.199 have due dates and statuses and a
+01:48:33.719 mandatory column of name for the page
+01:48:36.119 that we're referring to and projects
+01:48:37.920 have their own properties but there's
+01:48:39.520 actually a special property that we can
+01:48:41.199 use to connect these two databases
+01:48:43.400 together and that is called a relation
+01:48:45.400 property you can make a relation a
+01:48:47.400 one-way property so that let's say we
+01:48:49.599 only see our tasks on the projects page
+01:48:52.520 or vice versa and this relation property
+01:48:55.800 acts as a connector for two databases so
+01:48:58.960 if you remember earlier in this tutorial
+01:49:00.840 we talked about how these different
+01:49:02.840 columns within your database represent
+01:49:05.639 the different properties and each row is
+01:49:07.840 a page within your database now where
+01:49:10.159 the relation property is a bit different
+01:49:11.880 is it allows us to connect to this
+01:49:14.080 Project's database with say this task
+01:49:16.320 database and I can actually Implement
+01:49:19.440 website design as a project for mockup
+01:49:22.360 the site and launch the site these two
+01:49:25.080 tasks right here so this is what it's
+01:49:27.199 going to look like in notion we're going
+01:49:28.760 to have website design as the relation
+01:49:31.199 for each of these tasks because these
+01:49:33.280 are tasks within the website design
+01:49:35.760 project so now the relation column for
+01:49:38.080 website design has these two pages
+01:49:40.000 related to it mock up the site and
+01:49:41.800 launch the site because these are
+01:49:43.880 related over on this end now there's
+01:49:45.760 another property that you can add called
+01:49:47.440 rollup so you first have to have a
+01:49:49.599 relation before it allows you to create
+01:49:51.520 a rollup and what this rollup is going
+01:49:53.280 to do is it's going to access the
+01:49:54.960 information from each of these pages in
+01:49:57.400 tasks for these related items mock up
+01:49:59.639 the site and launch the site then that's
+01:50:01.679 what a rollup is for so what this rollup
+01:50:03.480 property would be able to do is it would
+01:50:04.880 be able to access the status and it
+01:50:07.239 would be able to access the D date for
+01:50:09.239 mock up the site and launch the site
+01:50:11.000 since those are the two relations it
+01:50:12.880 wouldn't be able to access design
+01:50:14.480 creative or launch ads unless those were
+01:50:16.840 connected to website design now let's
+01:50:19.280 just imagine for a moment that ad
+01:50:20.920 campaign is actually related to to
+01:50:22.960 design creative and launch ads in that
+01:50:25.840 case this rollup property right here
+01:50:28.119 would be able to reference this relation
+01:50:30.520 and then it would be able to grab these
+01:50:32.800 statuses from each of these items and it
+01:50:34.960 would also be able to grab the due dates
+01:50:36.760 from each of these items if we wanted it
+01:50:38.480 to so if the status for mock up the site
+01:50:41.040 and launch the site were both complete
+01:50:43.079 then in that case the rollup down here
+01:50:45.920 would also read complete and complete if
+01:50:48.360 we were referencing the status property
+01:50:50.719 whereas for the ad campaign they would
+01:50:52.679 read complete and incomplete now out of
+01:50:55.760 the gate you're just going to get the
+01:50:57.119 raw value of the property that you're
+01:50:59.400 looking at with this rollup here but the
+01:51:01.480 neat thing is is you can actually use
+01:51:03.560 some settings within the rollup to do
+01:51:05.599 calculations so we can pull things like
+01:51:08.400 percentages counts sums so if we wanted
+01:51:11.840 to we could actually display this rollup
+01:51:14.400 as 100% if 100% of the tasks were marked
+01:51:18.040 as complete or we could represent this
+01:51:19.719 one with a 50% so now our rollup column
+01:51:23.040 becomes completion and it can track the
+01:51:25.599 completion of the tasks within the
+01:51:28.199 project I hope that this example made
+01:51:30.440 sense now let's get our hands dirty
+01:51:32.159 inside of notion first let's head over
+01:51:34.360 to our databases page right here that we
+01:51:36.599 already created and close your sidebar
+01:51:39.440 from there I want you to create a new
+01:51:41.320 database called projects let's just hit
+01:51:44.000 slash and type in Page hit enter and
+01:51:47.040 then create your projects database from
+01:51:49.159 here you can hit table and now we have a
+01:51:51.599 full page database you're going to
+01:51:53.040 rename it again there cuz it deletes the
+01:51:55.119 name after you turn it into a table and
+01:51:57.239 we're going to add an icon so that looks
+01:52:00.040 pretty good let's just rename the name
+01:52:01.800 column to project and let's delete this
+01:52:04.440 tags property right here you can add
+01:52:06.679 whatever other properties you want for
+01:52:08.880 this project but for now I'm just going
+01:52:10.880 to dive straight in and create a
+01:52:12.960 relation to the tasks so let's hit the
+01:52:15.920 plus button here and type in relation
+01:52:18.400 click on this little relation button and
+01:52:20.440 then type in tasks you should see your
+01:52:22.760 tasks database popup click on that tasks
+01:52:25.320 database and then you can decide if you
+01:52:27.639 want it to show on both databases or if
+01:52:30.520 you just want it to show here on
+01:52:31.960 projects I want it to show up on both
+01:52:34.440 databases so I'm going to turn this on
+01:52:36.760 and it's going to create a property over
+01:52:38.760 on our tasks database when I create this
+01:52:41.079 relation property here so I have to
+01:52:43.360 decide what do I want to name it I'm
+01:52:44.960 just going to call it project I'm going
+01:52:46.880 to keep it on no limit so I can add as
+01:52:48.800 many tasks to my project as I want let's
+01:52:51.360 hit add relation and now you'll see this
+01:52:53.960 new property appear that says tasks
+01:52:56.199 let's create some projects that we can
+01:52:57.679 relate to our tasks so I'm going to
+01:52:59.719 create a project called website design
+01:53:02.360 for company name next I'll do add
+01:53:05.079 campaign for another company now if you
+01:53:08.880 want to select some tasks that you've
+01:53:10.599 already created then you can just click
+01:53:12.320 into here and you can select a task that
+01:53:14.440 you've created or you can type the name
+01:53:16.639 of a new page and it will add that page
+01:53:18.599 to your tasks database I'm just going to
+01:53:21.199 type in the tasks that I need to
+01:53:22.719 complete for website design for this
+01:53:25.159 company so I need to do a website
+01:53:28.760 mockup I'm going to hit plus down here
+01:53:31.400 where it says website mockup and that
+01:53:33.159 will add that to my task list let's
+01:53:36.800 click out of here and now you'll see
+01:53:38.239 that website mockup is added here let's
+01:53:40.719 click back into it and we can start
+01:53:42.400 typing to add another task I'm just
+01:53:44.679 going to type in
+01:53:46.320 launch website let's add that one and we
+01:53:50.040 could do it the same way for this ad
+01:53:51.960 campaign but I'm actually going to do
+01:53:53.480 that one in Reverse we'll head back over
+01:53:55.679 to our databases go to tasks and I'm
+01:53:58.840 going to show you a different way that
+01:54:00.560 you can achieve this so we have these
+01:54:02.880 two right here these two tasks that I
+01:54:04.880 just added and they're related to that
+01:54:07.760 project website design for company name
+01:54:10.000 and website design for company name now
+01:54:12.480 if we go ahead and add a new task let's
+01:54:14.599 just call it make add creatives let's
+01:54:17.760 add another one called copywriting and
+01:54:20.800 let's add one called launch ads now we
+01:54:24.320 can individually click into these and we
+01:54:26.400 can add the ad campaign project by
+01:54:28.560 clicking on this project column for the
+01:54:30.719 specific task that you want to relate
+01:54:32.800 you can also change multiple At Once by
+01:54:34.920 highlighting them and then clicking on
+01:54:36.880 project and here I can select add
+01:54:39.360 campaign for another company as you can
+01:54:42.280 see it's added it for both of these ones
+01:54:44.159 that I've highlighted here now what's
+01:54:45.920 neat about this is I can actually click
+01:54:47.719 into this project from here and I can
+01:54:49.920 see that the tasks are related I can
+01:54:52.440 even go into my task settings and hit
+01:54:54.679 show as and then as a page section and
+01:54:58.480 what that will do is it will bring my
+01:55:00.119 tasks into this page in a nice list view
+01:55:03.480 from there I can even click on these
+01:55:04.960 three dots right here and I can show
+01:55:06.880 certain properties that I want to be
+01:55:08.360 able to edit like status so now I can
+01:55:11.199 see my status property and I can even
+01:55:13.360 edit it from this project page here now
+01:55:16.520 let's close this and head back over to
+01:55:18.360 the project so that I can show you how
+01:55:20.280 rollups work so let's click on projects
+01:55:23.000 click the plus button and typee in roll
+01:55:24.840 up click on roll up and where it says
+01:55:26.560 relation here you're going to want to
+01:55:28.000 click on relation and then select the
+01:55:30.000 task relation if you had multiple
+01:55:32.119 relations here you'd be able to select
+01:55:33.800 from all of them but since there's only
+01:55:35.679 one relation property you can see it
+01:55:37.840 here I'm going to click on it and now
+01:55:40.280 it's going to look a bit confusing
+01:55:41.719 because it's basically just duplicated
+01:55:43.599 the relation column but you just have to
+01:55:46.040 select the property here because right
+01:55:48.119 now it's just set to the page name so if
+01:55:51.000 I click on that and then I click on
+01:55:52.719 status it's going to pull in the
+01:55:54.679 statuses of each of these tasks now out
+01:55:57.440 of the gate this is pretty neat but it's
+01:55:59.159 not super helpful what I'd rather see is
+01:56:01.960 I'd rather see a percentage for
+01:56:03.960 completion and I'm going to rename this
+01:56:06.119 rollup to completion percentage let's
+01:56:09.679 click into our rollup property hit edit
+01:56:11.760 property and then where it says
+01:56:13.360 calculate instead of show original which
+01:56:15.560 just shows the status for each of these
+01:56:17.560 I'm going to click and I'm going to
+01:56:18.960 count percent per group and then I'm
+01:56:21.119 going to count the percentage complete
+01:56:23.440 and since none of them are complete yet
+01:56:25.280 it's just going to say 0% I can even
+01:56:27.320 click into here hit edit property and
+01:56:29.719 then I can decide if I want to show it
+01:56:31.239 just as a number like we are right now
+01:56:33.599 as a bar or as a ring and you can even
+01:56:36.880 change the color of the Ring just to add
+01:56:39.159 a bit of personality and you can decide
+01:56:40.960 if you want the number to show or not
+01:56:42.960 now let's make this a bit more practical
+01:56:44.719 I'm going to switch back to the
+01:56:47.480 bar and let's go ahead and click on this
+01:56:50.400 website design for company name
+01:56:53.040 and now I'm just going to set the
+01:56:54.880 website design mockup for this website
+01:56:57.000 design for company name project to done
+01:56:59.599 and as you can see it's calculating that
+01:57:01.520 50% of the tasks within this project are
+01:57:04.520 complete if I add a new task I can do
+01:57:06.960 that here to the project it's going to
+01:57:08.840 change it to 33% because I have a new
+01:57:11.440 task now but as I complete these
+01:57:13.320 different tasks it's going to
+01:57:14.639 dynamically update the percentage of
+01:57:16.639 tasks that I have complete where this
+01:57:18.199 gets really fun is adding a cover photo
+01:57:20.599 to your project so I've add add one for
+01:57:22.800 website design for company name we'll
+01:57:25.159 also add a web logo now let's do the
+01:57:28.679 same for the ad campaign and now let's
+01:57:30.960 go ahead and close this sidebar next
+01:57:33.119 let's create a view like we did earlier
+01:57:34.960 in this tutorial I'm just going to
+01:57:36.280 select the gallery view and I'm going to
+01:57:38.280 change the card preview to page cover
+01:57:40.679 and then we'll change the card size to
+01:57:42.400 small I'll name this project view I'll
+01:57:45.520 hit done and we can unhide completion
+01:57:48.320 percentage so now I can see what
+01:57:50.599 percentage of my tasks are complete from
+01:57:52.639 right here now in this view I can see
+01:57:55.440 the progress bar and I can see my
+01:57:57.280 project and then if I click into it I
+01:57:59.400 can see the tasks within it and now we
+01:58:01.920 have an intuitive task and progress
+01:58:04.079 tracker now there's also another type of
+01:58:06.719 relation that we can create and that is
+01:58:08.560 a relation to a database of itself so
+01:58:11.599 what we can do with this is we can
+01:58:12.840 relate two rows within the same database
+01:58:15.400 together so to do this let's illustrate
+01:58:17.880 this by going back to tasks and what we
+01:58:20.800 can do is out of the box notion has an
+01:58:23.119 easy way to set this up you can do this
+01:58:25.360 yourself or you can just click on these
+01:58:26.880 three dots go to sub items and then hit
+01:58:29.679 turn on sub items and what that does is
+01:58:33.159 it creates two relation properties if I
+01:58:36.280 click right here on these three dots go
+01:58:38.400 to properties and then I turn on these
+01:58:40.960 two new relation properties I should be
+01:58:43.880 able to see them within my task database
+01:58:47.159 the first one is called parent item and
+01:58:48.760 the next one is called sub item so this
+01:58:51.159 is great if you want create say a
+01:58:53.400 subtask I could rename this to parent
+01:58:56.119 task and we could rename this to
+01:59:03.280 subtask and let's say I wanted to add
+01:59:05.400 some subtasks for launch website well to
+01:59:08.239 do that I could just click over here on
+01:59:10.239 the subtask for launch the website and I
+01:59:12.800 could add in some subtasks that go into
+01:59:15.159 launching the website so I could type
+01:59:17.440 something along the lines of SEO
+01:59:19.360 checklist
+01:59:23.400 mobile
+01:59:24.639 responsiveness spell check and what this
+01:59:27.400 is actually doing is it's creating new
+01:59:29.480 pages within my tasks database so if I
+01:59:31.800 open this up you'll see that these are
+01:59:33.760 included underneath launch website now
+01:59:36.280 as sub items these are still considered
+01:59:38.679 just normal pages in my task database
+01:59:41.520 and as you can see they have this
+01:59:43.320 relation of launch website next to them
+01:59:46.159 so it's basically a relation within the
+01:59:48.440 same table now although you can add as
+01:59:50.719 much hierarchy as you want within a
+01:59:52.960 single database I wouldn't recommend it
+01:59:55.360 what I would actually recommend is just
+01:59:57.280 simply sticking with your tasks and
+01:59:59.199 projects database and you'll have much
+02:00:01.320 fewer properties within each of your
+02:00:03.119 databases I prefer the more lightweight
+02:00:05.440 approach typically but if you do need
+02:00:07.239 say subtasks then this is a good way to
+02:00:09.679 set that up now let's imagine that we
+02:00:11.639 had dependent tasks meaning that these
+02:00:14.040 were dependent on each other and you
+02:00:16.400 needed to complete them in a certain
+02:00:17.800 order say we need to do complete spell
+02:00:20.320 check before we completed the SE o
+02:00:22.239 checklist well in order to set up
+02:00:24.239 dependencies what we can do is we can
+02:00:26.360 click on these three dots go down to
+02:00:29.000 dependencies there's three ways that we
+02:00:30.960 can set this up shift the other dates
+02:00:33.599 down that are dependent on it when you
+02:00:35.360 move that around and say a timeline view
+02:00:37.679 then there's shift and maintain time
+02:00:39.800 between items this will allow you to
+02:00:42.040 drag any of these items and it will keep
+02:00:44.199 the same time between those items As you
+02:00:46.520 move it along and then there's do not
+02:00:48.440 automatically shift so this would allow
+02:00:50.040 you to say overlap an item if you wanted
+02:00:52.280 to I prefer this first option so I'll
+02:00:54.360 switch to shift only when dates overlap
+02:00:57.000 I'm going to turn avoid weekends off and
+02:00:59.400 then I'm going to hit turn on
+02:01:00.719 dependencies I'm going to close this and
+02:01:03.400 I'm going to scroll over and you'll see
+02:01:05.320 blocked by and blocking so just to make
+02:01:08.000 this easier on myself I'm going to drag
+02:01:09.880 this all the way over next to the
+02:01:13.000 name and I'm going to drag this one as
+02:01:15.880 well and for spell check we'll make that
+02:01:18.400 block the SEO checklist and we'll make
+02:01:20.920 the SEO checklist block the mobile
+02:01:23.400 responsiveness another way to look at
+02:01:25.239 this is the SEO checklist is blocked by
+02:01:28.079 spell check in Mobile responsiveness is
+02:01:30.920 blocked by the SEO checklist so the
+02:01:32.719 order that we would complete these in is
+02:01:34.639 spell check SEO checklist and then
+02:01:37.000 mobile
+02:01:38.239 responsiveness let's make this a bit
+02:01:40.119 more practical by giving each of these
+02:01:41.880 an action date for spell check we'll
+02:01:44.119 select the 12th for SEO checklist we'll
+02:01:46.880 select the 13th and for mobile
+02:01:48.840 responsiveness we'll select the 14th I'm
+02:01:51.400 going to include an end date for all of
+02:01:55.920 these now let's select these and drag
+02:01:58.400 them outside of launch website for a
+02:02:00.440 moment just so we can illustrate this a
+02:02:02.199 little bit clearer and that will also
+02:02:04.320 unassign them as
+02:02:06.760 subtasks I'm going to click back to our
+02:02:09.239 timeline view and here you'll see spell
+02:02:12.119 check mobile responsiveness and SEO
+02:02:14.520 checklist I'm on the month view right
+02:02:16.560 now but if I wanted to I could zoom in
+02:02:18.159 to by weekly or the week view and now if
+02:02:22.480 I drag say SEO checklist ahead of mobile
+02:02:25.239 responsiveness as you can see mobile
+02:02:27.320 responsiveness snaps away from
+02:02:29.920 it if I drag spell check SEO checklist
+02:02:33.560 does the same and if I drag spell check
+02:02:35.760 it drags everything because everything
+02:02:38.000 else is blocked by first setting up the
+02:02:40.119 spell check mobile responsiveness can't
+02:02:42.079 be dragged behind these and SEO
+02:02:43.760 checklist can't be dragged behind the
+02:02:45.360 spell check so this is a great way of
+02:02:46.960 adding order to your database and making
+02:02:49.000 sure that no crucial steps are missed
+02:02:51.199 we've touched on relations we've touched
+02:02:52.960 on rollups we've talked about pretty
+02:02:54.679 much every other property within notion
+02:02:57.400 the only one we're missing is formulas
+02:02:59.639 let's talk about how you can use notion
+02:03:01.560 formulas if you want to get the most out
+02:03:03.480 of formulas I recommend checking out the
+02:03:05.520 formula syntax on Notions website this
+02:03:08.280 includes how to reference all of the
+02:03:10.560 properties the built-ins and the
+02:03:13.440 functions I am not going to be touching
+02:03:15.560 on every single property built-in and
+02:03:17.840 function in this video but I am going to
+02:03:19.679 share some of my favorite ways to use
+02:03:21.360 formula was and we're going to touch on
+02:03:23.280 each of these different topics and if
+02:03:25.119 you want to take this a step further I
+02:03:26.599 recommend getting my notion all access
+02:03:28.440 pass where I teach how I create
+02:03:30.079 processing formulas and State Management
+02:03:32.199 formulas this is great for things like
+02:03:34.480 task lists and it allows me to create my
+02:03:36.520 processing inbox within my productive
+02:03:38.400 templates in order to illustrate how
+02:03:40.400 formulas work I'm going to create a new
+02:03:42.480 page within my databases once I'm here
+02:03:45.079 I'm going to click on table and then I'm
+02:03:47.079 going to call it formulas let's just put
+02:03:49.440 a b and c in side of the name column and
+02:03:53.559 where it says Tags I'm going to hit edit
+02:03:55.320 property and we're going to change this
+02:03:57.320 to a number and I'll rename it to number
+02:04:01.400 now the first way that you can use
+02:04:02.960 notion formulas is for basic math
+02:04:05.320 operations now let's just input some
+02:04:07.440 random numbers here and then let's
+02:04:09.199 create another number property this one
+02:04:11.639 we'll call multiplier just enter some
+02:04:14.239 numbers there and the first Formula that
+02:04:16.679 we're going to illustrate is just a
+02:04:18.199 basic math operation so if I hit plus
+02:04:20.679 right here and I type type in Formula I
+02:04:23.040 can then add a formula to my database
+02:04:25.480 here I'm just going to type number time
+02:04:28.599 multiplier and this is how I like naming
+02:04:30.840 my formulas now it's important to note
+02:04:32.400 that formulas in notion are not the same
+02:04:34.559 as formulas in Excel or Google Sheets
+02:04:37.400 you can't reference any cell with this
+02:04:39.920 formula so for instance I can't access
+02:04:42.000 the multiplier on a and pair it with the
+02:04:44.280 number on C but anything within the same
+02:04:47.199 row is accessible so I can access the
+02:04:49.599 number here and the multiplier here and
+02:04:52.239 whatever I type in for the formula it's
+02:04:54.000 going to apply to that row and it's
+02:04:56.079 going to apply to each of these rows
+02:04:58.040 individually so if I wanted to times the
+02:05:00.119 number by the multiplier I would get 50
+02:05:02.320 here 600 here and 7,000 here let me show
+02:05:05.639 you how that works let's click into the
+02:05:07.679 formula and then let's type in number
+02:05:10.239 now you don't want to get this confused
+02:05:11.880 with the function to number what I want
+02:05:14.159 here is the number property so I'm going
+02:05:16.280 to click on the number property and
+02:05:18.199 you'll see that it Grays it out like
+02:05:19.960 that another way that we can get the
+02:05:21.360 number property is by typing in prop and
+02:05:24.159 then putting parentheses open and then
+02:05:26.599 we can add a quote Mark and type out
+02:05:29.000 number make sure it's Capital let's end
+02:05:31.280 it off with another quote and hit the
+02:05:34.199 closing now it's just going to format it
+02:05:36.719 as a property like so but the easier way
+02:05:39.719 as I said is just to start typing it and
+02:05:41.440 then you'll see the property pop up
+02:05:43.119 click on it now from here if I want to
+02:05:44.719 multiply the multiplier with the number
+02:05:46.800 I can just hit the asct to symbolize
+02:05:49.599 multiplication and we can click on the
+02:05:51.920 multiplier property now as you can see
+02:05:53.920 it shows us a little preview and if I
+02:05:55.639 hit done it's going to give us the
+02:05:58.119 answer all the way through and it's
+02:05:59.639 going to apply that formula to each of
+02:06:01.760 these rows when I want to edit my
+02:06:04.040 formula I can just click right back into
+02:06:05.960 here and if say I wanted to add these I
+02:06:08.679 could add them I could subtract them or
+02:06:12.079 I could even divide them let's switch
+02:06:14.119 back to multiplication and hit done now
+02:06:16.920 let's go ahead and add a status column
+02:06:19.280 and this will serve as a way to track
+02:06:21.320 our next Formula so for this one I'm
+02:06:23.719 just going to add an in progress and a
+02:06:25.840 done so we have a not started an in
+02:06:28.079 progress and done and next we're going
+02:06:30.400 to be looking at the IF function now the
+02:06:33.079 IF function checks if something is true
+02:06:35.599 and if it is true then it spits out a
+02:06:37.599 certain response and if it's not true
+02:06:39.920 then it spits out another response you
+02:06:42.079 can also chain if functions together
+02:06:44.920 with nested if functions so let's say I
+02:06:47.480 wanted to create a motivational message
+02:06:49.679 based on my status this is a great
+02:06:51.880 example for how to use if statements so
+02:06:54.000 if I hit plus right here and I type in
+02:06:55.800 formula and then I hit enter I can call
+02:06:58.280 this motivation and then I can click
+02:07:00.400 into motivation here and I can type in
+02:07:02.760 if and I have an open and a close
+02:07:04.880 parentheses and within that I'm going to
+02:07:06.960 type in status to reference this status
+02:07:10.559 property so we're looking at if this
+02:07:12.440 status and by the way if you click into
+02:07:14.880 the inside of this parentheses it will
+02:07:16.520 show you the syntax for this so it's
+02:07:18.920 super useful if you forget the syntax so
+02:07:21.480 so we can type if the status and this is
+02:07:24.559 if it's true this is if it's false so
+02:07:27.079 we're still focusing on the condition
+02:07:28.840 here so if the status is equal you have
+02:07:32.320 to do two equal signs to symbolize if
+02:07:34.639 it's equal and then we'll add some
+02:07:36.400 quotes and I'll type in not
+02:07:40.159 started the same way that it's written
+02:07:42.320 here in the status and I'll close that
+02:07:44.880 off so we're checking if the status is
+02:07:48.000 equal to not started and then I'm going
+02:07:50.520 to enter what we want the formula to say
+02:07:52.760 for the motivation if this is true so
+02:07:54.800 let's add another quote and I'm just
+02:07:56.360 going to type in get started comma you
+02:08:00.559 can do it then we'll put an exclamation
+02:08:02.800 point and we'll close this off with
+02:08:04.840 another quote now that's fantastic it's
+02:08:06.880 going to tell us get started you can do
+02:08:08.880 it but the problem is what if the status
+02:08:11.440 is not not started what if it's
+02:08:13.520 something else well that's where you
+02:08:15.480 have to add the if false so we have to
+02:08:18.079 add another comma and then we have to
+02:08:19.719 add what we want it to say if this is
+02:08:21.559 false so if this is false we just want
+02:08:23.520 it to be blank for now or we could add
+02:08:26.199 in an X or something like that so now
+02:08:28.520 I'm going to hit done and as you can see
+02:08:30.559 for the status that says not started it
+02:08:33.400 says get started you can do it and here
+02:08:36.040 if I change the status to not started it
+02:08:38.440 will do that for all of these
+02:08:40.159 motivations now what if we wanted to add
+02:08:42.320 a message here for in progress and done
+02:08:44.800 so that it's
+02:08:45.800 personalized to do that you can create a
+02:08:48.159 nested IF function to create a nested IF
+02:08:51.199 function function you're just going to
+02:08:52.440 get rid of the if false here and then
+02:08:54.679 you're just going to Simply type in the
+02:08:56.520 next IF function so now I'm just going
+02:08:58.920 to enter if and we're going to go on to
+02:09:02.199 add the status equals in progress so if
+02:09:05.360 the
+02:09:07.360 status
+02:09:10.119 equals in
+02:09:12.480 progress then say you're doing great
+02:09:17.079 keep it up and then if that's false then
+02:09:20.000 we just want to add in a check mark and
+02:09:23.000 it's asking for a closing parentheses
+02:09:25.159 because we need another closing
+02:09:26.440 parentheses now for our second if
+02:09:28.440 statement so now I'm going to hit done
+02:09:30.360 and as you can see it's now saying
+02:09:32.280 you're doing great keep it up when it's
+02:09:33.880 in progress and when it's not started
+02:09:35.520 it's saying get started you can do it
+02:09:37.480 let's go ahead and add an exclamation
+02:09:39.360 point to this other quote here and hit
+02:09:42.040 done there we go that matches a little
+02:09:43.679 bit better but let's go ahead and add in
+02:09:45.480 an if statement for done so we'll get
+02:09:48.040 rid of the check mark and we're going to
+02:09:49.400 start typing if and then I'm going to
+02:09:52.040 add my parentheses and we'll go inside
+02:09:55.239 of those parentheses and then we're
+02:09:56.639 going to type status once again hit
+02:10:00.520 enter and then double equals then we'll
+02:10:03.079 do some quotes done comma great job then
+02:10:07.199 we'll add some quotes around that great
+02:10:08.880 job now we're almost done let's just add
+02:10:11.000 a comma and some empty quote marks and
+02:10:14.159 then hit done now we have a custom
+02:10:16.480 motivational message for each of these
+02:10:18.320 statuses
+02:10:24.520 now let's head back over to our formulas
+02:10:26.559 database and let's take a look at the
+02:10:28.119 let function so the let function allows
+02:10:30.280 you to assign a value to a variable and
+02:10:32.840 then you can reuse that variable
+02:10:34.520 anywhere within your expression in the
+02:10:36.679 formula so let's go ahead and hit the
+02:10:38.760 plus button type in Formula once again
+02:10:42.040 hit enter and here I'm just going to
+02:10:43.840 type in let you don't have to do this
+02:10:46.199 I'm just doing it for the sake of
+02:10:47.599 example here and I'm going to click and
+02:10:50.199 now if we type in let then we put some
+02:10:52.920 parentheses now we can type our let
+02:10:55.199 formula and if I click into here you'll
+02:10:57.079 see the syntax so we have variable value
+02:10:59.880 expression so for the variable we can
+02:11:02.239 enter any word or letter that we want to
+02:11:04.800 here so I'm just going to say x so then
+02:11:07.400 we have to say what x is equal to so X
+02:11:10.040 is equal to comma then you enter your
+02:11:13.199 value so I can enter a property here if
+02:11:15.960 I want to so I X could equal the number
+02:11:19.159 property if I wanted it to and then say
+02:11:21.719 I could add a comma and then you could
+02:11:23.599 add the expression here so the
+02:11:25.559 expression would just be X let's say so
+02:11:28.239 this is the simplest version of a lat
+02:11:29.880 function I have the variable here I'm
+02:11:32.000 saying what the variable is number and
+02:11:34.960 then I'm asking it to just simply print
+02:11:36.599 that variable now I can do a math
+02:11:38.559 equation here for this expression or
+02:11:40.079 something like that if I want to by just
+02:11:42.079 typing in say plus and then I can even
+02:11:44.679 add it to number X multiplier if I
+02:11:47.320 wanted to so we have our expression our
+02:11:49.559 value and our variable but but let's say
+02:11:51.679 we wanted to have multiple variables
+02:11:53.760 that we've assigned in order to do that
+02:11:55.599 you can use the lets with an S function
+02:11:58.520 and this allows you to just add as many
+02:12:00.400 variables and values as you want and
+02:12:02.360 then you can add the expression at the
+02:12:03.880 end so let's just go ahead and add in
+02:12:06.480 the variables for number and multiplier
+02:12:09.159 so we'll call the number X and I'll add
+02:12:12.000 the value for x which will be number and
+02:12:15.040 we'll make another comma and then type Y
+02:12:17.679 and this one add another comma will be
+02:12:19.960 multiplier and then at any point we can
+02:12:22.119 just add a comma Now that we've added
+02:12:24.000 multiple variables and values and I can
+02:12:26.639 just type in X + Y and now as you can
+02:12:30.360 see it's going to give me this number
+02:12:32.320 plus this number next I'm going to show
+02:12:34.599 you how you can style your formulas and
+02:12:36.559 make them look amazing let's head back
+02:12:39.119 into our motivation formula and let's
+02:12:41.400 make each of these messages a different
+02:12:43.239 color just to do this actually let's
+02:12:45.159 change the status back to each of the
+02:12:48.239 different options here and let's say we
+02:12:50.400 want this message to be red and bold for
+02:12:52.639 not started for in progress we can make
+02:12:54.880 it blue and then for great job we can
+02:12:56.920 make it green and bold so to do that you
+02:12:59.040 could click into your motivation formula
+02:13:01.159 and then we can add a style function so
+02:13:03.360 the style function can be wrapped around
+02:13:05.119 any of this text here so where it says
+02:13:06.800 get started you can do it that's the
+02:13:09.000 motivation for not started let's go
+02:13:11.199 ahead and add the style function in here
+02:13:13.800 so I'm just going to put some
+02:13:14.760 parentheses around this message at
+02:13:16.639 present it doesn't look like we've done
+02:13:18.280 anything here but you have to actually
+02:13:20.199 add a comma after this message if you
+02:13:22.800 want to add The Styling so for this I'm
+02:13:25.440 just going to add a comma and it shows
+02:13:28.119 you all of the different formatting that
+02:13:29.639 you can add here you can format it as
+02:13:31.960 code by typing in C and it'll actually
+02:13:34.400 give it a pretty cool look if I type it
+02:13:36.280 in as code so I'm actually going to do
+02:13:38.440 that I'm just going to type quote C
+02:13:40.599 quote and now as you can see it says get
+02:13:42.719 started you can do it and it's red now
+02:13:44.920 let's add another comma and put some
+02:13:46.679 quotes around a b that will make it code
+02:13:49.719 and bold now let's add a style to impr
+02:13:52.079 progress just by adding the style
+02:13:55.239 surrounding it with parentheses and then
+02:13:57.719 at the end adding our comma and here I'm
+02:14:00.239 just going to type in the C once again
+02:14:02.800 let's make this bold as well we're going
+02:14:05.000 to add a b and then I'm going to add
+02:14:07.440 another comma and I'm just going to type
+02:14:09.280 in blue and what that's going to do is
+02:14:10.840 it's going to change the in progress
+02:14:12.360 message to Blue finally let's add some
+02:14:14.360 styling for great job let's go ahead and
+02:14:16.639 type style in front of great job and
+02:14:19.760 we'll surround it in parenthesis and
+02:14:23.079 then I'll add a comma right after great
+02:14:25.000 job and we'll start adding The Styling
+02:14:27.599 so we'll add a c We'll add a b and we
+02:14:30.840 will add a green now if I hit done as
+02:14:34.119 you can see it styled these up and made
+02:14:35.880 them look so much nicer now if you get
+02:14:37.920 creative with your formulas I know you
+02:14:39.599 guys can do some amazing things but if
+02:14:41.800 you want a shortcut to being more
+02:14:43.400 productive with notion I recommend once
+02:14:45.440 again that you join my all access pass
+02:14:48.199 this is going to give you access to all
+02:14:49.880 of my premium notion templates so that
+02:14:51.880 you can dig in and you can see all of
+02:14:53.679 the properties that I added and how I
+02:14:55.840 built them you can also Implement them
+02:14:57.880 in your daily life and work and if
+02:15:00.119 you're a more Hands-On learner the all
+02:15:01.719 access pass is going to be great for you
+02:15:03.520 because it also gives you access to
+02:15:05.079 notion for productivity which is a
+02:15:06.760 course teaching you how to use notion
+02:15:08.800 and implement it for productivity as the
+02:15:11.040 sole purpose notion for productivity
+02:15:13.119 allows you to turn notion from a geeky
+02:15:15.280 Hobby and not that there's anything
+02:15:17.040 wrong with that I love creating notion
+02:15:18.920 databases but it allows you to turn it
+02:15:20.440 from a geek hobby into an actual
+02:15:23.000 productivity system for your life and
+02:15:24.760 business I hope you enjoyed this
+02:15:26.320 tutorial if you want to see more from me
+02:15:28.000 I look forward to seeing you inside of
+02:15:29.480 our community thank you so much for
+02:15:31.000 watching and congratulations on making
+02:15:33.119 it to the end of the 2024 notion
+02:15:36.040 tutorial and if you want to watch more
+02:15:38.079 free notion videos from me then click
+02:15:39.880 this playlist right here inside of this
+02:15:42.119 playlist I've included hundreds of
+02:15:43.880 notion videos that you can binge through
+02:15:45.800 and make sure that you know everything
+02:15:47.239 that you need to know about building
+02:15:48.880 databases and working inside of notion
+02:15:51.239 and if you want to stay updated with all
+02:15:52.599 of the content that I create here you
+02:15:54.040 can hit the Subscribe button just don't
+02:15:56.000 forget to hit the Bell so that you
+02:15:57.360 actually get notified when I come out
+02:15:58.800 with something
