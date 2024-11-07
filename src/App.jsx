@@ -77,23 +77,23 @@ const App = () => {
 
   const handleFunctionCall = (name, parameters) => {
     console.log('Handling function call:', name, parameters);
-    if (name === 'changeImage') {
-      // Construct the image path
-      const imagePath = `/images/${parameters.imageName}`;
+    // if (name === 'changeImage') {
+    //   // Construct the image path
+    //   const imagePath = `/images/${parameters.imageName}`;
       
-      // Optional: Check if image exists before setting
-      fetch(imagePath)
-        .then(response => {
-          if (response.ok) {
-            setBackgroundImage(imagePath);
-          } else {
-            console.error('Image not found:', imagePath);
-          }
-        })
-        .catch(error => {
-          console.error('Error loading image:', error);
-        });
-    }
+    //   // Optional: Check if image exists before setting
+    //   fetch(imagePath)
+    //     .then(response => {
+    //       if (response.ok) {
+    //         setBackgroundImage(imagePath);
+    //       } else {
+    //         console.error('Image not found:', imagePath);
+    //       }
+    //     })
+    //     .catch(error => {
+    //       console.error('Error loading image:', error);
+    //     });
+    // }
     setFunctionCallInfo({ name, parameters });
   };
 
