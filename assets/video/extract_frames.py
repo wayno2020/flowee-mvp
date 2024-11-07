@@ -25,7 +25,7 @@ while current_time <= video_duration:
     # Extract frame using ffmpeg
     os.system(f'ffmpeg -ss {timestamp} -i notion_video.mp4 -vframes 1 -q:v 2 {output_file}')
     
-    # Increment by 60 seconds
-    current_time += 60
+    # Increment by 10 seconds
+    current_time += 10
 
     # To use: python3 extract_frames.py
