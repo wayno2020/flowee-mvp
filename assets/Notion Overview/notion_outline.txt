@@ -1,0 +1,34 @@
+Section 1:
+- Topic: What is notion?
+- Content:
+We like to describe Notion as a set of building blocks for creating things you love to use on your computer, such as:
+Documents
+Databases
+Public websites
+Knowledge bases
+Project management systems
+The world's most beautiful notes... 😉
+Notion is different from other software in a few ways. And once you master these basics, you can pretty much build whatever you want.
+Most importantly, don't worry about not knowing everything you can do right away. We'll discover it together. Click below to dive right in!
+- Image: 1.notion_overview.png
+
+Section 2:
+- Topic: What is a block?
+- Content:
+Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want! Every page you create in Notion will be composed of many "blocks," in the same way a LEGO castle is composed of many LEGO bricks 🧱
+- Image: 2.what_is_a_block.png
+Everything in Notion is a "block"
+When you create your first page in Notion and begin typing, you've started with a text block. But Notion pages can contain a lot more than plain text!
+Imagine every piece of content you add to a page — whether it's text, an image, or a table — as a single building block. Every page is a stack of blocks combined however you want.
+
+Section 3:
+Tpoic: What is a page
+Content:
+Every page you create in Notion is a fresh canvas where you can add whatever content you want. Follow these steps to create your first one.
+There are a few ways to add a new page in Notion.
+Click 📝 at the top of your left sidebar.
+If you’re on the desktop app, use the shortcut cmd/ctrl + N.
+If you’re on mobile, tap 📝 at the bottom of your screen.
+Need some inspiration or structure? On desktop or web, select any of the options at the bottom of the page to get started. You can import from an app or file, use a template, create a table, and more — select an option you like, and your page will be formatted accordingly!
+As you write, highlight any text on your page to bring up a menu of options. You can change the color or style of your text, add a comment or hyperlink, and more.
+- Image: 3.what_is_a_page.png
