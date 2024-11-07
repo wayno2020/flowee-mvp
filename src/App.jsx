@@ -3,6 +3,7 @@ import ActiveCallDetail from "./components/ActiveCallDetail";
 import Button from "./components/base/Button";
 import Vapi from "@vapi-ai/web";
 import { isPublicKeyMissingError } from "./utils";
+import LiveCaption from "./components/LiveCaption";
 
 const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
 
@@ -14,6 +15,7 @@ const App = () => {
   const [backgroundImage, setBackgroundImage] = useState(""); // Initialize as empty
   const { showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } = usePublicKeyInvalid();
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
+  const [currentTranscript, setCurrentTranscript] = useState("");
 
   useEffect(() => {
     // Fetch a random image from Unsplash
@@ -69,6 +71,18 @@ const App = () => {
       }
     });
 
+    vapi.on("transcript", (transcript) => {
+      console.log("Received transcript:", transcript.text);
+      if (transcript.text?.trim()) {
+        setCurrentTranscript(transcript.text);
+      }
+    });
+
+    vapi.on("transcript-end", () => {
+      console.log("Transcript ended");
+      setCurrentTranscript("");
+    });
+
     // Clean up function
     return () => {
       // Remove event listeners here if necessary
@@ -77,23 +91,27 @@ const App = () => {
 
   const handleFunctionCall = (name, parameters) => {
     console.log('Handling function call:', name, parameters);
-    // if (name === 'changeImage') {
-    //   // Construct the image path
-    //   const imagePath = `/images/${parameters.imageName}`;
-      
-    //   // Optional: Check if image exists before setting
-    //   fetch(imagePath)
-    //     .then(response => {
-    //       if (response.ok) {
-    //         setBackgroundImage(imagePath);
-    //       } else {
-    //         console.error('Image not found:', imagePath);
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error('Error loading image:', error);
-    //     });
-    // }
+    if (name === 'changeImage') {
+      // Construct the image path
+      const imagePath = `/images/${parameters.imageName}`;
+      console.log('Attempting to change image to:', imagePath);
+
+      // Optional: Check if image exists before setting
+      fetch(imagePath)
+        .then(response => {
+          console.log('Image fetch response:', response);
+          if (response.ok) {
+            console.log('Image fetch successful, updating background to:', imagePath);
+            setBackgroundImage(imagePath);
+          } else {
+            console.error('Image fetch failed with status:', response.status);
+            console.error('Image not found:', imagePath);
+          }
+        })
+        .catch(error => {
+          console.error('Error loading image:', error);
+        });
+    }
     setFunctionCallInfo({ name, parameters });
   };
 
@@ -118,7 +136,9 @@ const App = () => {
         backgroundColor: backgroundImage ? "transparent" : "#ffffff", // Default to white if no image
         backgroundSize: "cover",
         backgroundPosition: "center",
+        position: "relative",
       }}
+      onLoad={() => console.log('Container rendered with background:', backgroundImage)}
     >
       {!connected ? (
         <Button
@@ -136,8 +156,24 @@ const App = () => {
       )}
 
       {showPublicKeyInvalidMessage ? <PleaseSetYourPublicKeyMessage /> : null}
-      {/* Remove the ReturnToDocsLink component */}
-      {/* <ReturnToDocsLink /> */}
+      {connected && currentTranscript?.trim() && (
+        <LiveCaption 
+          text={currentTranscript} 
+          style={{
+            position: "absolute",
+            bottom: "100px",
+            left: "50%",
+            transform: "translateX(-50%)",
+            zIndex: 1000,
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+            color: "white",
+            padding: "10px 20px",
+            borderRadius: "8px",
+            maxWidth: "80%",
+            textAlign: "center"
+          }}
+        />
+      )}
     </div>
   );
 };
@@ -145,6 +181,8 @@ const App = () => {
 const assistantOptions = {
   name: "Demo assistant",
   firstMessage: "Hey, I'd love to show you how to use Notion. Ready?",
+  serverMessages: ["end-of-call-report", "status-update", "hang", "function-call", "transcript"],
+  clientMessages: ["transcript", "hang", "function-call", "speech-update", "metadata", "conversation-update"],
   transcriber: {
     provider: "deepgram",
     model: "nova-2",
