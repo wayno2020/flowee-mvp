@@ -9,8 +9,12 @@ import FunctionCallInfo from "../../components/FunctionCallInfo";
 import AssistantSpeechIndicator from "../../components/AssistantSpeechIndicator";
 import "./Main.css";
 import logo from "../../assets/images/logo.svg";
+import notionOverview from '../../assets/images/1.notion_overview.png';
+import whatIsBlock from '../../assets/images/2.what_is_a_block.png';
+import whatIsPage from '../../assets/images/3.what_is_a_page.png';
 
-const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
+// const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
+const vapi = new Vapi("da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f");
 
 const presentationContent = [{
   title: "What is notion?",
@@ -44,6 +48,12 @@ const presentationContent = [{
     image_name: "6.notion-formatting.png"
   }
 ]
+
+const imageMap = {
+  '1.notion_overview.png': notionOverview,
+  '2.what_is_a_block.png': whatIsBlock,
+  '3.what_is_a_page.png': whatIsPage
+};
 
 const Main = () => {
   const [connecting, setConnecting] = useState(false);
@@ -137,30 +147,14 @@ const Main = () => {
 
   const changeImage = (imageName) => {
     console.log("Change Image function handling:", imageName);
-      // Construct the image path
-      // const imagePath = `/images/${imageName}`;
-    const imagePath = `url(../../assets/images/${imageName})`;
-      console.log("Attempting to change image to:", imagePath);
-
-      // Optional: Check if image exists before setting
-      fetch(imagePath)
-        .then((response) => {
-          console.log("Image fetch response:", response);
-          if (response.ok) {
-            console.log(
-              "Image fetch successful, updating background to:",
-              imagePath
-            );
-            setBackgroundImage(imagePath);
-          } else {
-            console.error("Image fetch failed with status:", response.status);
-            console.error("Image not found:", imagePath);
-          }
-        })
-        .catch((error) => {
-          console.error("Error loading image:", error);
-        });
-    // setFunctionCallInfo({ parameters });
+    
+    const imageUrl = imageMap[imageName];
+    if (imageUrl) {
+      console.log("Setting background image to:", imageUrl);
+      setBackgroundImage(`url(${imageUrl})`);
+    } else {
+      console.error("Image not found:", imageName);
+    }
   };
 
   // call start handler

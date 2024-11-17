@@ -188,5 +188,5 @@ slideNav.hidden + .slideContent {
   width: 85%;
   display: flex;
   justify-content: center;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
