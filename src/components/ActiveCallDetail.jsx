@@ -1,32 +1,40 @@
-import AssistantSpeechIndicator from "./call/AssistantSpeechIndicator";
-import Button from "./base/Button";
-import VolumeLevel from "./call/VolumeLevel";
-import FunctionCallInfo from "./FunctionCallInfo";
+import AssistantSpeechIndicator from "./AssistantSpeechIndicator";
+import Button from "./Button";
+import VolumeLevel from "./VolumeLevel";
 
-const ActiveCallDetail = ({ assistantIsSpeaking, volumeLevel, onEndCallClick, functionCallInfo }) => {
+const ActiveCallDetail = ({ assistantIsSpeaking, volumeLevel, onEndCallClick }) => {
   return (
-    <div>
+    <div
+      style={{
+        position: 'fixed',
+        bottom: '2rem',
+        right: '2rem',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '0.5rem',
+        zIndex: 1000,
+      }}
+    >
       <div
         style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          padding: "15px",
-          border: "1px solid #ddd",
-          borderRadius: "8px",
-          boxShadow: "0px 4px 8px rgba(0,0,0,0.1)",
-          width: "400px",
-          height: "200px",
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '60px',
+          height: '60px',
+          borderRadius: '50%',
+          backgroundColor: 'white',
+          boxShadow: '0px 4px 12px rgba(0,0,0,0.15)',
+          cursor: 'pointer',
         }}
+        onClick={onEndCallClick}
       >
-        <AssistantSpeechIndicator isSpeaking={assistantIsSpeaking} />
-        <VolumeLevel volume={volumeLevel} />
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 18L18 6M6 6L18 18" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+        {/* <VolumeLevel volume={volumeLevel} /> */}
       </div>
-      <div style={{ marginTop: "20px", textAlign: "center" }}>
-        <Button label="End Call" onClick={onEndCallClick} />
-      </div>
-      <FunctionCallInfo info={functionCallInfo} />
     </div>
   );
 };
