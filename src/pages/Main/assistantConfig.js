@@ -1,5 +1,5 @@
 import { promptExperiments } from "./prompt_experiments";
-const promptToUse = promptExperiments[0].prompt;
+const promptToUse = promptExperiments[0];
 console.log('Using prompt:', promptToUse.id);
 
 export const assistantOptions = {
@@ -36,7 +36,7 @@ export const assistantOptions = {
     messages: [
       {
         role: "system",
-        content: promptToUse,
+        content: promptToUse.prompt,
       },
       {
         role: "assistant",

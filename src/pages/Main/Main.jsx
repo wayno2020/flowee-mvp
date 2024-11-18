@@ -9,50 +9,57 @@ import FunctionCallInfo from "../../components/FunctionCallInfo";
 import AssistantSpeechIndicator from "../../components/AssistantSpeechIndicator";
 import "./Main.css";
 import logo from "../../assets/images/logo.svg";
-import notionOverview from '../../assets/images/1.notion_overview.png';
-import whatIsBlock from '../../assets/images/2.what_is_a_block.png';
-import whatIsPage from '../../assets/images/3.what_is_a_page.png';
 
-// const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
-const vapi = new Vapi("da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f");
+// const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942"); // Dustin's account
+const vapi = new Vapi("da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f"); // Wayne's account
 
-const presentationContent = [{
-  title: "What is notion?",
-  question: "What is notion?",
-  description: "A high level overview",
-  image_name: "1.notion-overview.png"
-}, {
-  title: "What is a block?",
-  question: "What is a block?",
-  description: "An introduction to blocks",
-  image_name: "2.what_is_a_block.png"
-  }, {
+const presentationContent = [
+  {
+    title: "What is notion?",
+    question: "What is notion?",
+    description: "A high level overview",
+    image_name: "1.notion-overview.png",
+  },
+  {
+    title: "What is a block?",
+    question: "What is a block?",
+    description: "An introduction to blocks",
+    image_name: "2.what_is_a_block.png",
+  },
+  {
     title: "What is a page?",
     question: "What is a page?",
     description: "An introduction to pages",
-    image_name: "3.what_is_a_page.png"
-  }, {
+    image_name: "3.what_is_a_page.png",
+  },
+  {
     title: "Using pages",
     question: "What can I do with pages?",
     description: "What you can do with pages",
-    image_name: "4.notion-using-pages.png"
-  }, {
+    image_name: "4.notion-using-pages.png",
+  },
+  {
     title: "Tables",
     question: "What are tables?",
     description: "Tables are a powerful way to display data",
-    image_name: "5.notion-tables.png"
-  }, {
+    image_name: "5.notion-tables.png",
+  },
+  {
     title: "Formatting",
     question: "What are the formatting options?",
     description: "Notion formatting options",
-    image_name: "6.notion-formatting.png"
-  }
-]
+    image_name: "6.notion-formatting.png",
+  },
+];
 
-const imageMap = {
-  '1.notion_overview.png': notionOverview,
-  '2.what_is_a_block.png': whatIsBlock,
-  '3.what_is_a_page.png': whatIsPage
+const getImagePath = (imageName) => {
+  try {
+    // Using CRA's way of importing assets
+    return require(`../../assets/images/${imageName}`);
+  } catch (error) {
+    console.error(`Failed to load image: ${imageName}`, error);
+    return null;
+  }
 };
 
 const Main = () => {
@@ -105,13 +112,20 @@ const Main = () => {
       setVolumeLevel(level);
     });
     vapi.on("message", (message) => {
-      console.log("Message: ", message.type);
-      if (message.type === "function-call" && message.functionCall) {
+      if (message.type === "function-call") {
         console.log("Message / Received function call:", message.functionCall);
+      }
+      if (message.type === "function-call" && message.functionCall) {
         const { name, parameters } = message.functionCall;
         if (name === "changeImage") {
           changeImage(parameters.imageName || parameters.image_name);
         }
+      }
+    });
+    vapi.on("function-call", (functionCall) => {
+      console.log("Function call / Function call: ", functionCall);
+      if (functionCall.name === "changeImage") {
+        changeImage(functionCall.parameters.image_name);
       }
     });
     vapi.on("error", (error) => {
@@ -122,20 +136,12 @@ const Main = () => {
       }
     });
     vapi.on("transcript", (transcript) => {
-      // console.log("Received transcript:", transcript.text);
       if (transcript.text?.trim()) {
         setCurrentTranscript(transcript.text);
       }
     });
     vapi.on("transcript-end", () => {
-      // console.log("Transcript ended");
       setCurrentTranscript("");
-    });
-    vapi.on("function-call", (functionCall) => {
-      console.log("Function call / Function call: ", functionCall);
-      if (functionCall.name === "changeImage") {
-        changeImage(functionCall.parameters.image_name);
-      }
     });
     // #endregion
 
@@ -147,8 +153,7 @@ const Main = () => {
 
   const changeImage = (imageName) => {
     console.log("Change Image function handling:", imageName);
-    
-    const imageUrl = imageMap[imageName];
+    const imageUrl = getImagePath(imageName);
     if (imageUrl) {
       console.log("Setting background image to:", imageUrl);
       setBackgroundImage(`url(${imageUrl})`);
@@ -175,13 +180,15 @@ const Main = () => {
       type: "add-message",
       message: {
         role: "user",
-        content: `I have a question - ${presentationContent[index].title}. Please navigate to section ${index + 1} and show me the image.`
-      }
+        content: `I have a question - ${
+          presentationContent[index].title
+        }. Please navigate to section ${index + 1} and show me the image.`,
+      },
     });
   };
 
   return (
-    <div class="outerContainer">
+    <div className="outerContainer">
       {/* Add SVG definition */}
       <svg style={{ position: "absolute", width: 0, height: 0 }}>
         <defs>
@@ -198,43 +205,43 @@ const Main = () => {
         <div className="slideNavContainer">
           <div className="slideNavWrapper">
             <div className="slideNav">
-              <div 
-                className={`navItem ${activeNavItem === 0 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 0 ? "active" : ""}`}
                 onClick={() => handleNavClick(0)}
               >
                 <h2>What is notion?</h2>
                 <p>A high level overview</p>
               </div>
-              <div 
-                className={`navItem ${activeNavItem === 1 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 1 ? "active" : ""}`}
                 onClick={() => handleNavClick(1)}
               >
                 <h2>What is a block?</h2>
                 <p>An introduction to blocks</p>
               </div>
-              <div 
-                className={`navItem ${activeNavItem === 2 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 2 ? "active" : ""}`}
                 onClick={() => handleNavClick(2)}
               >
                 <h2>What is a page?</h2>
                 <p>An introduction to pages</p>
               </div>
-              <div 
-                className={`navItem ${activeNavItem === 3 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 3 ? "active" : ""}`}
                 onClick={() => handleNavClick(3)}
               >
                 <h2>Using pages</h2>
                 <p>What you can do with pages</p>
               </div>
-              <div 
-                className={`navItem ${activeNavItem === 4 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 4 ? "active" : ""}`}
                 onClick={() => handleNavClick(4)}
               >
                 <h2>Tables</h2>
                 <p>Tables are a powerful way to display data</p>
               </div>
-              <div 
-                className={`navItem ${activeNavItem === 5 ? 'active' : ''}`}
+              <div
+                className={`navItem ${activeNavItem === 5 ? "active" : ""}`}
                 onClick={() => handleNavClick(5)}
               >
                 <h2>Formatting</h2>
@@ -244,11 +251,11 @@ const Main = () => {
 
             <div className="bottomNav">
               <div className="bottomNavContent">
-                <div 
+                <div
                   className="brandContainer"
-                  style={{ 
+                  style={{
                     opacity: Math.max(0.6, volumeLevel),
-                    transition: 'all 0.05s ease'
+                    transition: "all 0.05s ease",
                   }}
                 >
                   <img src={logo} alt="Logo" style={{ width: "100%" }} />
@@ -260,30 +267,31 @@ const Main = () => {
       </div>
 
       <div className="slideContentContainer">
-        <div class="slideContent"
+        <div
+          className="slideContent"
           style={{
             backgroundImage: backgroundImage,
           }}
         >
-            <div class="callButtonContainer">
-              {!connected ? (
-                <Button
-                  label="Start Demo!"
-                  onClick={startCallInline}
-                  isLoading={connecting}
-                />
-              ) : (
-                <ActiveCallDetail
-                  assistantIsSpeaking={assistantIsSpeaking}
-                  volumeLevel={volumeLevel}
-                  onEndCallClick={endCall}
-                />
-              )}
-            </div>
-            <div class="functionCallInfo" id="function-call-container">
-              <FunctionCallInfo id="function-call-info" info={functionCallInfo} />
-            </div>
+          <div className="callButtonContainer">
+            {!connected ? (
+              <Button
+                label="Start Demo!"
+                onClick={startCallInline}
+                isLoading={connecting}
+              />
+            ) : (
+              <ActiveCallDetail
+                assistantIsSpeaking={assistantIsSpeaking}
+                volumeLevel={volumeLevel}
+                onEndCallClick={endCall}
+              />
+            )}
           </div>
+          <div className="functionCallInfo" id="function-call-container">
+            <FunctionCallInfo id="function-call-info" info={functionCallInfo} />
+          </div>
+        </div>
       </div>
     </div>
   );
