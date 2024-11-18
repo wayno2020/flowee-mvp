@@ -2,16 +2,23 @@ import React, { useEffect, useState } from "react";
 import { assistantOptions } from "./assistantConfig";
 import ActiveCallDetail from "../../components/ActiveCallDetail";
 import Button from "../../components/Button";
-import Vapi from "@vapi-ai/web";
 import { isPublicKeyMissingError } from "../../utils/helpers";
 import LiveCaption from "../../components/LiveCaption";
 import FunctionCallInfo from "../../components/FunctionCallInfo";
 import AssistantSpeechIndicator from "../../components/AssistantSpeechIndicator";
 import "./Main.css";
+import { createProvider } from "../../providers/providerFactory";
 import logo from "../../assets/images/logo.svg";
 
-// const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942"); // Dustin's account
-const vapi = new Vapi("da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f"); // Wayne's account
+// Vapi provider
+const provider = createProvider('vapi', {
+  apiKey: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f" // Dustin: "848dc521-b0c2-4390-9abf-9ecdec635942", Wayne: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f"
+});
+
+// Flow provider
+// const provider = createProvider('flow', {
+//   apiKey: "qIbwyvSJlSczQqQn8cI5xk9mMiXp77yg"
+// });
 
 const presentationContent = [
   {
@@ -75,81 +82,77 @@ const Main = () => {
   const [activeNavItem, setActiveNavItem] = useState(0);
 
   useEffect(() => {
-    // Fetch a random image from Unsplash
-    const fetchRandomImage = async () => {
-      try {
-        const response = await fetch(
-          "https://images.unsplash.com/photo-1728755833852-2c138c84cfb1?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        );
-      } catch (error) {
-        console.error("Error fetching background image:", error);
-      }
-    };
-    fetchRandomImage();
-
-    // #region Vapi events
-    vapi.on("call-start", () => {
+    // Replace all vapi.on events with provider.on
+    provider.on("call-start", () => {
       console.log("Call started");
       setConnecting(false);
       setConnected(true);
       setShowPublicKeyInvalidMessage(false);
     });
-    vapi.on("call-end", () => {
+
+    provider.on("call-end", () => {
       console.log("Call ended");
       setConnecting(false);
       setConnected(false);
       setShowPublicKeyInvalidMessage(false);
     });
-    vapi.on("speech-start", () => {
+
+    provider.on("speech-start", () => {
       console.log("Speech started");
       setAssistantIsSpeaking(true);
     });
-    vapi.on("speech-end", () => {
+
+    provider.on("speech-end", () => {
       console.log("Speech stopped");
       setAssistantIsSpeaking(false);
     });
-    vapi.on("volume-level", (level) => {
+
+    provider.on("volume-level", (level) => {
       setVolumeLevel(level);
     });
-    vapi.on("message", (message) => {
+
+    provider.on("message", (message) => {
       if (message.type === "function-call") {
         console.log("Message / Received function call:", message.functionCall);
-      }
-      if (message.type === "function-call" && message.functionCall) {
-        const { name, parameters } = message.functionCall;
-        if (name === "changeImage") {
-          changeImage(parameters.imageName || parameters.image_name);
+        if (message.functionCall) {
+          const { name, parameters } = message.functionCall;
+          if (name === "changeImage") {
+            changeImage(parameters.imageName || parameters.image_name);
+          }
         }
       }
     });
-    vapi.on("function-call", (functionCall) => {
+
+    provider.on("function-call", (functionCall) => {
       console.log("Function call / Function call: ", functionCall);
       if (functionCall.name === "changeImage") {
         changeImage(functionCall.parameters.image_name);
       }
     });
-    vapi.on("error", (error) => {
+
+    provider.on("error", (error) => {
       console.error("Error: ", error);
       setConnecting(false);
       if (isPublicKeyMissingError({ vapiError: error })) {
         setShowPublicKeyInvalidMessage(true);
       }
     });
-    vapi.on("transcript", (transcript) => {
+
+    provider.on("transcript", (transcript) => {
       if (transcript.text?.trim()) {
         setCurrentTranscript(transcript.text);
       }
     });
-    vapi.on("transcript-end", () => {
+
+    provider.on("transcript-end", () => {
       setCurrentTranscript("");
     });
-    // #endregion
 
     // Clean up function
     return () => {
       // Remove event listeners here if necessary
     };
-  }, [setShowPublicKeyInvalidMessage]); // Add setShowPublicKeyInvalidMessage to the dependency array
+  }, [setShowPublicKeyInvalidMessage]);
 
   const changeImage = (imageName) => {
     console.log("Change Image function handling:", imageName);
@@ -165,10 +168,10 @@ const Main = () => {
   // call start handler
   const startCallInline = () => {
     setConnecting(true);
-    vapi.start(assistantOptions);
+    provider.start(assistantOptions);
   };
   const endCall = () => {
-    vapi.stop();
+    provider.stop();
   };
 
   const handleNavClick = (index) => {
@@ -176,7 +179,7 @@ const Main = () => {
     // Optional: Send a message to the assistant about the navigation change
     console.log("Navigating to section:", index + 1);
     console.log(presentationContent[index].title);
-    vapi.send({
+    provider.send({
       type: "add-message",
       message: {
         role: "user",
