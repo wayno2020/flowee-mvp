@@ -6,7 +6,6 @@ export const assistantOptions = {
   name: "Demo assistant",
   firstMessage:
     "Hey I'm Flo. I'd love to show you Notion... Is there anything in particular you'd like to know about or should I dive right in and start with an overview?",
-  responseDelaySeconds: 0.6,
   clientMessages: [
     "transcript",
     "hang",
@@ -27,8 +26,8 @@ export const assistantOptions = {
     language: "en-US",
   },
   voice: {
-    provider: "playht",
-    voiceId: "melissa",
+    provider: "11labs",
+    voiceId: "9wWG6XK636azXXRTG0Im",
   },
   model: {
     provider: "openai",
@@ -79,5 +78,10 @@ export const assistantOptions = {
         },
       },
     ],
+    // responseDelaySeconds: 0.3,
+    // smartEndpointing: false,
+    // punctuationDelaySeconds: 0.1,
+    // noPunctuationDelaySeconds: 0.5,
+    // numberDelaySeconds: 0.5,
   },
 };

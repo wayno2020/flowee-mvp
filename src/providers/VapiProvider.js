@@ -2,11 +2,20 @@ import Vapi from "@vapi-ai/web";
 
 class VapiProvider {
   constructor(apiKey) {
+    if (!apiKey) {
+      throw new Error('API key is required');
+    }
     this.vapi = new Vapi(apiKey);
   }
 
-  start(options) {
-    this.vapi.start(options);
+  async start(options) {
+    try {
+      // Ensure we have audio permissions first
+      await navigator.mediaDevices.getUserMedia({ audio: true });
+      this.vapi.start(options);
+    } catch (error) {
+      throw new Error('Microphone access is required to start the call');
+    }
   }
 
   stop() {
