@@ -12,14 +12,12 @@ import logo from "../../assets/images/logo.svg";
 
 // Vapi provider
 const provider = createProvider('vapi', {
-  apiKey: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f" // Dustin: "848dc521-b0c2-4390-9abf-9ecdec635942", Wayne: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f"
+  // Dustin: "848dc521-b0c2-4390-9abf-9ecdec635942",
+  // Wayne: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f" // Possibly waynesilbermann@gmail.com
+  apiKey: "848dc521-b0c2-4390-9abf-9ecdec635942"
 });
 
-// Flow provider
-// const provider = createProvider('flow', {
-//   apiKey: "qIbwyvSJlSczQqQn8cI5xk9mMiXp77yg"
-// });
-
+// #region Presentation content
 const presentationContent = [
   {
     title: "What is notion?",
@@ -58,6 +56,7 @@ const presentationContent = [
     image_name: "6.notion-formatting.png",
   },
 ];
+// #endregion
 
 const getImagePath = (imageName) => {
   try {
@@ -80,72 +79,71 @@ const Main = () => {
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
   const [currentTranscript, setCurrentTranscript] = useState("");
   const [activeNavItem, setActiveNavItem] = useState(0);
+  const [lastTranscript, setLastTranscript] = useState("");
 
   useEffect(() => {
-    // Replace all vapi.on events with provider.on
+
     provider.on("call-start", () => {
       console.log("Call started");
       setConnecting(false);
       setConnected(true);
       setShowPublicKeyInvalidMessage(false);
     });
-
+    
     provider.on("call-end", () => {
-      console.log("Call ended");
       setConnecting(false);
       setConnected(false);
       setShowPublicKeyInvalidMessage(false);
     });
 
-    provider.on("speech-start", () => {
-      console.log("Speech started");
-      setAssistantIsSpeaking(true);
-    });
-
-    provider.on("speech-end", () => {
-      console.log("Speech stopped");
-      setAssistantIsSpeaking(false);
-    });
-
-    provider.on("volume-level", (level) => {
-      setVolumeLevel(level);
-    });
-
     provider.on("message", (message) => {
-      if (message.type === "function-call") {
-        console.log("Message / Received function call:", message.functionCall);
-        if (message.functionCall) {
-          const { name, parameters } = message.functionCall;
-          if (name === "changeImage") {
-            changeImage(parameters.imageName || parameters.image_name);
+      // console.log("Received message:", message);
+      
+      switch (message.type) {
+        case "speech-update":
+          console.log("Speech update:", message.status);
+          if (message.status == 'started') {
+            setAssistantIsSpeaking(true);
           }
-        }
+          if (message.status == 'stopped') {
+            setAssistantIsSpeaking(false);
+          }
+          break;
+                
+        case "transcript":
+          setCurrentTranscript(message.transcript);
+          if (message.transcriptType === 'final' && message.transcript !== lastTranscript) {
+            console.log("Transcript:", message.transcript);
+            setLastTranscript(message.transcript);
+          }
+          break;
+                
+        case "volume-level":
+          setVolumeLevel(message.level);
+          break;
+        
+        case "function-call":
+        case "tool-calls":
+          console.log("Function/Tool callSSSS received:", message.functionCall || message.toolCall);
+          if (message.functionCall?.name === "changeImage") {
+            changeImage(message.functionCall.parameters.imageName || message.functionCall.parameters.image_name);
+          }
+          break;
+        case "tool-call":
+          console.log("Function/Tool call received:", message.functionCall || message.toolCall);
+          if (message.functionCall?.name === "changeImage") {
+            changeImage(message.functionCall.parameters.imageName || message.functionCall.parameters.image_name);
+          }
+          break;
+        
+        case "error":
+          console.error("Error: ", message);
+          setConnecting(false);
+          if (isPublicKeyMissingError({ vapiError: message })) {
+            setShowPublicKeyInvalidMessage(true);
+          }
+          break;
       }
-    });
-
-    provider.on("function-call", (functionCall) => {
-      console.log("Function call / Function call: ", functionCall);
-      if (functionCall.name === "changeImage") {
-        changeImage(functionCall.parameters.image_name);
-      }
-    });
-
-    provider.on("error", (error) => {
-      console.error("Error: ", error);
-      setConnecting(false);
-      if (isPublicKeyMissingError({ vapiError: error })) {
-        setShowPublicKeyInvalidMessage(true);
-      }
-    });
-
-    provider.on("transcript", (transcript) => {
-      if (transcript.text?.trim()) {
-        setCurrentTranscript(transcript.text);
-      }
-    });
-
-    provider.on("transcript-end", () => {
-      setCurrentTranscript("");
     });
 
     // Clean up function
@@ -154,6 +152,17 @@ const Main = () => {
     };
   }, [setShowPublicKeyInvalidMessage]);
 
+  // call start handler
+  const startCallInline = () => {
+    setConnecting(true);
+    // provider.start("4d2824b2-b030-451a-a289-819b7f395a5d");
+    provider.start(assistantOptions);
+  };
+  const endCall = () => {
+    provider.stop();
+  };
+
+  // changeImage function
   const changeImage = (imageName) => {
     console.log("Change Image function handling:", imageName);
     const imageUrl = getImagePath(imageName);
@@ -163,15 +172,6 @@ const Main = () => {
     } else {
       console.error("Image not found:", imageName);
     }
-  };
-
-  // call start handler
-  const startCallInline = () => {
-    setConnecting(true);
-    provider.start(assistantOptions);
-  };
-  const endCall = () => {
-    provider.stop();
   };
 
   const handleNavClick = (index) => {
