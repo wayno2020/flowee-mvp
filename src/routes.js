@@ -1,9 +1,13 @@
 import Main from './pages/Main/Main';
-import About from './pages/About/About';
+import Test from './pages/Test/Test';
 const routes = [
   {
     path: '/',
     element: <Main />,
+  },
+  {
+    path: '/test',
+    element: <Test />
   }
 ];
 

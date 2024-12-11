@@ -82,23 +82,15 @@ const Main = () => {
   const [lastTranscript, setLastTranscript] = useState("");
 
   useEffect(() => {
-
     provider.on("call-start", () => {
       console.log("Call started");
       setConnecting(false);
       setConnected(true);
       setShowPublicKeyInvalidMessage(false);
     });
-    
-    provider.on("call-end", () => {
-      setConnecting(false);
-      setConnected(false);
-      setShowPublicKeyInvalidMessage(false);
-    });
 
     provider.on("message", (message) => {
       // console.log("Received message:", message);
-      
       switch (message.type) {
         case "speech-update":
           console.log("Speech update:", message.status);
@@ -111,7 +103,7 @@ const Main = () => {
           break;
                 
         case "transcript":
-          setCurrentTranscript(message.transcript);
+          // setCurrentTranscript(message.transcript);
           if (message.transcriptType === 'final' && message.transcript !== lastTranscript) {
             console.log("Transcript:", message.transcript);
             setLastTranscript(message.transcript);
@@ -122,27 +114,33 @@ const Main = () => {
           setVolumeLevel(message.level);
           break;
         
-        case "function-call":
         case "tool-calls":
-          console.log("Function/Tool callSSSS received:", message.functionCall || message.toolCall);
-          if (message.functionCall?.name === "changeImage") {
-            changeImage(message.functionCall.parameters.imageName || message.functionCall.parameters.image_name);
+          let tools = message.toolCallList;
+          let firstTool = tools[0]; 
+          let functionName = firstTool.function.name;
+          let args = firstTool.function.arguments;
+          let imageName = args.imageName;
+          console.log("functionName:", functionName);
+          console.log("Arguments:", args);
+          console.log("imageName:", imageName);
+          if (functionName === "changeImage") {
+            changeImage(imageName);
           }
           break;
-        case "tool-call":
-          console.log("Function/Tool call received:", message.functionCall || message.toolCall);
-          if (message.functionCall?.name === "changeImage") {
-            changeImage(message.functionCall.parameters.imageName || message.functionCall.parameters.image_name);
-          }
-          break;
-        
-        case "error":
-          console.error("Error: ", message);
-          setConnecting(false);
-          if (isPublicKeyMissingError({ vapiError: message })) {
-            setShowPublicKeyInvalidMessage(true);
-          }
-          break;
+      }
+    });
+
+    provider.on("call-end", () => {
+      setConnecting(false);
+      setConnected(false);
+      setShowPublicKeyInvalidMessage(false);
+    });
+
+    provider.on("error", (message) => {
+      console.error("Error: ", message);
+      setConnecting(false);
+      if (isPublicKeyMissingError({ vapiError: message })) {
+        setShowPublicKeyInvalidMessage(true);
       }
     });
 
