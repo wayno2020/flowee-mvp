@@ -6,7 +6,7 @@ export const assistantOptions = {
   name: "Demo assistant",
 
   firstMessage:
-    "Hey I'm Flo. I'd love to show you Notion... Is there anything in particular you'd like to know about?",
+    "Hey I'm Flo. I'd love to show you Notion... Is there anything you'd like to know about or should I dive into the demo?",
 
   clientMessages: [
     "transcript",
@@ -57,12 +57,7 @@ export const assistantOptions = {
       {
         role: "system",
         content: promptToUse.prompt,
-      },
-      {
-        role: "assistant",
-        content:
-          "Hey I'm Flo, I'd love to show you Notion. What do I call you?",
-      },
+      }
     ],
     // startSpeakingPlan: {
     //   waitSeconds: 0.4,

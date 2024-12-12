@@ -22,8 +22,8 @@ const presentationContent = [
   {
     title: "What is notion?",
     question: "What is notion?",
-    description: "A high level overview",
-    image_name: "1.notion-overview.png",
+    description: "A high level Notion overview",
+    image_name: "1.notion_overview.png",
   },
   {
     title: "What is a block?",
@@ -41,19 +41,19 @@ const presentationContent = [
     title: "Using pages",
     question: "What can I do with pages?",
     description: "What you can do with pages",
-    image_name: "4.notion-using-pages.png",
+    image_name: "4.using_pages.png",
   },
   {
     title: "Tables",
     question: "What are tables?",
     description: "Tables are a powerful way to display data",
-    image_name: "5.notion-tables.png",
+    image_name: "5.using_tables.png",
   },
   {
     title: "Formatting",
     question: "What are the formatting options?",
     description: "Notion formatting options",
-    image_name: "6.notion-formatting.png",
+    image_name: "6.formatting.png",
   },
 ];
 // #endregion
@@ -69,6 +69,7 @@ const getImagePath = (imageName) => {
 };
 
 const Main = () => {
+  const [started, setStarted] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [connected, setConnected] = useState(false);
   const [assistantIsSpeaking, setAssistantIsSpeaking] = useState(false);
@@ -78,8 +79,9 @@ const Main = () => {
     usePublicKeyInvalid();
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
   const [currentTranscript, setCurrentTranscript] = useState("");
-  const [activeNavItem, setActiveNavItem] = useState(0);
+  const [activeNavItem, setActiveNavItem] = useState(null);
   const [lastTranscript, setLastTranscript] = useState("");
+  const [lastTranscriptTimestamp, setLastTranscriptTimestamp] = useState(null);
 
   useEffect(() => {
     provider.on("call-start", () => {
@@ -99,14 +101,48 @@ const Main = () => {
           }
           if (message.status == 'stopped') {
             setAssistantIsSpeaking(false);
+            wait(1000);
+            console.log('Sending message to continue');
+            provider.send({
+              type: "add-message",
+              message: {
+                role: "user",
+                content: "Please continue and show me the image."
+              },
+            });
+            if (started === false && activeNavItem === null) {
+              setActiveNavItem(0);
+              changeImage(presentationContent[0].image_name);
+              setStarted(true);
+            }
           }
           break;
-                
+
         case "transcript":
-          // setCurrentTranscript(message.transcript);
           if (message.transcriptType === 'final' && message.transcript !== lastTranscript) {
             console.log("Transcript:", message.transcript);
             setLastTranscript(message.transcript);
+            
+            // Store the current timestamp
+            let currentTime = Date.now();
+            let timeDifference = 0;
+            // If we have a previous timestamp, calculate and log the time difference
+            if (lastTranscriptTimestamp) {
+              timeDifference = currentTime - lastTranscriptTimestamp;
+              console.log(`Time since last transcript: ${timeDifference}ms`);
+            }
+            // If it's been more than 1 second, send a message to the assistant
+            if (timeDifference > 1000) {
+              provider.send({
+                type: "add-message",
+                message: {
+                  role: "user",
+                  content: "Please continue and show me the image."
+                },
+              });
+            }
+            // Update the timestamp
+            setLastTranscriptTimestamp(currentTime);
           }
           break;
                 
@@ -165,8 +201,12 @@ const Main = () => {
     console.log("Change Image function handling:", imageName);
     const imageUrl = getImagePath(imageName);
     if (imageUrl) {
-      console.log("Setting background image to:", imageUrl);
+      console.log("Setting image to:", imageUrl);
       setBackgroundImage(`url(${imageUrl})`);
+      const index = presentationContent.findIndex(item => item.image_name === imageName);
+      if (index !== -1) {
+        setActiveNavItem(index);
+      }
     } else {
       console.error("Image not found:", imageName);
     }
@@ -186,6 +226,13 @@ const Main = () => {
         }. Please navigate to section ${index + 1} and show me the image.`,
       },
     });
+  };
+
+  const wait = (milliseconds) => {
+    const start = Date.now();
+    while (Date.now() - start < milliseconds) {
+      // Busy-wait loop
+    }
   };
 
   return (
