@@ -77,7 +77,7 @@ export const assistantOptions = {
     //   // }
     // },
     // stopSpeakingPlan: {
-    //   numWords: 0,
+    //   numWords: 10,
     //   voiceSeconds: 0.8,
     //   backoffSeconds: 1,
     // },

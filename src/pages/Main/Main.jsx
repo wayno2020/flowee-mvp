@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { assistantOptions } from "./assistantConfig";
 import ActiveCallDetail from "../../components/ActiveCallDetail";
 import Button from "../../components/Button";
@@ -69,19 +69,48 @@ const getImagePath = (imageName) => {
 };
 
 const Main = () => {
-  const [started, setStarted] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [connected, setConnected] = useState(false);
   const [assistantIsSpeaking, setAssistantIsSpeaking] = useState(false);
   const [volumeLevel, setVolumeLevel] = useState(0);
   const [backgroundImage, setBackgroundImage] = useState(""); // Initialize as empty
-  const { showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } =
+  const {showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } =
     usePublicKeyInvalid();
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
-  const [currentTranscript, setCurrentTranscript] = useState("");
   const [activeNavItem, setActiveNavItem] = useState(null);
-  const [lastTranscript, setLastTranscript] = useState("");
-  const [lastTranscriptTimestamp, setLastTranscriptTimestamp] = useState(null);
+  // const [lastActivityTimestamp, setLastActivityTimestamp] = useState(new Date());
+
+  let lastActivityTimestamp = new Date();
+  let started = false;
+
+  const checkForSilenceAndAdvanceConversation = () => {
+    const currentTime = new Date();
+    const timeSilent = lastActivityTimestamp ? currentTime - lastActivityTimestamp : 0;
+    console.log("Time silent:", timeSilent);
+    
+    if (timeSilent >= 0) {
+      console.log('1s of silence: Sending message to continue');
+      // Select the first slide when the presentation starts
+      if (started === false && activeNavItem === null) {
+        console.log("Asking for first slide (semi-disabled)");
+        setTimeout(() => {
+          // setActiveNavItem(0);
+          // changeImage(presentationContent[0].image_name);
+          started = true;
+        }, 1000);
+      }
+      provider.send({
+        type: "add-message",
+        message: {
+          role: "user",
+          content: "Please continue and show me the image."
+        },
+      });
+    } else {
+      // Otherwise check again in 1 second
+      // setTimeout(() => checkForSilenceAndAdvanceConversation(), 5000);
+    }
+  };
 
   useEffect(() => {
     provider.on("call-start", () => {
@@ -92,57 +121,28 @@ const Main = () => {
     });
 
     provider.on("message", (message) => {
-      // console.log("Received message:", message);
       switch (message.type) {
+
         case "speech-update":
           console.log("Speech update:", message.status);
-          if (message.status == 'started') {
+          if (message.status === 'started') {
             setAssistantIsSpeaking(true);
           }
-          if (message.status == 'stopped') {
+          if (message.status === 'stopped') {
             setAssistantIsSpeaking(false);
-            wait(1000);
-            console.log('Sending message to continue');
-            provider.send({
-              type: "add-message",
-              message: {
-                role: "user",
-                content: "Please continue and show me the image."
-              },
-            });
-            if (started === false && activeNavItem === null) {
-              setActiveNavItem(0);
-              changeImage(presentationContent[0].image_name);
-              setStarted(true);
-            }
+            const newTimestamp = new Date();
+            lastActivityTimestamp = newTimestamp;
+            // checkForSilenceAndAdvanceConversation();            
           }
           break;
 
         case "transcript":
-          if (message.transcriptType === 'final' && message.transcript !== lastTranscript) {
-            console.log("Transcript:", message.transcript);
-            setLastTranscript(message.transcript);
+          if (message.transcriptType === 'final') {
             
-            // Store the current timestamp
-            let currentTime = Date.now();
-            let timeDifference = 0;
-            // If we have a previous timestamp, calculate and log the time difference
-            if (lastTranscriptTimestamp) {
-              timeDifference = currentTime - lastTranscriptTimestamp;
-              console.log(`Time since last transcript: ${timeDifference}ms`);
-            }
-            // If it's been more than 1 second, send a message to the assistant
-            if (timeDifference > 1000) {
-              provider.send({
-                type: "add-message",
-                message: {
-                  role: "user",
-                  content: "Please continue and show me the image."
-                },
-              });
-            }
-            // Update the timestamp
-            setLastTranscriptTimestamp(currentTime);
+            const newTimestamp = new Date();
+            lastActivityTimestamp = newTimestamp;
+            console.log("Transcript:", message.transcript);
+            // checkForSilenceAndAdvanceConversation();
           }
           break;
                 
@@ -156,11 +156,11 @@ const Main = () => {
           let functionName = firstTool.function.name;
           let args = firstTool.function.arguments;
           let imageName = args.imageName;
-          console.log("functionName:", functionName);
-          console.log("Arguments:", args);
-          console.log("imageName:", imageName);
+          console.log("Tool call:", functionName, args, imageName);
           if (functionName === "changeImage") {
-            changeImage(imageName);
+            setTimeout(() => {
+              changeImage(imageName);
+            }, 500);
           }
           break;
       }
@@ -198,10 +198,9 @@ const Main = () => {
 
   // changeImage function
   const changeImage = (imageName) => {
-    console.log("Change Image function handling:", imageName);
     const imageUrl = getImagePath(imageName);
     if (imageUrl) {
-      console.log("Setting image to:", imageUrl);
+      console.log("Changing image to:", imageName);
       setBackgroundImage(`url(${imageUrl})`);
       const index = presentationContent.findIndex(item => item.image_name === imageName);
       if (index !== -1) {
@@ -228,17 +227,10 @@ const Main = () => {
     });
   };
 
-  const wait = (milliseconds) => {
-    const start = Date.now();
-    while (Date.now() - start < milliseconds) {
-      // Busy-wait loop
-    }
-  };
-
   return (
     <div className="outerContainer">
       {/* Add SVG definition */}
-      <svg style={{ position: "absolute", width: 0, height: 0 }}>
+     {/* <svg style={{ position: "absolute", width: 0, height: 0 }}>
         <defs>
           <clipPath id="myClip" clipPathUnits="objectBoundingBox">
             <path
@@ -247,7 +239,7 @@ const Main = () => {
             />
           </clipPath>
         </defs>
-      </svg>
+      </svg> */}
 
       <div className="slideNavOuterContainer">
         <div className="slideNavContainer">
