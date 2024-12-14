@@ -7,10 +7,15 @@ import LiveCaption from "../../components/LiveCaption";
 import FunctionCallInfo from "../../components/FunctionCallInfo";
 import AssistantSpeechIndicator from "../../components/AssistantSpeechIndicator";
 import "./Main.css";
-import Vapi from "@vapi-ai/web";
+import { createProvider } from "../../providers/providerFactory";
 import logo from "../../assets/images/logo.svg";
 
-const vapi = new Vapi("848dc521-b0c2-4390-9abf-9ecdec635942");
+// Vapi provider
+const provider = createProvider('vapi', {
+  // Dustin: "848dc521-b0c2-4390-9abf-9ecdec635942",
+  // Wayne: "da9e7c55-8b90-4dcf-8a8b-d69fa2d20e7f" // Possibly waynesilbermann@gmail.com
+  apiKey: "848dc521-b0c2-4390-9abf-9ecdec635942"
+});
 
 // #region Presentation content
 const presentationContent = [
@@ -69,7 +74,7 @@ const Main = () => {
   const [assistantIsSpeaking, setAssistantIsSpeaking] = useState(false);
   const [volumeLevel, setVolumeLevel] = useState(0);
   const [backgroundImage, setBackgroundImage] = useState(""); // Initialize as empty
-  const { showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } =
+  const {showPublicKeyInvalidMessage, setShowPublicKeyInvalidMessage } =
     usePublicKeyInvalid();
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
   const [activeNavItem, setActiveNavItem] = useState(null);
@@ -78,100 +83,76 @@ const Main = () => {
   let lastActivityTimestamp = new Date();
   let started = false;
 
-  // const checkForSilenceAndAdvanceConversation = () => {
-  //   const currentTime = new Date();
-  //   const timeSilent = lastActivityTimestamp ? currentTime - lastActivityTimestamp : 0;
-  //   console.log("Time silent:", timeSilent);
-
-  //   if (timeSilent >= 0) {
-  //     console.log('1s of silence: Sending message to continue');
-  //     // Select the first slide when the presentation starts
-  //     if (started === false && activeNavItem === null) {
-  //       console.log("Asking for first slide (semi-disabled)");
-  //       setTimeout(() => {
-  //         // setActiveNavItem(0);
-  //         // changeImage(presentationContent[0].image_name);
-  //         started = true;
-  //       }, 1000);
-  //     }
-  //     vapi.send({
-  //       type: "add-message",
-  //       message: {
-  //         role: "user",
-  //         content: "Please continue and show me the image."
-  //       },
-  //     });
-  //   } else {
-  //     // Otherwise check again in 1 second
-  //     // setTimeout(() => checkForSilenceAndAdvanceConversation(), 5000);
-  //   }
-  // };
+  const checkForSilenceAndAdvanceConversation = () => {
+    const currentTime = new Date();
+    const timeSilent = lastActivityTimestamp ? currentTime - lastActivityTimestamp : 0;
+    console.log("Time silent:", timeSilent);
+    
+    if (timeSilent >= 0) {
+      console.log('1s of silence: Sending message to continue');
+      // Select the first slide when the presentation starts
+      if (started === false && activeNavItem === null) {
+        console.log("Asking for first slide (semi-disabled)");
+        setTimeout(() => {
+          // setActiveNavItem(0);
+          // changeImage(presentationContent[0].image_name);
+          started = true;
+        }, 1000);
+      }
+      provider.send({
+        type: "add-message",
+        message: {
+          role: "user",
+          content: "Please continue and show me the image."
+        },
+      });
+    } else {
+      // Otherwise check again in 1 second
+      // setTimeout(() => checkForSilenceAndAdvanceConversation(), 5000);
+    }
+  };
 
   useEffect(() => {
-    const handleCallStart = () => {
+    provider.on("call-start", () => {
       console.log("Call started");
       setConnecting(false);
       setConnected(true);
       setShowPublicKeyInvalidMessage(false);
-    };
+    });
 
-    const handleSpeechStart = () => {
-      console.log("speech-start");
-      setAssistantIsSpeaking(true);
-    };
-
-    const handleSpeechEnd = () => {
-      console.log("speech-end"); // Note: Speech end is more accurate than speech-update: stopped
-      setAssistantIsSpeaking(false);
-      if (started === false && activeNavItem === null) {
-        console.log("Asking for first slide");
-        setTimeout(() => {
-          setActiveNavItem(0);
-          changeImage(presentationContent[0].image_name);
-          started = true;
-        }, 1000);
-      }
-      vapi.send({
-        type: "add-message",
-        message: {
-          role: "user",
-          content: "Please continue and show me the image.",
-        },
-      });
-    };
-
-    const handleMessage = (message) => {
+    provider.on("message", (message) => {
       switch (message.type) {
-        // Not using speech-update now because it fires before the speech actually stops, rather using speech-end
-        // case "speech-update":
-        //   console.log("Speech update:", message.status);
-        //   if (message.status === 'started') {
-        //     setAssistantIsSpeaking(true);
-        //   }
-        //   if (message.status === 'stopped') {
-        //     setAssistantIsSpeaking(false);
-        //     const newTimestamp = new Date();
-        //     lastActivityTimestamp = newTimestamp;
-        //     // checkForSilenceAndAdvanceConversation();
-        //   }
-        //   break;
+
+        case "speech-update":
+          console.log("Speech update:", message.status);
+          if (message.status === 'started') {
+            setAssistantIsSpeaking(true);
+          }
+          if (message.status === 'stopped') {
+            setAssistantIsSpeaking(false);
+            const newTimestamp = new Date();
+            lastActivityTimestamp = newTimestamp;
+            // checkForSilenceAndAdvanceConversation();            
+          }
+          break;
 
         case "transcript":
-          if (message.transcriptType === "final") {
+          if (message.transcriptType === 'final') {
+            
             const newTimestamp = new Date();
             lastActivityTimestamp = newTimestamp;
             console.log("Transcript:", message.transcript);
             // checkForSilenceAndAdvanceConversation();
           }
           break;
-
+                
         case "volume-level":
-          handleVolumeLevel(message);
+          setVolumeLevel(message.level);
           break;
-
+        
         case "tool-calls":
           let tools = message.toolCallList;
-          let firstTool = tools[0];
+          let firstTool = tools[0]; 
           let functionName = firstTool.function.name;
           let args = firstTool.function.arguments;
           let imageName = args.imageName;
@@ -183,43 +164,25 @@ const Main = () => {
           }
           break;
       }
-    };
+    });
 
-    const handleVolumeLevel = (message) => {
-      setVolumeLevel(message.level);
-    };
-
-    const handleCallEnd = () => {
+    provider.on("call-end", () => {
       setConnecting(false);
       setConnected(false);
       setShowPublicKeyInvalidMessage(false);
-    };
+    });
 
-    const handleError = (message) => {
+    provider.on("error", (message) => {
       console.error("Error: ", message);
       setConnecting(false);
       if (isPublicKeyMissingError({ vapiError: message })) {
         setShowPublicKeyInvalidMessage(true);
       }
-    };
-
-    vapi.on("call-start", handleCallStart);
-    vapi.on("speech-start", handleSpeechStart);
-    vapi.on("speech-end", handleSpeechEnd);
-    vapi.on("message", handleMessage);
-    vapi.on("volume-level", handleVolumeLevel);
-    vapi.on("call-end", handleCallEnd);
-    vapi.on("error", handleError);
+    });
 
     // Clean up function
     return () => {
-      vapi.off("call-start", handleCallStart);
-      vapi.off("call-end", handleCallEnd);
-      vapi.off("speech-start", handleSpeechStart);
-      vapi.off("speech-end", handleSpeechEnd);
-      vapi.off("message", handleMessage);
-      vapi.off("volume-level", handleVolumeLevel);
-      vapi.off("error", handleError);
+      // Remove event listeners here if necessary
     };
   }, [setShowPublicKeyInvalidMessage]);
 
@@ -227,10 +190,10 @@ const Main = () => {
   const startCallInline = () => {
     setConnecting(true);
     // provider.start("4d2824b2-b030-451a-a289-819b7f395a5d");
-    vapi.start(assistantOptions);
+    provider.start(assistantOptions);
   };
   const endCall = () => {
-    vapi.stop();
+    provider.stop();
   };
 
   // changeImage function
@@ -239,9 +202,7 @@ const Main = () => {
     if (imageUrl) {
       console.log("Changing image to:", imageName);
       setBackgroundImage(`url(${imageUrl})`);
-      const index = presentationContent.findIndex(
-        (item) => item.image_name === imageName
-      );
+      const index = presentationContent.findIndex(item => item.image_name === imageName);
       if (index !== -1) {
         setActiveNavItem(index);
       }
@@ -255,7 +216,7 @@ const Main = () => {
     // Optional: Send a message to the assistant about the navigation change
     console.log("Navigating to section:", index + 1);
     console.log(presentationContent[index].title);
-    vapi.send({
+    provider.send({
       type: "add-message",
       message: {
         role: "user",
@@ -269,7 +230,7 @@ const Main = () => {
   return (
     <div className="outerContainer">
       {/* Add SVG definition */}
-      {/* <svg style={{ position: "absolute", width: 0, height: 0 }}>
+     {/* <svg style={{ position: "absolute", width: 0, height: 0 }}>
         <defs>
           <clipPath id="myClip" clipPathUnits="objectBoundingBox">
             <path
