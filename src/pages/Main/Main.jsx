@@ -73,39 +73,8 @@ const Main = () => {
     usePublicKeyInvalid();
   const [functionCallInfo, setFunctionCallInfo] = useState(null);
   const [activeNavItem, setActiveNavItem] = useState(null);
-  // const [lastActivityTimestamp, setLastActivityTimestamp] = useState(new Date());
 
-  let lastActivityTimestamp = new Date();
   let started = false;
-
-  // const checkForSilenceAndAdvanceConversation = () => {
-  //   const currentTime = new Date();
-  //   const timeSilent = lastActivityTimestamp ? currentTime - lastActivityTimestamp : 0;
-  //   console.log("Time silent:", timeSilent);
-
-  //   if (timeSilent >= 0) {
-  //     console.log('1s of silence: Sending message to continue');
-  //     // Select the first slide when the presentation starts
-  //     if (started === false && activeNavItem === null) {
-  //       console.log("Asking for first slide (semi-disabled)");
-  //       setTimeout(() => {
-  //         // setActiveNavItem(0);
-  //         // changeImage(presentationContent[0].image_name);
-  //         started = true;
-  //       }, 1000);
-  //     }
-  //     vapi.send({
-  //       type: "add-message",
-  //       message: {
-  //         role: "user",
-  //         content: "Please continue and show me the image."
-  //       },
-  //     });
-  //   } else {
-  //     // Otherwise check again in 1 second
-  //     // setTimeout(() => checkForSilenceAndAdvanceConversation(), 5000);
-  //   }
-  // };
 
   useEffect(() => {
     const handleCallStart = () => {
@@ -130,18 +99,19 @@ const Main = () => {
           changeImage(presentationContent[0].image_name);
           started = true;
         }, 1000);
+        vapi.send({
+          type: "add-message",
+          message: {
+            role: "user",
+            content: "Please continue and show me the image.",
+          },
+        });
       }
-      vapi.send({
-        type: "add-message",
-        message: {
-          role: "user",
-          content: "Please continue and show me the image.",
-        },
-      });
     };
 
     const handleMessage = (message) => {
       switch (message.type) {
+
         // Not using speech-update now because it fires before the speech actually stops, rather using speech-end
         // case "speech-update":
         //   console.log("Speech update:", message.status);
@@ -150,18 +120,12 @@ const Main = () => {
         //   }
         //   if (message.status === 'stopped') {
         //     setAssistantIsSpeaking(false);
-        //     const newTimestamp = new Date();
-        //     lastActivityTimestamp = newTimestamp;
-        //     // checkForSilenceAndAdvanceConversation();
         //   }
         //   break;
 
         case "transcript":
           if (message.transcriptType === "final") {
-            const newTimestamp = new Date();
-            lastActivityTimestamp = newTimestamp;
             console.log("Transcript:", message.transcript);
-            // checkForSilenceAndAdvanceConversation();
           }
           break;
 
@@ -333,7 +297,8 @@ const Main = () => {
                 <div
                   className="brandContainer"
                   style={{
-                    opacity: Math.max(0.6, volumeLevel),
+                    // opacity: Math.max(0.6, volumeLevel),
+                    opacity: 1,
                     transition: "all 0.05s ease",
                   }}
                 >

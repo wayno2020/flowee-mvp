@@ -59,28 +59,6 @@ export const assistantOptions = {
         content: promptToUse.prompt,
       }
     ],
-    // startSpeakingPlan: {
-    //   waitSeconds: 0.4,
-    //   smartEndpointingEnabled: false,
-    //   customEndpointingRules: [
-    //     {
-    //       type: "both",
-    //       assistantRegex: "customEndpointingRules",
-    //       customerRegex: "customEndpointingRules",
-    //       timeoutSeconds: 1.1,
-    //     },
-    //   ],
-    //   // transcriptionEndpointingPlan: {
-    //   //   onPunctuationSeconds: 0.1,
-    //   //   onNoPunctuationSeconds: 1.5,
-    //   //   onNumberSeconds: 0.5,
-    //   // }
-    // },
-    // stopSpeakingPlan: {
-    //   numWords: 10,
-    //   voiceSeconds: 0.8,
-    //   backoffSeconds: 1,
-    // },
     // monitorPlan: {
     //   listenEnabled: false,
     //   controlEnabled: false,
@@ -157,6 +135,19 @@ export const assistantOptions = {
   voicemailMessage: "Please leave a message after the beep.",
   endCallMessage: "Thank you for your time. Goodbye!",
   endCallPhrases: ["goodbye", "end call"],
+  // startSpeakingPlan: {
+  //   waitSeconds: 1.8,
+  //   transcriptionEndpointingPlan: {
+  //     onPunctuationSeconds: 1.2,
+  //     onNoPunctuationSeconds: 1.8,
+  //     onNumberSeconds: 0.9
+  //   }
+  // },
+  // stopSpeakingPlan: {
+  //   numWords: 4,
+  //   voiceSeconds: 0.3,
+  //   backoffSeconds: 4
+  // },
   // recordingEnabled: true,
   // webhookUrl: "https://example.com/webhook",
   // webhookAuth: { /* authentication details */ },
